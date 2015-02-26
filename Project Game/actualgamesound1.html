@@ -1,0 +1,438 @@
+<link rel="shortcut icon" href="gamephotos/yryr.ico" >
+<title>Yuru Yuri!  </title>
+
+<!-- copy and paste the next 2 lines to setup the sound files, you must modify the loadsoundchrome.js file with your sounds -->
+<script type="text/javascript" src="script/soundmanager2.js"></script>
+<script type="text/javascript" src="script/loadsoundchrome.js"></script>
+<!-- Stop copying here -->
+
+<center>
+	<script type="text/javascript" src="script/processing-1.4.1.js"></script>
+	<script type="text/processing" data-processing-target="mycanvas">
+
+	/* @pjs globalKeyEvents ="true"; */
+//Images Used
+PImage gamebg;
+PImage akari;
+PImage bullet;
+PImage aylmao;
+PImage aylmao2;
+PIamge aylmao3;
+PImage aylmao4;
+PImage aylmao5;
+//Fonts
+PFont pixie;
+
+//position
+int xOfPlayer;
+int yOfBullet;
+int bulletMove;
+
+//first alien
+int lmaomove;
+int lmaomoved;
+//second alien
+int lmaomove2;
+int lmaomoved2;
+//third alien
+int lmaomove3;
+int lmaomoved3;
+//fourth alien
+int lmaomove4;
+int lmaomoved4;
+//fifth alien
+int lmaomove5;
+int lmaomoved5;
+
+int changeD;
+int changeD2;
+int changeD3;
+int changeD4;
+int changeD5;
+
+//hit
+int gtfo;
+int gtfo2;
+int gtfo3;
+int gtfo4;
+int gtfo5;
+int start;
+
+//distances
+int dAlien;
+int dAlien2;
+int dAlien3;
+int dAlien4;
+int dAlien5;
+int dPlayer;
+
+// fucking sound
+int sPlay;
+
+	void setup()
+{
+size(1500, 980);
+frameRate(60);
+
+//Loaded Images
+gamebg = loadImage("gamephotos/realbg.png");
+akari = loadImage("gamephotos/yryrakari.png");
+bullet = loadImage("gamephotos/pew.png");
+aylmao = loadImage("gamephotos/BG1.png");
+aylmao2 = loadImage("gamephotos/BG1.png");
+aylmao3 = loadImage("gamephotos/BG1.png");
+aylmao4 = loadImage("gamephotos/BG1.png");
+aylmao5 = loadImage("gamephotos/BG1.png");
+
+//Fonts
+pixie = loadFont("04b");
+
+//Position
+xOfPlayer = 750;
+yOfBullet = 850;
+
+//Moving shit
+bulletMove = 0;
+changeD = 0;
+changeD2 = 0;
+changeD3 = 0;
+changeD4 = 0;
+changeD5 = 0;
+
+//aliens appearing or not
+gtfo = 0;
+gtfo2 = 0;
+gtfo3 = 0;
+gtfo4 = 0;
+gtfo5 = 0;
+start = 0;
+
+//playing sounds
+sPlay = 0
+
+//Alien place
+lmaomove = 65;
+lmaomoved = 52;
+
+lmaomove2 = 265;
+lmaomoved2 = 52;
+
+lmaomove3 = 465;
+lmaomoved3 = 52;
+
+lmaomove4 = 665;
+lmaomoved4 = 52;
+
+lmaomove5 = 865;
+lmaomoved5 = 52;
+
+}
+
+
+	void draw()
+{
+
+background(0, 0, 0);
+frameRate(60);
+
+if(mousePressed == true && mouseButton == RIGHT) 
+{
+    point(mouseX, mouseY);
+    fill(255,255,255);
+    textSize(12);
+    text(mouseX + " " +"," + " "+ mouseY, mouseX-26,mouseY-10); 
+
+}
+
+
+
+image(gamebg,0,0,1575,1000);
+
+
+if(start == 1)
+{
+image(bullet,xOfPlayer  + 50,yOfBullet,15,30);
+
+image(akari,xOfPlayer,800,120,100);
+}
+
+if (gtfo == 1)
+{
+
+	
+fill(0,0,0);
+ellipse(lmaomove,lmaomoved,100,100);
+image(aylmao,lmaomove-65,lmaomoved-47,130,100);
+
+
+	if(changeD == 0)
+	{
+	lmaomove = lmaomove + 3;
+	lmaomoved = lmaomoved + .15;
+	}
+
+
+		if(lmaomove > 300 )
+		{
+		changeD = 1;
+		}
+
+		if(lmaomove < 50)
+		{
+		changeD = 0;
+		}
+
+	if(changeD == 1)
+	{
+	lmaomove = lmaomove - 3;
+	lmaomoved = lmaomoved + .15;
+	}
+}
+
+if(gtfo2 == 1)
+{
+
+fill(0,0,0);
+ellipse(lmaomove2,lmaomoved2,100,100);
+image(aylmao2,lmaomove2-65,lmaomoved2-47,130,100);
+
+
+	if(changeD2 == 0)
+	{
+	lmaomove2 = lmaomove2 + 3;
+	lmaomoved2 = lmaomoved2 + .15;
+	}
+
+
+		if(lmaomove2 > 500)
+		{
+		changeD2 = 1;
+		}
+
+		if(lmaomove2 < 250)
+		{
+		changeD2 = 0;
+		}
+
+	if(changeD2 == 1)
+	{
+	lmaomove2 = lmaomove2 - 3;
+	lmaomoved2 = lmaomoved2 + .15;
+	}
+}
+
+if(gtfo3 == 1)
+{
+
+fill(0,0,0);
+ellipse(lmaomove3,lmaomoved3,100,100);
+image(aylmao3,lmaomove3-65,lmaomoved3-47,130,100);
+
+
+	if(changeD3 == 0)
+	{
+	lmaomove3 = lmaomove3 + 3;
+	lmaomoved3 = lmaomoved3 + .15;
+	}
+
+
+		if(lmaomove3 > 700)
+		{
+		changeD3 = 1;
+		}
+
+		if(lmaomove3 < 450)
+		{
+		changeD3 = 0;
+		}
+
+	if(changeD3 == 1)
+	{
+	lmaomove3 = lmaomove3 - 3;
+	lmaomoved3 = lmaomoved3 + .15;
+	}
+}
+
+if(gtfo4 == 1)
+{
+
+fill(0,0,0);
+ellipse(lmaomove4,lmaomoved4,100,100);
+image(aylmao4,lmaomove4-65,lmaomoved4-47,130,100);
+
+
+	if(changeD4 == 0)
+	{
+	lmaomove4 = lmaomove4 + 3;
+	lmaomoved4 = lmaomoved4 + .15;
+	}
+
+
+		if(lmaomove4 > 900)
+		{
+		changeD4 = 1;
+		}
+
+		if(lmaomove4 < 650)
+		{
+		changeD4 = 0;
+		}
+
+	if(changeD4 == 1)
+	{
+	lmaomove4 = lmaomove4 - 3;
+	lmaomoved4 = lmaomoved4 + .15;
+	}
+}
+
+if(gtfo5 == 1)
+{
+
+fill(0,0,0);
+ellipse(lmaomove5,lmaomoved5,100,100);
+image(aylmao5,lmaomove5-65,lmaomoved5-47,130,100);
+
+
+	if(changeD5 == 0)
+	{
+	lmaomove5 = lmaomove5 + 3;
+	lmaomoved5 = lmaomoved5 + .15;
+	}
+
+
+		if(lmaomove5 > 1100)
+		{
+		changeD5 = 1;
+		}
+
+		if(lmaomove5 < 850)
+		{
+		changeD5 = 0;
+		}
+
+	if(changeD5 == 1)
+	{
+	lmaomove5 = lmaomove5 - 3;
+	lmaomoved5 = lmaomoved5 + .15;
+	}
+}
+
+
+if(bulletMove == 0)
+	{
+	yOfBullet = 850;
+	}
+
+
+if(bulletMove == 1)
+	{
+	yOfBullet = yOfBullet - 20;
+	}
+
+ if(yOfBullet < 0)
+ {
+ 	yOfBullet = 869;
+ 	bulletMove = 0;
+ }
+ 
+ 
+ dAlien = (int)sqrt(sq(xOfPlayer-lmaomove)+sq(yOfBullet-lmaomoved));
+ dAlien2 = (int)sqrt(sq(xOfPlayer-lmaomove2)+sq(yOfBullet-lmaomoved2));
+ dAlien3 = (int)sqrt(sq(xOfPlayer-lmaomove3)+sq(yOfBullet-lmaomoved3));
+ dAlien4 = (int)sqrt(sq(xOfPlayer-lmaomove4)+sq(yOfBullet-lmaomoved4));
+ dAlien5 = (int)sqrt(sq(xOfPlayer-lmaomove5)+sq(yOfBullet-lmaomoved5));
+ dPlayer = (int)sqrt(sq(xOfPlayer-lmaomove)+sq(800-lmaomoved));
+ 
+/*
+Distances between the balls 
+ 
+text(dAlien,1400,50);
+text(dAlien2,1400,100);
+text(dAlien3,1400,150);
+text(dAlien3-dAlien,1400,200);
+*/
+ 
+ //to make the aliens go away when the bullet hits them
+ if (dAlien < 100)
+ {
+ gtfo = 0;
+ bulletMove = 0;
+ 
+ }
+ 
+ if (dAlien2 < 100)
+ {
+ gtfo2 = 0;
+ bulletMove = 0;
+ 
+ }
+ 
+  if (dAlien3 < 100)
+ {
+ gtfo3 = 0;
+ bulletMove = 0;
+ 
+ }
+ 
+ if (dAlien4 < 100)
+ {
+ gtfo4 = 0;
+ bulletMove = 0;
+ 
+ }
+ 
+  if (dAlien5 < 100)
+ {
+ gtfo5 = 0;
+ bulletMove = 0;
+ 
+ }
+ 
+ if(dPlayer < 100)
+ {
+ gtfo = 0;
+ start = 0;
+ }
+
+}
+
+	void keyPressed()
+{
+	if(key == 'a' && xOfPlayer > 0)
+	{
+	xOfPlayer = xOfPlayer - 15;
+	}
+
+	if(key == 'd' && xOfPlayer < 1400)
+	{
+	xOfPlayer = xOfPlayer + 15;
+	}
+	
+	if(key == ' ' && sPlay == 0)
+	{
+	
+	bulletMove = 1;
+	soundManager.play('s0');
+	}
+	
+	if(key == 's')
+	{
+
+	gtfo = 1;
+	gtfo2 = 1;
+	gtfo3 = 1;
+	gtfo4 = 1;
+	gtfo5 = 1;
+	start = 1;
+	
+	}
+	
+	
+	
+}
+
+	</script>
+	<canvas id="mycanvas"></canvas>
+</center>
+
+

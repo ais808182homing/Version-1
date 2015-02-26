@@ -1,0 +1,63 @@
+<script src="../processing-1.4.1.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+
+/* @pjs globalKeyEvents = "true"; */
+
+int m = 1;
+int b = -100;
+
+void setup()
+{
+
+    size( 1000, 1000 );
+    frameRate( 30 );
+
+}
+
+
+void draw()
+{
+    background(0,0,0);
+    
+
+    if(mouseY > (mouseX * m + b))
+    {
+        fill(0,0,0);
+        triangle(500,500,500,0,0,0);
+        fill(255,0,0);
+        triangle(500,500,0,500,0,0);
+    }
+
+    if(mouseY < (mouseX * m + b))
+    {
+        fill(155,0,0);
+        triangle(500,500,500,0,0,0);
+        fill(0,0,0);
+        triangle(500,500,0,500,0,0);
+        
+    /*
+    if( mouseY > (mouseX * m + b) && mouseY < (mouseX * m + b) && x= 500)
+    {
+    	fill(245,169,225,120);
+		strokeWeight(2);
+		triangle(30, 55, 98, 20, 98, 95)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    */
+
+    stroke(255,255,255);
+    line(100,0,600,500);
+
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>

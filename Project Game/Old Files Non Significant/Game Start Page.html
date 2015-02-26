@@ -1,0 +1,89 @@
+<html>
+<link rel="shortcut icon" href="gamephotos/yryr.ico" >
+<title> Yuru Yuri!  </title>
+<script src="processing-1.4.1.js"></script>
+<center>
+<script type="text/processing" data-processing-target="mycanvas">
+
+
+
+//Images Used
+PImage backdrop;
+PImage startb;
+
+//Fonts
+PFont pixie;
+
+
+void setup()
+{
+size(1500, 980);
+frameRate(30);
+
+//Loaded Images
+backdrop = loadImage("gamephotos/startpage.jpg");
+startb = loadImage("gamephotos/goddamn2.png");
+
+//Fonts
+pixie = loadFont("04b");
+
+
+}
+
+void draw()
+{
+
+background(0, 0, 0);
+frameRate(30);
+
+ 
+
+
+
+image(backdrop,0,0,1575,1000);
+image(startb,175,30,250,250);
+
+noFill();
+stroke(250,88,208);
+strokeWeight(10);
+rect(175,50,250,250,30);
+
+noFill();
+stroke(250,88,208);
+strokeWeight(10);
+rect(135,350,380,100,30);
+
+textFont(pixie,80);
+fill(0,0,0);
+text("THE GAME",650,860);
+
+textFont(pixie,40);
+fill(0,0,0);
+text("Instructions",145,410);
+
+if(mousePressed == true && mouseButton == LEFT)
+{
+
+	if ( 135 < mouseX && mouseX < 515 && 350 < mouseY && mouseY < 450)
+	{
+		link("instructions.html");
+	}
+
+	if ( 175 < mouseX && mouseX < 425 && 50 < mouseY && mouseY < 300)
+	{
+		link("Character Select.html");
+
+	}
+
+}
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<html>
+<link rel="shortcut icon" href="gamephotos/yryr.ico" >
+<title> Yuru Yuri!  </title>
+<script src="processing-1.4.1.js"></script>
+<center>
+<script type="text/processing" data-processing-target="mycanvas">
+
+
+
+//Images Used
+PImage ibdrop;
+
+
+//Fonts
+PFont pixie;
+PFont calb;
+
+//Intergers
+
+
+
+void setup()
+{
+size(1500, 900);
+frameRate(30);
+
+//Loaded Images
+ibdrop = loadImage("gamephotos/akaza.png");
+
+
+//Fonts
+pixie = loadFont("04b");
+calb = loadFont("Calibri")
+
+}
+
+void draw()
+{
+
+background(0, 0, 0);
+frameRate(30);
+
+ 
+
+
+
+image(ibdrop,0,0,1500,900);
+
+fill(255,255,255,160);
+stroke(250,88,208);
+strokeWeight(10);
+rect(155,150,1165,720,30);
+
+fill(245,169,225,120);
+strokeWeight(2);
+triangle(30, 55, 98, 20, 98, 95)
+
+fill(245,169,225,120);
+strokeWeight(2);
+triangle(1440, 55, 1372, 20, 1372, 95)
+
+textFont(pixie,100);
+stroke(250,88,208);
+fill(245,169,225,190);
+text("Instructions",285,100);
+
+textFont(calb,70);
+stroke(250,88,208);
+fill(245,169,225,190);
+text("Controls",185,210);
+
+textFont(calb,70);
+stroke(250,88,208);
+fill(245,169,225,190);
+text("Explaination",185,460);
+
+textFont(calb,40);
+fill(250,88,208);
+text("Use '1' , '2' , '3' to select characters in the character select page",185,250);
+text("Use 'q' for character 1, 'w' for character 2, and 'e' for character 3",185,300);
+text("to select and enter the game with that character. 's' to start",185,340);
+text("A to move left         D to move right          SPACEBAR to shoot",185,390);
+text("This game's difficulty is random. So have fun.",185,490);
+text("It's actually not that hard so if you die, you suck really badly.",185,530);
+text("Hint, Press b to go back to menu from the character select.",185,580);
+
+
+
+if(mousePressed == true && mouseButton == LEFT)
+{
+
+	if ( 30 < mouseX && mouseX < 98 && 20 < mouseY && mouseY < 95)
+	{
+		link("gamestartsound.html");
+		
+		
+	}
+
+	if ( 1372 < mouseX && mouseX < 1440 && 20 < mouseY && mouseY < 95)
+	{
+		link("characterselectsound.html");
+
+	}
+
+}
+
+
+
+    
+
+
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<html>
+<link rel="shortcut icon" href="gamephotos/yryr.ico" >
+<title> Character Select </title>
+<script src="processing-1.4.1.js"></script>
+<center>
+<script type="text/processing" data-processing-target="mycanvas">
+
+PImage yKyoko;
+PImage yMM;
+PImage YAA;
+PImage yKyokoH;
+PImage yMH;
+PImage yAH;
+PImage nature;
+
+PFont Pixie;
+
+int keepRed;
+int keepRed2;
+int keepRed3;
+
+void setup()
+{
+
+
+size( 800, 500 );
+background(61,102,102);
+
+
+yKyoko = loadImage("gamephotos/yKK.png");
+yMM = loadImage("gamephotos/yMM.png");
+yAA = loadImage("gamephotos/yAA.png");
+yKyokoH = loadImage("gamephotos/yAP.png");
+yMH = loadImage("gamephotos/yMH.png");
+yAH = loadImage("gamephotos/yAAH.png");
+nature = loadImage("gamephotos/Nature.jpg");
+Pixie = loadFont("04b");
+keepRed = 0;
+keepRed2 = 0;
+keepRed3 = 0;
+
+
+}
+
+void draw()
+{	
+
+
+if (keepRed == 0)
+		{	
+		image(nature,0,0,800,500)
+		stroke(153,204,255)
+		strokeWeight(3)
+		fill(153,204,0)
+		rect(100,100,175,350)
+		fill(255,255,255)
+		stroke(0,0,0)
+		rect(103,103,169,344)
+		
+		
+		image(yKyoko,100,98,210,350)
+		}
+		
+if (keepRed == 1)
+		{
+		stroke(230,21,200)
+		strokeWeight(3)
+		fill(132,21,132)
+		rect(100,100,175,350)
+		fill(230,21,230)
+		stroke(255,0,204)
+		rect(103,103,169,344)
+		image(yKyokoH,100,98,210,350)
+		}	
+		
+if (keepRed2 == 0)
+		{
+		stroke(204,51,51)
+		strokeWeight(3)
+		fill(153,204,0)
+		rect(300,100,175,350)
+		fill(255,255,255)
+		stroke(0,0,0)
+		rect(303,103,169,344)
+		image(yMM,300,98,210,350)
+		}
+		
+if (keepRed2 == 1)
+		{
+		stroke(230,21,200)
+		strokeWeight(3)
+		fill(132,21,132)
+		rect(300,100,175,350)
+		fill(230,21,230)
+		stroke(255,0,204)
+		rect(303,103,169,344)
+		image(yMH,300,98,210,350)
+		}	
+		
+if (keepRed3 == 0)
+		{
+		stroke(153,204,255)
+		strokeWeight(3)
+		fill(153,204,0)
+		rect(500,100,175,350)
+		fill(255,255,255)
+		stroke(0,0,0)
+		rect(503,103,169,344)
+		image(yAA,475,8,260,440)
+		}
+		
+if (keepRed3 == 1)
+		{
+		stroke(230,21,200)
+		strokeWeight(3)
+		fill(132,21,132)
+		rect(500,100,175,350)
+		fill(230,21,230)
+		stroke(255,0,204)
+		rect(503,103,169,344)
+		image(yAH,475,8,260,440)
+		}
+		
+
+fill(255,255,255)
+textFont(Pixie,30)
+text("Choose Your Character",20,60)
+fill(255,0,0)
+textFont(Pixie,60)
+text("1",180,480)
+text("3",560,480)
+fill(0,120,255)
+text("2",370,480)
+}
+
+void keyPressed()
+	{
+	if (key == '1')
+		{
+			keepRed = 1
+			keepRed2 = 0
+			keepRed3 = 0
+		}
+		
+		if(key =='q')
+		{
+			keepRed = 1
+			keepRed2 = 0
+			keepRed3 = 0
+			link("actualgamelegit2.html");
+		}
+		
+		
+	if (key == '2')
+		{
+			keepRed2 = 1
+			keepRed3 = 0
+			keepRed = 0
+		}
+		if(key =='w')
+		{
+			keepRed2 = 1
+			keepRed3 = 0
+			keepRed = 0
+			link("actualgamelegit3.html");
+		}
+		
+	if (key == '3')
+		{
+			keepRed3 = 1
+			keepRed2 = 0
+			keepRed = 0
+		}
+		
+		if(key =='e')
+		{
+			keepRed3 = 1
+			keepRed2 = 0
+			keepRed = 0
+			link("actualgamelegit1.html");
+		}
+		
+		if(key == 'b')
+		{
+		link("Game Start Page.html");
+		}
+	}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>

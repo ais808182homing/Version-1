@@ -1,0 +1,123 @@
+<html>
+<link rel="shortcut icon" href="gamephotos/yryr.ico" >
+<title> Yuru Yuri!  </title>
+<script src="processing-1.4.1.js"></script>
+<center>
+<script type="text/processing" data-processing-target="mycanvas">
+
+/* @pjs globalKeyEvents = "true"; */
+
+//Images Used
+PImage gamebg;
+PImage akari;
+PImage bullet;
+PImage aylmao;
+
+//Fonts
+PFont pixie;
+
+//position
+int xOfPlayer;
+int yOfBullet;
+int bulletMove;
+int lmaomove;
+int lmaomoved;
+
+void setup()
+{
+size(1500, 980);
+frameRate(60);
+
+//Loaded Images
+gamebg = loadImage("gamephotos/realbg.png");
+akari = loadImage("gamephotos/yryrakari.png");
+bullet = loadImage("gamephotos/pew.png");
+aylmao = loadImage("gamephotos/BG1.png");
+
+//Fonts
+pixie = loadFont("04b");
+
+//Position
+xOfPlayer = 750;
+yOfBullet = 850;
+
+//Moving shit
+bulletMove = 0;
+
+}
+
+void draw()
+{
+
+background(0, 0, 0);
+frameRate(60);
+
+
+
+image(gamebg,0,0,1575,1000);
+
+image(bullet,xOfPlayer  + 50,yOfBullet,15,30);
+
+image(akari,xOfPlayer,800,120,100);
+
+image(aylmao,lmaomove,lmaomoved,130,100);
+
+lmaomove = lmaomove + 1
+lmaomoved = lmaomoved + .15
+
+
+
+if(bulletMove == 0)
+	{
+	yOfBullet = yOfBullet;
+	}
+
+
+if(bulletMove == 1)
+	{
+	yOfBullet = yOfBullet - 20;
+	}
+
+ if(yOfBullet < 0)
+ {
+ 	yOfBullet = 869;
+ 	bulletMove = 0;
+ }
+
+}
+
+void keyPressed()
+{
+	if(key == 'a' && xOfPlayer > 0)
+	{
+	xOfPlayer = xOfPlayer - 10;
+	}
+
+	if(key == 'd' && xOfPlayer < 1400)
+	{
+	xOfPlayer = xOfPlayer + 10;
+	}
+	
+	if(key == ' ')
+	{
+	
+	bulletMove = 1;
+	
+	}
+
+	
+	
+	
+	
+	
+}
+
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>
