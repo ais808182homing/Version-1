@@ -2,7 +2,9 @@
 //  NSData+Git.h
 //
 
-#import "git2.h"
+#import <Foundation/Foundation.h>
+#import "git2/buffer.h"
+#import "git2/oid.h"
 
 @interface NSData (Git)
 

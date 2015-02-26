@@ -1,5 +1,11 @@
 [
     {
+        "id": "SSHKeyAuditUnverified",
+        "regex": "ERROR: ([\\s\\S]+?)\\n+\\[EPOLICYKEYAGE\\]\\n+fatal: Could not read from remote repository.",
+        "title": "Unverified SSH Key",
+        "description": "{{1}}"
+    },
+    {
         "id": "SSHAuthenticationFailed",
         "regex": "fatal: Authentication failed",
         "title": "Authentication Failed",
@@ -37,7 +43,7 @@
     },
     {
         "id": "MergeConflicts",
-        "regex": "Automatic merge failed; fix conflicts and then commit the result",
+        "regex": "(Merge conflict|Automatic merge failed; fix conflicts and then commit the result)",
         "title": "Merge Conflicts",
         "description": "We found some conflicts while trying to merge. Please resolve the conflicts and commit the changes."
     },
@@ -45,17 +51,17 @@
         "id": "HTTPSRepositoryNotFound",
         "regex": "fatal: repository '(.+)' not found",
         "title": "Repository Not Found",
-        "description": "{{repo_name}} doesn't seem to exist at {{1}} anymore. You may not have access, or it may have been deleted or renamed."
+        "description": "{{repo_name}} doesn’t seem to exist at {{1}} anymore. You may not have access, or it may have been deleted or renamed."
     },
     {
         "id": "SSHRepositoryNotFound",
         "regex": "ERROR: Repository not found",
         "title": "Repository Not Found",
-        "description": "{{repo_name}} doesn't seem to exist at {{remote_url}} anymore. You may not have access, or it may have been deleted or renamed."
+        "description": "{{repo_name}} doesn’t seem to exist at {{remote_url}} anymore. You may not have access, or it may have been deleted or renamed."
     },
     {
         "id": "PushNotFastForward",
-        "regex": "error: failed to push some refs to '.*'\nTo prevent you from losing history, non-fast-forward updates were rejected",
+        "regex": "\\((non-fast-forward|fetch first)\\)\nerror: failed to push some refs to '.*'",
         "title": "Push Failed",
         "description": "{{repo_name}} has been updated on {{remote_url}} since you last synced. You can try syncing again or run `git pull origin master && git push origin master` from the command line."
     },
@@ -117,7 +123,7 @@
         "id": "LocalPermissionDenied",
         "regex": "fatal: could not create work tree dir '(.+)'.*: Permission denied",
         "title": "Clone Failed",
-        "description": "You don't have permission to create the \"{{1}}\" folder there. Please choose a different location to clone to."
+        "description": "You don’t have permission to create the \"{{1}}\" folder there. Please choose a different location to clone to."
     },
     {
         "id": "InvalidMerge",
@@ -142,5 +148,11 @@
         "regex": "error: (.+): (patch does not apply|already exists in working directory)",
         "title": "Changes Failed to Apply",
         "description": "The requested changes conflict with one or more files in the repository."
+    },
+    {
+        "id": "BranchAlreadyExists",
+        "regex": "fatal: A branch named '(.+)' already exists.",
+        "title": "Branch Already Exists",
+        "description": "A branch named \"{{1}}\" already exists."
     }
 ]

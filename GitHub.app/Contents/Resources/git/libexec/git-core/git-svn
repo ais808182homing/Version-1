@@ -9,7 +9,7 @@ use vars qw/	$AUTHOR $VERSION
 		$sha1 $sha1_short $_revision $_repository
 		$_q $_authors $_authors_prog %users/;
 $AUTHOR = 'Eric Wong <normalperson@yhbt.net>';
-$VERSION = '2.1.2';
+$VERSION = '2.1.3.36.g8e36a6d';
 
 use Carp qw/croak/;
 use Digest::MD5;

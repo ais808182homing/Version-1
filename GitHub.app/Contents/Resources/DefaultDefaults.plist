@@ -12,6 +12,12 @@
 	<string></string>
 	<key>GitHubAppDelegateEnableCoreDumpsKey</key>
 	<false/>
+	<key>GHRememberOpenRepositoryWindowsUponQuit</key>
+	<true/>
+	<key>GHOpenRepositoriesInNewWindows</key>
+	<false/>
+	<key>GHAutomaticallySendUsageDataToGitHub</key>
+	<true/>
 	<key>commitAndSyncEnabled</key>
 	<false/>
 </dict>

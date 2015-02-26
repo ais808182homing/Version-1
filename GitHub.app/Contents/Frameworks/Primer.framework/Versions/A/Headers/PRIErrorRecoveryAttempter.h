@@ -6,6 +6,9 @@
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
 #import "PRIMacros.h"
 
 /// An error recovery object, conforming to the `NSErrorRecoveryAttempting`

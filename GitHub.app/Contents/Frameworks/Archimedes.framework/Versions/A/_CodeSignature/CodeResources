@@ -6,30 +6,18 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		tydcIyTDr2OGqH6i5/mt8RC2YbA=
+		UanUiphd8STFrgytk7zfw3oBaNg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Archimedes.h</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		ci18JOefZsO6nMIwe+DFcn/GNBY=
-		</data>
-		<key>Headers/CGGeometry+MEDConvenienceAdditions.h</key>
-		<data>
-		MtS9fbYQraVLFEhe8W+j4wjQkXM=
-		</data>
-		<key>Headers/MEDEdgeInsets.h</key>
-		<data>
-		Tq+PZcsLkYxD9o5O9I16y1ZY9Jw=
-		</data>
-		<key>Headers/NSValue+MEDGeometryAdditions.h</key>
-		<data>
-		U/ivjVhw4jfQ+fSKkJ/8mg7veHc=
+		4uayY197vWokPKmhCeroTxyUCls=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		tydcIyTDr2OGqH6i5/mt8RC2YbA=
+		UanUiphd8STFrgytk7zfw3oBaNg=
 		</data>
 	</dict>
 	<key>rules</key>

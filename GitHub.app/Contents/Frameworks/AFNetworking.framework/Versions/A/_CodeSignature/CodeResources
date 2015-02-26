@@ -6,23 +6,14 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		E+IB6YK93wvBq1Ls92xCJF+gO8s=
+		Begdxc9G8U6n+4f37m15fIMfRI8=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/AFHTTPClient.h</key>
 		<data>
-		os29XPdCv+6YX8JoDHCdyHywAEI=
+		XuvVtv3QjcWg6dKMJJ9+0ZuA4GI=
 		</data>
 		<key>Headers/AFHTTPRequestOperation.h</key>
 		<data>
@@ -52,19 +43,14 @@
 		<data>
 		S8VCHxfEZQzCj++K8oXpMeWuSkA=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		HvSrEzHZbFyfIygig2RDMy4S/bo=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		E+IB6YK93wvBq1Ls92xCJF+gO8s=
+		Begdxc9G8U6n+4f37m15fIMfRI8=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

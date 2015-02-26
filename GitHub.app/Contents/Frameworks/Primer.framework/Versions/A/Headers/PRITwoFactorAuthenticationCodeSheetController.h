@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 GitHub. All rights reserved.
 //
 
+#import <ReactiveCocoa/ReactiveCocoa.h>
 #import <Primer/PRIWindowController.h>
 
 // The medium used to deliver the one-time password.

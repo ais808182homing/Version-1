@@ -6,6 +6,15 @@
 //  Copyright (c) 2012 GitHub. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+	#import <MobileCoreServices/MobileCoreServices.h>
+#else
+	#import <CoreServices/CoreServices.h>
+#endif
+
 #import <AFNetworking/AFNetworking.h>
 
 @class OCTServer;
@@ -87,6 +96,13 @@ extern NSString * const OCTClientErrorOAuthScopesStringKey;
 // OCTClientErrorTwoFactorAuthenticationOneTimePasswordRequired.
 extern NSString * const OCTClientErrorOneTimePasswordMediumKey;
 
+/// The descriptive message returned from the API, e.g., "Validation Failed".
+extern NSString * const OCTClientErrorDescriptionKey;
+
+/// An array of specific message strings returned from the API, e.g.,
+/// "No commits between joshaber:master and joshaber:feature".
+extern NSString * const OCTClientErrorMessagesKey;
+
 // The scopes for authorization. These can be bitwise OR'd together to request
 // multiple scopes.
 //
@@ -121,7 +137,7 @@ extern NSString * const OCTClientErrorOneTimePasswordMediumKey;
 // OCTClientAuthorizationScopesPublicKeyAdmin   - Full administrative access to the user's public SSH keys,
 //                                                including permission to delete them. This includes
 //                                                OCTClientAuthorizationScopesPublicKeyWrite.
-typedef enum : NSUInteger {
+typedef NS_OPTIONS(NSUInteger, OCTClientAuthorizationScopes) {
 	OCTClientAuthorizationScopesPublicReadOnly = 1 << 0,
 
 	OCTClientAuthorizationScopesUserEmail = 1 << 1,
@@ -140,16 +156,16 @@ typedef enum : NSUInteger {
 	OCTClientAuthorizationScopesPublicKeyRead = 1 << 10,
 	OCTClientAuthorizationScopesPublicKeyWrite = 1 << 11,
 	OCTClientAuthorizationScopesPublicKeyAdmin = 1 << 12,
-} OCTClientAuthorizationScopes;
+};
 
 // The medium used to deliver the one-time password.
 //
 // OCTClientOneTimePasswordMediumSMS - Delivered via SMS.
 // OCTClientOneTimePasswordMediumApp - Delivered via an app.
-typedef enum : NSUInteger {
+typedef NS_ENUM(NSInteger, OCTClientOneTimePasswordMedium) {
 	OCTClientOneTimePasswordMediumSMS,
 	OCTClientOneTimePasswordMediumApp,
-} OCTClientOneTimePasswordMedium;
+};
 
 // Represents a single GitHub session.
 //

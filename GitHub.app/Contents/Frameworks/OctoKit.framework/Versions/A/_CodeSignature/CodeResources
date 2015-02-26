@@ -6,17 +6,8 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		m8zyxz9gscdrMVY20vMfR948//w=
+		eO9Hp8B+IMK3iAahTCtnmb21V4o=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -31,6 +22,18 @@
 		<key>Headers/NSValueTransformer+OCTPredefinedTransformerAdditions.h</key>
 		<data>
 		hwuMs3eTIenn9IdBORTTJwHxDcQ=
+		</data>
+		<key>Headers/OCTAccessToken.h</key>
+		<data>
+		wFi5Y50WPZqJClBoZFRPdLpvN5k=
+		</data>
+		<key>Headers/OCTAuthorization.h</key>
+		<data>
+		DAWFodJ8hnlJT7XU2otmIU0D8Gs=
+		</data>
+		<key>Headers/OCTBlobTreeEntry.h</key>
+		<data>
+		T/zOB1L69JDv2tlczv7xK9oN3y8=
 		</data>
 		<key>Headers/OCTBranch.h</key>
 		<data>
@@ -50,7 +53,7 @@
 		</data>
 		<key>Headers/OCTClient+Git.h</key>
 		<data>
-		OgQCw/Ls3BxD60hGoQyHEH1p9Is=
+		A5wJAKO1sbayrJVi5SDy6mqVPis=
 		</data>
 		<key>Headers/OCTClient+Keys.h</key>
 		<data>
@@ -74,7 +77,7 @@
 		</data>
 		<key>Headers/OCTClient.h</key>
 		<data>
-		gYRSsqGSb3hfjldK2HyJ4Qh8Lmk=
+		a3MMA+ZHsiEZlulzHLy7rbDzzEk=
 		</data>
 		<key>Headers/OCTComment.h</key>
 		<data>
@@ -92,9 +95,17 @@
 		<data>
 		OcsYRcln/7zqb+bYuJVyjia4EbE=
 		</data>
+		<key>Headers/OCTCommitTreeEntry.h</key>
+		<data>
+		7HgfHKOBFg8V3n6t+U/ooWJocqw=
+		</data>
 		<key>Headers/OCTContent.h</key>
 		<data>
 		y+iu50zuX85NoNYjl4Nqydr0M/w=
+		</data>
+		<key>Headers/OCTContentTreeEntry.h</key>
+		<data>
+		EFnKgAnmDVoUQ1N7sk1U6FIv9YE=
 		</data>
 		<key>Headers/OCTDirectoryContent.h</key>
 		<data>
@@ -102,19 +113,23 @@
 		</data>
 		<key>Headers/OCTEntity.h</key>
 		<data>
-		UGDTCsURIEeczn4Nq+0J86K1l5c=
+		VAcvasUi3XzkIifcMj1H7QtxEeI=
 		</data>
 		<key>Headers/OCTEvent.h</key>
 		<data>
-		M6GAx6SyylTXPgkfXVyY6YGrn4k=
+		HrqxWrRvWD56ofshBk3GWg78Gpw=
 		</data>
 		<key>Headers/OCTFileContent.h</key>
 		<data>
 		OTwnSjbW4rmfQVeE/vBABo+HBl4=
 		</data>
+		<key>Headers/OCTForkEvent.h</key>
+		<data>
+		iBonpsjm+IT3x/gFqzCvoBtOaY4=
+		</data>
 		<key>Headers/OCTGist.h</key>
 		<data>
-		mGG4CQEG+vC9QFaFB5FEkmwKFLk=
+		TOC9i1ktVCpCyN2k5K1sniJd2Lk=
 		</data>
 		<key>Headers/OCTGistFile.h</key>
 		<data>
@@ -122,7 +137,7 @@
 		</data>
 		<key>Headers/OCTGitCommit.h</key>
 		<data>
-		eFhzdZjfji8FII2VW+C7Ls0Soi0=
+		rYsYJpla2NXvmRt5uSxDiWTYKZc=
 		</data>
 		<key>Headers/OCTGitCommitFile.h</key>
 		<data>
@@ -142,11 +157,15 @@
 		</data>
 		<key>Headers/OCTIssueEvent.h</key>
 		<data>
-		E8RndZo+ZWjl0ErBO/ISr7F1RMA=
+		gdNQ7ZYlqlBDE5wjqVdOlEdJU3M=
+		</data>
+		<key>Headers/OCTMemberEvent.h</key>
+		<data>
+		Cerx9WwLQbkCgdHDibcmXRy0Ww4=
 		</data>
 		<key>Headers/OCTNotification.h</key>
 		<data>
-		PAohn26Mnp4++VoWKPYgx068D2E=
+		H/fBHU7z4UQoR5rdnT+HNE75WF8=
 		</data>
 		<key>Headers/OCTObject.h</key>
 		<data>
@@ -160,13 +179,17 @@
 		<data>
 		QvUIQfxSIOkNFkt47rHxzZu6isc=
 		</data>
+		<key>Headers/OCTPublicEvent.h</key>
+		<data>
+		pDL7gHDWbBTo1e/n+jr30hM+yX0=
+		</data>
 		<key>Headers/OCTPublicKey.h</key>
 		<data>
 		GCcfEENyNyXkq8GRR5eeUMVDi9E=
 		</data>
 		<key>Headers/OCTPullRequest.h</key>
 		<data>
-		5kLQThTs2dGN3mszCkJKeaiPT+Y=
+		iLY1UM2CkurmzjiAoHho6X95y1Y=
 		</data>
 		<key>Headers/OCTPullRequestComment.h</key>
 		<data>
@@ -190,11 +213,11 @@
 		</data>
 		<key>Headers/OCTRefEvent.h</key>
 		<data>
-		D6CulN6rNiQUk/xzfub065vIOxY=
+		kcMDQTZznM7vXD+e1Rwilhdd9xk=
 		</data>
 		<key>Headers/OCTRepository.h</key>
 		<data>
-		Gt99Y60SHWXqIeZdo4//DhOXquE=
+		CdzKX/YhYGSy+9ftTByCA92YShs=
 		</data>
 		<key>Headers/OCTResponse.h</key>
 		<data>
@@ -230,33 +253,32 @@
 		</data>
 		<key>Headers/OCTTreeEntry.h</key>
 		<data>
-		y6m+nf6T/sKujhB8GuOcrT3Cy1c=
+		8Xb0a2mCyuDu7ONZTiZZMtGq9cc=
 		</data>
 		<key>Headers/OCTUser.h</key>
 		<data>
 		8cRFHbBsBuTSluyRpoVXSmGE/M8=
 		</data>
+		<key>Headers/OCTWatchEvent.h</key>
+		<data>
+		tWhjH4UFDL14G+IAPdrvFchQM4k=
+		</data>
 		<key>Headers/OctoKit.h</key>
 		<data>
-		fN3HFi3k5IaffUPUoJE7GRmCkgY=
+		6mGxsacD5+tUV6Ki953Ibcl5vOk=
 		</data>
 		<key>Headers/RACSignal+OCTClientAdditions.h</key>
 		<data>
 		MKGFg0xQwi0wMGjRrn8EZ/iy4QQ=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		sbPHykae5tv7MxwzGr2vXRFBqpM=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		m8zyxz9gscdrMVY20vMfR948//w=
+		eO9Hp8B+IMK3iAahTCtnmb21V4o=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

@@ -6,6 +6,8 @@
 //  Copyright 2010 GitHub. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @class PRIErrorRecoveryAttempter;
 
 /// Associated with a `PRIProblemLevel` value describing how critical the error

@@ -27,13 +27,16 @@
 //  THE SOFTWARE.
 //
 
-
+#import <Foundation/Foundation.h>
 #import "GTBranch.h"
 #import "GTEnumerator.h"
 #import "GTFilterSource.h"
 #import "GTObject.h"
 #import "GTReference.h"
 #import "GTFilterList.h"
+#import "git2/checkout.h"
+#import "git2/repository.h"
+#import "git2/transport.h"
 #import "git2/sys/transport.h"
 
 @class GTBlob;
@@ -47,6 +50,7 @@
 @class GTSubmodule;
 @class GTTag;
 @class GTTree;
+@class GTRemote;
 
 /// Checkout strategies used by the various -checkout... methods
 /// See git_checkout_strategy_t
@@ -80,30 +84,70 @@ typedef NS_OPTIONS(NSInteger, GTCheckoutNotifyFlags) {
 
 /// Transport flags sent as options to +cloneFromURL... method
 typedef NS_OPTIONS(NSInteger, GTTransportFlags) {
-	GTTransportFlagsNone = GIT_TRANSPORTFLAGS_NONE,
-	// If you pass this flag and the connection is secured with SSL/TLS,
-	// the authenticity of the server certificate will not be verified.
-	GTTransportFlagsNoCheckCert = GIT_TRANSPORTFLAGS_NO_CHECK_CERT,
+	GTTransportFlagsNone = GIT_TRANSPORTFLAGS_NONE
 };
 
 /// An `NSNumber` wrapped `GTTransportFlags`, documented above.
 /// Default value is `GTTransportFlagsNone`.
-extern NSString *const GTRepositoryCloneOptionsTransportFlags;
+extern NSString * const GTRepositoryCloneOptionsTransportFlags;
 
 /// An `NSNumber` wrapped `BOOL`, if YES, create a bare clone.
 /// Default value is `NO`.
-extern NSString *const GTRepositoryCloneOptionsBare;
+extern NSString * const GTRepositoryCloneOptionsBare;
 
 /// An `NSNumber` wrapped `BOOL`, if NO, don't checkout the remote HEAD.
 /// Default value is `YES`.
-extern NSString *const GTRepositoryCloneOptionsCheckout;
+extern NSString * const GTRepositoryCloneOptionsCheckout;
 
 /// A `GTCredentialProvider`, that will be used to authenticate against the
 /// remote.
-extern NSString *const GTRepositoryCloneOptionsCredentialProvider;
+extern NSString * const GTRepositoryCloneOptionsCredentialProvider;
 
 /// A BOOL indicating whether local clones should actually clone, or just link.
-extern NSString *const GTRepositoryCloneOptionsCloneLocal;
+extern NSString * const GTRepositoryCloneOptionsCloneLocal;
+
+/// A NSURL pointing to a local file that contains PEM-encoded certificate chain.
+extern NSString *const GTRepositoryCloneOptionsServerCertificateURL;
+
+/// Initialization flags associated with `GTRepositoryInitOptionsFlags` for
+/// +initializeEmptyRepositoryAtFileURL:options:error:.
+///
+/// See `git_repository_init_flag_t` for more information.
+typedef NS_OPTIONS(NSInteger, GTRepositoryInitFlags) {
+	GTRepositoryInitBare = GIT_REPOSITORY_INIT_BARE,
+	GTRepositoryInitWithoutReinitializing = GIT_REPOSITORY_INIT_NO_REINIT,
+	GTRepositoryInitWithoutDotGit = GIT_REPOSITORY_INIT_NO_DOTGIT_DIR,
+	GTRepositoryInitCreatingRepositoryDirectory = GIT_REPOSITORY_INIT_MKDIR,
+	GTRepositoryInitCreatingIntermediateDirectories = GIT_REPOSITORY_INIT_MKPATH,
+	GTRepositoryInitWithExternalTemplate = GIT_REPOSITORY_INIT_EXTERNAL_TEMPLATE,
+	GTRepositoryInitWithRelativeGitLink = GIT_REPOSITORY_INIT_RELATIVE_GITLINK,
+};
+
+/// An `NSNumber` wrapping `GTRepositoryInitFlags` with which to initialize the
+/// repository.
+extern NSString * const GTRepositoryInitOptionsFlags;
+
+/// An `NSNumber` wrapping a `mode_t` or `git_repository_init_mode_t` to use
+/// for the initialized repository.
+extern NSString * const GTRepositoryInitOptionsMode;
+
+/// An `NSString` to the working directory that should be used. If this is a
+/// relative path, it will be resolved against the repository path.
+extern NSString * const GTRepositoryInitOptionsWorkingDirectoryPath;
+
+/// An `NSString` of the Git description to use for the new repository.
+extern NSString * const GTRepositoryInitOptionsDescription;
+
+/// A file `NSURL` to the template directory that should be used instead of the
+/// defaults, if the `GTRepositoryInitWithExternalTemplate` flag is specified.
+extern NSString * const GTRepositoryInitOptionsTemplateURL;
+
+/// An `NSString` of the name to use for the initial `HEAD` reference.
+extern NSString * const GTRepositoryInitOptionsInitialHEAD;
+
+/// An `NSString` representing an origin URL to add to the repository after
+/// initialization.
+extern NSString * const GTRepositoryInitOptionsOriginURLString;
 
 @interface GTRepository : NSObject
 
@@ -127,19 +171,12 @@ extern NSString *const GTRepositoryCloneOptionsCloneLocal;
 /// Initializes a new repository at the given file URL.
 ///
 /// fileURL - The file URL for the new repository. Cannot be nil.
+/// options - A dictionary of `GTRepositoryInitOptions…` keys controlling how
+///           the repository is initialized, or nil to use the defaults.
 /// error   - The error if one occurs.
 ///
 /// Returns the initialized repository, or nil if an error occurred.
-+ (instancetype)initializeEmptyRepositoryAtFileURL:(NSURL *)fileURL error:(NSError **)error;
-
-/// Initializes a new repository at the given file URL.
-///
-/// fileURL - The file URL for the new repository. Cannot be nil.
-/// error   - The error if one occurs.
-/// bare    - Should the repository be created bare?
-///
-/// Returns the initialized repository, or nil if an error occurred.
-+ (instancetype)initializeEmptyRepositoryAtFileURL:(NSURL *)fileURL bare:(BOOL)bare error:(NSError **)error;
++ (instancetype)initializeEmptyRepositoryAtFileURL:(NSURL *)fileURL options:(NSDictionary *)options error:(NSError **)error;
 
 + (id)repositoryWithURL:(NSURL *)localFileURL error:(NSError **)error;
 - (id)initWithURL:(NSURL *)localFileURL error:(NSError **)error;
@@ -165,7 +202,8 @@ extern NSString *const GTRepositoryCloneOptionsCloneLocal;
 ///                         `GTRepositoryCloneOptionsBare`,
 ///                         `GTRepositoryCloneOptionsCheckout`,
 ///                         `GTRepositoryCloneOptionsCredentialProvider`,
-///                         `GTRepositoryCloneOptionsCloneLocal`
+///                         `GTRepositoryCloneOptionsCloneLocal`,
+///                         `GTRepositoryCloneOptionsServerCertificateURL`
 /// error                 - A pointer to fill in case of trouble.
 /// transferProgressBlock - This block is called with network transfer updates.
 /// checkoutProgressBlock - This block is called with checkout updates
@@ -208,12 +246,24 @@ extern NSString *const GTRepositoryCloneOptionsCloneLocal;
 
 - (GTReference *)headReferenceWithError:(NSError **)error;
 
-/// Convenience methods to return branches in the repository
-- (NSArray *)allBranchesWithError:(NSError **)error;
-
 - (NSArray *)localBranchesWithError:(NSError **)error;
 - (NSArray *)remoteBranchesWithError:(NSError **)error;
 - (NSArray *)branchesWithPrefix:(NSString *)prefix error:(NSError **)error;
+
+/// Get the local and remote branches and merge them together by combining local
+/// branches with their remote branch, if they have one.
+///
+/// error - The error if one occurs.
+///
+/// Returns the branches or nil if an error occurs.
+- (NSArray *)branches:(NSError **)error;
+
+/// List all remotes in the repository
+///
+/// error - will be filled if an error occurs
+///
+/// returns an array of NSStrings holding the names of the remotes, or nil if an error occurred
+- (NSArray *)remoteNamesWithError:(NSError **)error;
 
 /// Convenience method to return all tags in the repository
 - (NSArray *)allTagsWithError:(NSError **)error;

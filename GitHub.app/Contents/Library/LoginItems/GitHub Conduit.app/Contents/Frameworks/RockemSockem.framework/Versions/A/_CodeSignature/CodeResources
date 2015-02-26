@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		4u/jDya/3/2ygymkuJ25UjQGRzo=
+		9xEyQWfj3K23qP29U0LLh+zxhNk=
 		</data>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/RSMServer.h</key>
 		<data>
-		Oieazy6PZt5FgYDwfociLGjmwXg=
+		77hstrNi2hDCfjiAXb/joVZ91EI=
 		</data>
 		<key>Headers/RSMWebSocket.h</key>
 		<data>
-		xBrfG+5YkM1zk68f9R2dSM8O1Cw=
+		OEM0RwmEd/l7TwtmJoZbVvpf2yM=
 		</data>
 		<key>Headers/RockemSockem.h</key>
 		<data>
@@ -56,9 +56,13 @@
 		<data>
 		o2vNQtnHCxWKuB1C2O/YNNgyGSI=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		sUOrkwn4tcAlqBeGn+Nk2E+5LoA=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		4u/jDya/3/2ygymkuJ25UjQGRzo=
+		9xEyQWfj3K23qP29U0LLh+zxhNk=
 		</data>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
 		<dict>

@@ -68,33 +68,21 @@
 		<data>
 		kb6n1h6B74dkT5MJER9hYnDUCSg=
 		</data>
-		<key>Resources/&lt;GHChangeCell&gt; background-image.tiff</key>
-		<data>
-		QiXLWMeAk5nI8duWaIaKFTVODz8=
-		</data>
-		<key>Resources/&lt;GHChangeCell&gt; tear.tiff</key>
-		<data>
-		zYvO9ylQD2zCW1BiEHOunyJ0+GQ=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-button-background-highlighted.tiff</key>
-		<data>
-		Pab4Fk85yQUhzYDWU9gzdwrp4N8=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-button-background.tiff</key>
-		<data>
-		I9kSOMN1Bp7GccuH5uTYHdCwYuo=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-icon-highlighted.tiff</key>
-		<data>
-		becfuXpSOpdTK0Di4ROD1/m8WyA=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-icon.tiff</key>
-		<data>
-		XVCCfFwYCZmXol51B3dZduHROUo=
-		</data>
 		<key>Resources/&lt;GHCreateBranchPopoverViewController&gt; icon-error.tiff</key>
 		<data>
 		SydRZL3bncy6xWBlxbSq64zh/jU=
+		</data>
+		<key>Resources/&lt;GHCreatePullRequestViewController&gt; close-highlighted.tiff</key>
+		<data>
+		V8tKVHgM1PLcVwrqC4lUDqBeync=
+		</data>
+		<key>Resources/&lt;GHCreatePullRequestViewController&gt; close.tiff</key>
+		<data>
+		CzdE3Gv0oCqB3YhSccu/CqyIePE=
+		</data>
+		<key>Resources/&lt;GHCreatePullRequestViewController&gt; pr-indented.tiff</key>
+		<data>
+		NWJyREHaRmuPS/btfP1LeMQ+c6k=
 		</data>
 		<key>Resources/&lt;GHErrorSheetController&gt; red-octocat.tiff</key>
 		<data>
@@ -139,6 +127,10 @@
 		<key>Resources/&lt;GHMainWindowController&gt; icon-new-branch.tiff</key>
 		<data>
 		AVRi8IwD8DCq/6Ox6OjUi0ym99Q=
+		</data>
+		<key>Resources/&lt;GHMainWindowController&gt; icon-pr.tiff</key>
+		<data>
+		cKHYFB3EUCJjLe6/zd+qNA4UnBs=
 		</data>
 		<key>Resources/&lt;GHMainWindowController&gt; sidebar-closed.tiff</key>
 		<data>
@@ -242,15 +234,19 @@
 		</data>
 		<key>Resources/AppIcon-Release.icns</key>
 		<data>
-		cq4QjaE6KRd10Bbu3itzMzMtIbY=
+		Q2VjSv6DDyAjQgPnMwi6vh76+RU=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		Ij8zF4XgbbpaRBRPjbKkDBwn4y8=
+		I9OrJbS2xO748cyXxa08Z1ObEkg=
 		</data>
 		<key>Resources/DefaultDefaults.plist</key>
 		<data>
-		jgLDgUwqiCa2hxxbTF29yS6FK7Q=
+		A+zY31Y9XG2d6mG2Lnvw9cFGZyo=
+		</data>
+		<key>Resources/EULA.rtf</key>
+		<data>
+		Peuf8SX8jXrpP9deVkI+ZF/NGiI=
 		</data>
 		<key>Resources/English.lproj/InfoPlist.strings</key>
 		<dict>
@@ -265,7 +261,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			edljZeGeS0Rm/zHXafTEn5mWFNI=
+			hqcDDa0A6crx9YRIomAK8XSSt4U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -276,179 +272,195 @@
 		</data>
 		<key>Resources/GHAboutWindowController.nib</key>
 		<data>
-		e0GBZ8wFSjtImxhcVQWRQ6eox5I=
-		</data>
-		<key>Resources/GHAccountMenuHeaderView.nib</key>
-		<data>
-		I09zIzcWwBNrK0aiseANCgk+D7k=
-		</data>
-		<key>Resources/GHAccountMenuView.nib</key>
-		<data>
-		h54JDn5iZLrf1PEQZtqR6hkeOOE=
+		IQhvC0m4iPKDlF8GMaEIyE5hqHM=
 		</data>
 		<key>Resources/GHAddLocalRepositoryViewController.nib</key>
 		<data>
-		/H6zmw6oINQKB81ur7nYjR1KTHY=
+		nbUGySOTuLsdIs6SXh9CBbMsIZU=
 		</data>
 		<key>Resources/GHAddRepositoryViewController.nib</key>
 		<data>
-		cJ/Z+SekiDcFIqxo81Qp6Jnadp8=
+		yajwN1h05QlMh6WhmHRh04s7kBU=
+		</data>
+		<key>Resources/GHAdvancedPreferencesViewController.nib</key>
+		<data>
+		j+LWDVelsS7yISxkPL4XVJ/dwFk=
 		</data>
 		<key>Resources/GHAutocompletePopoverView.nib</key>
 		<data>
-		khyasrvAcL7w6GwXnNamoxMK6JY=
-		</data>
-		<key>Resources/GHAutocompleteRepositoryTableCellView.nib</key>
-		<data>
-		YVINRNO0pIk8I1ZRuyx9AcMBJr8=
+		BqaC9qFgRP8eM+q9Qd7/1+Nc5LI=
 		</data>
 		<key>Resources/GHAutocompleteUserTableCellView.nib</key>
 		<data>
-		qO8/9ojhHa1q39zE8+wK9FJPcU0=
+		l5XKzTUITSH+WJDVvhhWkHUiIzI=
 		</data>
 		<key>Resources/GHBranchMergeView.nib</key>
 		<data>
-		XcZRNQF9prlLpFrvmEy8+OHkbIM=
+		TsiIlK7soH9GGZ7OA+R6e/ak6SA=
 		</data>
 		<key>Resources/GHBranchesPopoverViewController.nib</key>
 		<data>
-		hgVlUgqQhbq3X5+4do9hNmPiT80=
+		HAHJWNK5nu5AUE6NjgoHbkWTGiw=
 		</data>
 		<key>Resources/GHBranchesViewController.nib</key>
 		<data>
-		DI7wp2iI56pzdkvc328zGu0APDo=
+		oXggC2xY8oor81Vua3j6fhps0pY=
+		</data>
+		<key>Resources/GHChangedFileListViewController.nib</key>
+		<data>
+		rAJbArxAxqIGg8vcrX/FjrGshvU=
 		</data>
 		<key>Resources/GHChangesDiffViewController.nib</key>
 		<data>
-		OQ0AMhm1klthe0dHoytCaxK6raY=
+		gC3mNSrKM8skXnQiqpMXirBDTBU=
 		</data>
 		<key>Resources/GHChangesViewController.nib</key>
 		<data>
-		nMax2iPalqKgFG9rmxzflHKUdxU=
+		Ew/d/OqZdAm2R5QX0PBHIsXwPxs=
 		</data>
 		<key>Resources/GHCloneProgressViewController.nib</key>
 		<data>
-		9mG+Mil/mfxHdqqq3bJS7l976Bw=
+		hN5dNJbwzniKqpf4PMAdxjqksFk=
 		</data>
 		<key>Resources/GHCloneRepositoryViewController.nib</key>
 		<data>
-		vHRQ7vaWF5q01T8c7AZ5KUUPLxI=
+		bnqGGW1NiCJDhpT9ewaBhLGKOUc=
 		</data>
 		<key>Resources/GHCommitListFileCellView.nib</key>
 		<data>
-		EyJihC/R9+TNBpXY+daHOHNNz4I=
+		ff2g0CqZ+TVlnj30x3PuqpMvTZg=
+		</data>
+		<key>Resources/GHCommitMessageViewController.nib</key>
+		<data>
+		sHrDbQXq9SxbEUjIhZVkLGMw3Xc=
+		</data>
+		<key>Resources/GHCopyBranchFromForkViewController.nib</key>
+		<data>
+		PVD4r+XUhgH86efSg6A1LNVUWG0=
 		</data>
 		<key>Resources/GHCreateBranchPopoverViewController.nib</key>
 		<data>
-		yvxt9HUrO8zNPrz9Ym4UGROcaWg=
+		c0kacmAcGD7nY/Wtk0kjffWisds=
+		</data>
+		<key>Resources/GHCreatePullRequestViewController.nib</key>
+		<data>
+		s8H6N2I9cleKMkhAEES96WQtu10=
 		</data>
 		<key>Resources/GHCreateRepositoryViewController.nib</key>
 		<data>
-		fCyZUgz5l/LsD6B9vYJshinZRYw=
+		Sw9b66A9nvCHNM8qTDAdwWIqiGQ=
 		</data>
 		<key>Resources/GHDiffCellView.nib</key>
 		<data>
-		3g6F2HRwzIpnZCG+1FPCir02qtQ=
+		SjaKrylyROWL0Ppi+AJq5ZeZcSg=
 		</data>
 		<key>Resources/GHDiffHeaderCellView.nib</key>
 		<data>
-		/FOjkQttNdXVjNI8ImAPwJjsYIU=
+		+b9CWwPtZE8r7gI0wMAD2ak/z3M=
 		</data>
 		<key>Resources/GHDiscoveredRepoViewItem.nib</key>
 		<data>
-		PN4BWDPdWvGgMtvYeddetRNYVcg=
+		bYEycRRxmycBbAghPBMYXKNkFBg=
 		</data>
 		<key>Resources/GHDotComLoginView.nib</key>
 		<data>
-		hvPIOcHx4mvSmt7C4FkD6wJvkHA=
+		LaE4KiW21+szKosoaIsTgX7KVzc=
 		</data>
 		<key>Resources/GHEnterpriseLoginView.nib</key>
 		<data>
-		33kZSYIKR39IE7v+T5M1DU+//+o=
+		klVJEI83hJV4aIe0KmbLpH8EOuc=
 		</data>
 		<key>Resources/GHErrorSheetController.nib</key>
 		<data>
-		7fEXElBAVOZsWFWD2oV4UzkBu4M=
+		iYQkoO2HE2k40xnbUaWeXaVXC9c=
 		</data>
 		<key>Resources/GHExistingRepositoryViewController.nib</key>
 		<data>
-		A/OOYGkdeWY76U85h6F7VCsphpY=
+		TvVNdNTylQTBJz/fpWHRrv+Fdz0=
 		</data>
 		<key>Resources/GHFindRepositoriesViewController.nib</key>
 		<data>
-		oB9xHq4QwhjN7SIixdGTgK3tQts=
+		YGOkaNQ34jTAwqpWD5onMIY4V/s=
 		</data>
 		<key>Resources/GHFindYourReposViewController.nib</key>
 		<data>
-		iqfllAVLIo8YHTXCt8yEOhDQIoA=
+		dXzgVhfe7oLMzyAGz07BcZxcdbs=
+		</data>
+		<key>Resources/GHGeneralPreferencesViewController.nib</key>
+		<data>
+		d5gnzBjNdzUNMwz6i5g+ESaqo7U=
 		</data>
 		<key>Resources/GHGitMediaDiffView.nib</key>
 		<data>
-		AJHraG25ppTog3LT5qnvKvsUnqE=
+		BBA/KBCPBx45Hn+HOxxDpyQjNo4=
 		</data>
 		<key>Resources/GHGitSetupViewController.nib</key>
 		<data>
-		UkLJ0Eba05j5fv/zUCDHO567fAE=
+		ay8mIb16q1cRDbtvG8Br8hEBoVk=
 		</data>
 		<key>Resources/GHHistoryCommitListView.nib</key>
 		<data>
-		So6nDjmpjJzsifxPQbiOk3pcJM8=
+		VLhTpuU+bRYzRLAGr1Bkyru7IXI=
 		</data>
 		<key>Resources/GHHistoryDetailedCommitView.nib</key>
 		<data>
-		tw3ON7cSk/LW6w2N2DcquBkqwuU=
+		2K/wBnVqu3XOl9HPDmC1G1/lryE=
 		</data>
 		<key>Resources/GHHistorySingleFileViewController.nib</key>
 		<data>
-		83YfvJSqXh5FaMX3KB97wg9kldk=
+		a8Ixko3Ao9tntS1kiiqMhlZ7JHU=
 		</data>
 		<key>Resources/GHHistoryView.nib</key>
 		<data>
-		9Q/lomyfiDwCqRWrZsCG3CfnZFc=
+		AcI8G3jjqnm/ecbOyvdHGQEwjH8=
 		</data>
-		<key>Resources/GHLicensesWindowController.nib</key>
+		<key>Resources/GHLicenseWindowController.nib</key>
 		<data>
-		Oo5mhYakIOFoSPEU/goIhizO2B4=
+		qnUrQuHXesz3ZPXN1iQxjk/gpEc=
 		</data>
 		<key>Resources/GHLoggedInUserView.nib</key>
 		<data>
-		j28vhZW+/yrYPa8/mR+MP+2NPx8=
+		P3JFSovv8zlsbxk+rQdxXa7AJuU=
 		</data>
 		<key>Resources/GHMainWindowController.nib</key>
 		<data>
-		aG3kbzcwlmzDnxaIp+miEnL5jos=
+		7mY07O2GI2zPEvn1t+ui6ln553s=
 		</data>
 		<key>Resources/GHMissingRepositoryViewController.nib</key>
 		<data>
-		T+uGOE04kXHUYi69vtjR1EDxII4=
+		oo6yg7GJ1nHwR9dGWgYQSx1vVQQ=
+		</data>
+		<key>Resources/GHMostRecentCommitViewController.nib</key>
+		<data>
+		2LiVuIBLRK/7fDc2x1vY9/1hvUg=
 		</data>
 		<key>Resources/GHPushRepositoryOptionsView.nib</key>
 		<data>
-		la7d8TYq/YcQ7bBMumKh5tkn/lI=
+		UD0+jqcX4fJOx52lwT+s6X5hr2k=
 		</data>
 		<key>Resources/GHPushRepositorySheetController.nib</key>
 		<data>
-		Giz3bHaLARBacxwzBVJoyqNn93o=
+		pzJ7VERFX2GqubUyuL+Z/8hymGY=
 		</data>
 		<key>Resources/GHPushRepositoryView.nib</key>
 		<data>
-		OQLIYR1jpUyluw55WkOUBFBPLsw=
+		rBXkOszupZygU/8BOaRdJ9Ad2uI=
 		</data>
 		<key>Resources/GHRepositoryListViewController.nib</key>
 		<data>
-		O1bM8iKnlOeB+EE9y8VZyE0z8No=
+		4373Zx5bHurrVxWjhn6HrekCM4w=
 		</data>
-		<key>Resources/GHRepositorySettingsViewController.nib</key>
+		<key>Resources/GHRepositorySettingsSheetController.nib</key>
 		<data>
-		YH0ugcl0cVZKQawSE+JFMx2cFyc=
+		LoLpQuIwJGHrnahexRPKbj7zzTM=
 		</data>
 		<key>Resources/GHScanForRepositoriesWindowController.nib</key>
 		<data>
-		JInH+4Youko0I2FrC93J/93maRI=
+		xV/avama+ApgdQV7//Tc245vxvo=
 		</data>
 		<key>Resources/GHWelcomeWindowController.nib</key>
 		<data>
-		I+9BH5UpYKloUT+Pb6JqvTUzoSM=
+		d4V+ej2cSYfLlBFMEPDS5tvx5oU=
 		</data>
 		<key>Resources/Licenses.txt</key>
 		<data>
@@ -456,7 +468,7 @@
 		</data>
 		<key>Resources/MASPreferencesWindow.nib</key>
 		<data>
-		7jToZHL3nlpTpSMRbATAb/STqnM=
+		jOxw7I3RgWKfmOrFpcFFI8mw4+s=
 		</data>
 		<key>Resources/ObjectiveGit-errors.json</key>
 		<data>
@@ -474,14 +486,6 @@
 		<data>
 		xREgq3QnToQDbybB9xtG4rp5COE=
 		</data>
-		<key>Resources/button-thin-active.tiff</key>
-		<data>
-		IYk5y2fwr8fTmcKbZBSnH6A/6oc=
-		</data>
-		<key>Resources/button-thin.tiff</key>
-		<data>
-		tUo53MfKUOhBxUEW61f4jJKolps=
-		</data>
 		<key>Resources/checker.tiff</key>
 		<data>
 		iOZ0cJunZLGq1dj2u8Cqg6/iFgQ=
@@ -489,18 +493,6 @@
 		<key>Resources/collapse.tiff</key>
 		<data>
 		Y/z5j7Rk//V6W63Z1uA/gGMSAEk=
-		</data>
-		<key>Resources/diff-addition.tiff</key>
-		<data>
-		q8X/RbhAJ/P1X0vzOHmgW9oFHmc=
-		</data>
-		<key>Resources/diff-deletion.tiff</key>
-		<data>
-		EDKI6raMfVD8RFc8MgbK4fQY0HE=
-		</data>
-		<key>Resources/diff-empty.tiff</key>
-		<data>
-		tS+fp4reQXMMT+WwUHQR0Qo3CJI=
 		</data>
 		<key>Resources/down-arrowTemplate.tiff</key>
 		<data>
@@ -4068,31 +4060,27 @@
 		</data>
 		<key>Resources/git-errors.json</key>
 		<data>
-		eVLSIAW6Jc52pDukA2i+YEETG5w=
-		</data>
-		<key>Resources/git-media/bin/git-media</key>
-		<data>
-		fRpveGXZ0IiMws54d2W05qlDyPU=
+		ml4RSXUOhIvioEsTE46hcTSSoTw=
 		</data>
 		<key>Resources/git/bin/git</key>
 		<data>
-		RFbao6dPxsoeXYUfs30Yysf2RF4=
+		sHIuIyMDSDMh0rjDepVuWbyDOkg=
 		</data>
 		<key>Resources/git/bin/git-credential-osxkeychain</key>
 		<data>
-		Wgv1gb017d+z3ONO1hQiUXl9Tck=
+		phnBF1wo5FMlcaJ+8TNkkNcttFU=
 		</data>
 		<key>Resources/git/bin/git-cvsserver</key>
 		<data>
-		jILgFw8bi+33OEM5EHabuhX1F64=
+		76EFQpTlpcyeHh4W0c+3D8sp1dA=
 		</data>
 		<key>Resources/git/bin/git-shell</key>
 		<data>
-		TdypDYap/n028NxVrHEEcyW9xRc=
+		e/retMAb9HuFcrzT8Gtr27urpTk=
 		</data>
 		<key>Resources/git/bin/git-upload-pack</key>
 		<data>
-		qvQ0gf5hL8//OXRAolZLnDOj3nI=
+		pu80J2q3CQw8cp+g42CIQa8HkMA=
 		</data>
 		<key>Resources/git/lib/perl5/site_perl/Git.pm</key>
 		<data>
@@ -4164,15 +4152,15 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-credential-cache</key>
 		<data>
-		Au0PgfH2sr0nrSIX0Vua6KT5/4c=
+		kNORErYKaWNS0tyahxODaTXgqg0=
 		</data>
 		<key>Resources/git/libexec/git-core/git-credential-cache--daemon</key>
 		<data>
-		0raT1OI+KBN2UdvwsPXf+e+FVAk=
+		nNaqkqOpZbiaYhafsMG/xb3yalI=
 		</data>
 		<key>Resources/git/libexec/git-core/git-credential-store</key>
 		<data>
-		xSfBo47A/peEmypwm+hP+Ji1ExY=
+		ZArtTrBp4j3Fu5yLV3ZtyG3aECA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-cvsexportcommit</key>
 		<data>
@@ -4184,11 +4172,11 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-cvsserver</key>
 		<data>
-		jILgFw8bi+33OEM5EHabuhX1F64=
+		76EFQpTlpcyeHh4W0c+3D8sp1dA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-daemon</key>
 		<data>
-		YV1e3HqzlQDwIfqJp+DWOQbNMdY=
+		OVKYzC1siiJi2tBPf/+k7/JyPDs=
 		</data>
 		<key>Resources/git/libexec/git-core/git-difftool</key>
 		<data>
@@ -4200,7 +4188,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-fast-import</key>
 		<data>
-		a/4DKx/7n5z4KrplJjIzKFpuGvQ=
+		/CArA2TRycU/v8s/dlo43lRYQ2s=
 		</data>
 		<key>Resources/git/libexec/git-core/git-filter-branch</key>
 		<data>
@@ -4208,19 +4196,19 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-http-backend</key>
 		<data>
-		G9MzTOU7avsT9LdpcXM/BtPz7dw=
+		di0CpdDjMMJEtS6PErzZnd4PTGY=
 		</data>
 		<key>Resources/git/libexec/git-core/git-http-fetch</key>
 		<data>
-		IJUUvVwXZ5aKiWqkdFHABtGmjhY=
+		+FrzB+im0M5ne63eoZvN9846OuE=
 		</data>
 		<key>Resources/git/libexec/git-core/git-http-push</key>
 		<data>
-		zHU+C/zostWtmI7gEBNP/M+QS7E=
+		ELZwjneLoV0m+b5oqICHfHl7xXo=
 		</data>
 		<key>Resources/git/libexec/git-core/git-imap-send</key>
 		<data>
-		UwB+Hurk6SNCxsJoIenHnIwzsfM=
+		NeHCjinPdwBSmVXDPrDwtBpjea0=
 		</data>
 		<key>Resources/git/libexec/git-core/git-instaweb</key>
 		<data>
@@ -4284,23 +4272,23 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-ftp</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-ftps</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-http</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-https</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-testsvn</key>
 		<data>
-		5vV9SKnRSb7XSpGrdDDzJ6PXjJc=
+		cjFZg86uLkCBmHUYvz4LX8ZfP2s=
 		</data>
 		<key>Resources/git/libexec/git-core/git-request-pull</key>
 		<data>
@@ -4308,7 +4296,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-send-email</key>
 		<data>
-		bC0CSqM3yGiayOGsmfLL3l0BxP4=
+		umj/EJl/WR5MCsAeeYqs89VMERM=
 		</data>
 		<key>Resources/git/libexec/git-core/git-sh-i18n</key>
 		<data>
@@ -4316,7 +4304,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-sh-i18n--envsubst</key>
 		<data>
-		WnnHq3v/S1i7xsVPcR2FzKiI+Cw=
+		FxKlj3vtijfcyoyAQvLyx2qpa54=
 		</data>
 		<key>Resources/git/libexec/git-core/git-sh-setup</key>
 		<data>
@@ -4324,11 +4312,11 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-shell</key>
 		<data>
-		TdypDYap/n028NxVrHEEcyW9xRc=
+		e/retMAb9HuFcrzT8Gtr27urpTk=
 		</data>
 		<key>Resources/git/libexec/git-core/git-show-index</key>
 		<data>
-		acadwRHIo1k7Wq9E0T43ylEieeo=
+		PomXBwY6/fEhKobejbpHhvRMTAc=
 		</data>
 		<key>Resources/git/libexec/git-core/git-stash</key>
 		<data>
@@ -4344,11 +4332,11 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-svn</key>
 		<data>
-		hGoQC+8Xv0IYRGcm281QVK6Dr8Y=
+		K4wl3K18Mj7UaEzKcYvG97nBLfU=
 		</data>
 		<key>Resources/git/libexec/git-core/git-upload-pack</key>
 		<data>
-		qvQ0gf5hL8//OXRAolZLnDOj3nI=
+		pu80J2q3CQw8cp+g42CIQa8HkMA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-web--browse</key>
 		<data>
@@ -4408,7 +4396,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/mergetools/meld</key>
 		<data>
-		km25dhllhOuXuzX/4LAN+DHNd8U=
+		D5POpVQ43VWr0mX+l92xI03ENCU=
 		</data>
 		<key>Resources/git/libexec/git-core/mergetools/opendiff</key>
 		<data>
@@ -4488,703 +4476,715 @@
 		</data>
 		<key>Resources/git/share/man/man1/git-add.1</key>
 		<data>
-		mBr2qT9FABaZ+hxynV0fSI1iH3o=
+		NEk6+4ggS9gWteT7cqgHX0AkMfI=
 		</data>
 		<key>Resources/git/share/man/man1/git-am.1</key>
 		<data>
-		5u9wVsTCo+kteExzL+ni+0yeaOk=
+		wXKp/SJ91qt2g24lGfrWmO/K4k8=
 		</data>
 		<key>Resources/git/share/man/man1/git-annotate.1</key>
 		<data>
-		25TCu7kFCV9TpWluw1uE2ljuAus=
+		iNQBrPyAdQklj0FQk/s5dUnS7UQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-apply.1</key>
 		<data>
-		FSJSrhpD93IvzEvsSgWaKZaRuvo=
+		Z6D7vDaS9JeDHqvvlnoz/EO4upE=
 		</data>
 		<key>Resources/git/share/man/man1/git-archimport.1</key>
 		<data>
-		+hrVF+pyERfuC4EK2c54So9OTWQ=
+		HHUzn7k7ejXuh5G+2MGdX4GSMGo=
 		</data>
 		<key>Resources/git/share/man/man1/git-archive.1</key>
 		<data>
-		bl7Dro6JVw0FX49WVJmEpNG03wU=
+		lGACdgu/RjevcKUcZ+cIkweu96I=
 		</data>
 		<key>Resources/git/share/man/man1/git-bisect.1</key>
 		<data>
-		WVAr6S/D13jYpo4P7ohxwT5gugQ=
+		vM6Xc+tiJvG/U/p7dS00e39tdOo=
 		</data>
 		<key>Resources/git/share/man/man1/git-blame.1</key>
 		<data>
-		yLq+H3CVYHjPgKWw5AhqHZ1qvTU=
+		XYK4XZcx9IVjBcY/vTOzH8Q8bFU=
 		</data>
 		<key>Resources/git/share/man/man1/git-branch.1</key>
 		<data>
-		OEltYxNfo8p89dfKKGfucGzFJ6I=
+		S11Q4THkkHQOHwIwfZM5TYhJFRs=
 		</data>
 		<key>Resources/git/share/man/man1/git-bundle.1</key>
 		<data>
-		/UNuvtobRM3kx5QuzlxJa0Gm9+0=
+		WUOMaWWF2GbVqRMOnRwFxZrxKqQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-cat-file.1</key>
 		<data>
-		/gpxK3+5Vcos3I49vgSlDp5OPj4=
+		kj7gYmW3c8rXe2kZrqlf+e6mDAY=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-attr.1</key>
 		<data>
-		nrEXtR4EeQExm568D9+9CZAWMRM=
+		bsjNqNtwM4NCGPpcwxLRlqz1KBw=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-ignore.1</key>
 		<data>
-		HtEwQlFMNA3A9Ye1vfwxXrZXdqw=
+		SrWlfBJNNUvRHcUM78Yv3Qsq2n8=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-mailmap.1</key>
 		<data>
-		2ucC4j1Z923oGU7Q5rdMC7YEip8=
+		qCZaWe1B0OsQIOuEv6WhYcspJQo=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-ref-format.1</key>
 		<data>
-		POo5Nw7Jt42D1p8v1xtTtdn3H3E=
+		xg+S55AhIo/fOYGRSyyR5g+Lc4w=
 		</data>
 		<key>Resources/git/share/man/man1/git-checkout-index.1</key>
 		<data>
-		7F4Tc2+FFb5uSQORplbmgWHFPL4=
+		y2GMh5lKr77cH+flefOM4La9znc=
 		</data>
 		<key>Resources/git/share/man/man1/git-checkout.1</key>
 		<data>
-		SM8J6gh+Et0DwfVU0A46m+UBDY0=
+		jaDME0gKdLCT/bN4gGqeHufmXPk=
 		</data>
 		<key>Resources/git/share/man/man1/git-cherry-pick.1</key>
 		<data>
-		xSoc3OWNILFBgafzYvtjr1kctso=
+		hmjFtcGwkSbEUUxwC1OS0lYQzTA=
 		</data>
 		<key>Resources/git/share/man/man1/git-cherry.1</key>
 		<data>
-		mX7iESeR7dwJtc65qZNEQ7/x02Y=
+		8jc9s0ct3KCg3R5dZjzJ+P7xleQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-citool.1</key>
 		<data>
-		EQhEimKMvTvmLsnzUycOQKHdu6A=
+		0RNEXRIZ8zx702iHfGdbr/cDb+8=
 		</data>
 		<key>Resources/git/share/man/man1/git-clean.1</key>
 		<data>
-		w9eSiJO/OZNLcX5guYH0mlr6sNE=
+		7rgj2ziGUKGxskvkNmS7dg8DQco=
 		</data>
 		<key>Resources/git/share/man/man1/git-clone.1</key>
 		<data>
-		tTUsXQjg1nHLz90mbwi1nCdBvOo=
+		R7rwzsYd5RLD9zWF0H0f36v1o6Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-column.1</key>
 		<data>
-		UQ6d/S3DjOwUIh1u/Xq48bIn9/s=
+		BXSmaTUNcVoctreTGgeRwQG8Ke4=
 		</data>
 		<key>Resources/git/share/man/man1/git-commit-tree.1</key>
 		<data>
-		ZVDEd5Pvlbd6QqBAJrVHP8lmRCw=
+		X5Ekyng9lD4OUxb11O2vc83WUIA=
 		</data>
 		<key>Resources/git/share/man/man1/git-commit.1</key>
 		<data>
-		R3758B01vIWwNWBX27jeLAanN9U=
+		aFhHF5Z2ruIr4K1LolcDoZabOak=
 		</data>
 		<key>Resources/git/share/man/man1/git-config.1</key>
 		<data>
-		pOew+V+kelN71HHVleqG2g0YCYA=
+		CnvJudpf5OpLyQW158E8CZR28r0=
 		</data>
 		<key>Resources/git/share/man/man1/git-count-objects.1</key>
 		<data>
-		dT9KHAHuWyxJKqSa2SbI3kJ32jQ=
+		KTIxPZSiKZdim5TY8kBfBKWypo8=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential-cache--daemon.1</key>
 		<data>
-		j1J9P45/cXsN6QVKbSuJUWtP3c0=
+		sVfv+m3TjHRlLsUM3vrwS/HZqf0=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential-cache.1</key>
 		<data>
-		ryTqNCm13Zh1TCqIjIG7SiSWZYA=
+		U7YEkkZQwkLV4ZrrE6Y7nSJ+c0k=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential-store.1</key>
 		<data>
-		T7SOOtPtYwAmVohVNvYBopr//cM=
+		NYTsaR6POOXvzVKXLwkUo6V0oO0=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential.1</key>
 		<data>
-		pAlEdBjQBHXb8mNjgvy+TV63m+Q=
+		CQVLLvRgZ0zQ2luPXjj7MErPQyg=
 		</data>
 		<key>Resources/git/share/man/man1/git-cvsexportcommit.1</key>
 		<data>
-		grPHp8l075Wl8Ac+EfRPBGa+A2g=
+		gR5TdQnqmLRzY+tyEax37ynGFbk=
 		</data>
 		<key>Resources/git/share/man/man1/git-cvsimport.1</key>
 		<data>
-		BVjHZL3348tNWxx+Xyfn4TCixb8=
+		QC9h4zIlkcQBgJfl0b0olItvOuc=
 		</data>
 		<key>Resources/git/share/man/man1/git-cvsserver.1</key>
 		<data>
-		EHZ2MOLTJNcAhg910qFwKdQwQmg=
+		w0CdxlK562NzoNQQQhIE9vM08Ro=
 		</data>
 		<key>Resources/git/share/man/man1/git-daemon.1</key>
 		<data>
-		XXgnFqITpk+CyAc7pqNesgWarsc=
+		/y6dGLr8PAfnxunj+urFlfweePE=
 		</data>
 		<key>Resources/git/share/man/man1/git-describe.1</key>
 		<data>
-		E5Afs7Cek0/TiN/JJdmwDX8OHEI=
+		CcRxROj46/wcP8tQe/kDu3DYRmQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff-files.1</key>
 		<data>
-		Ize0PL0TmivvFHqeAgADL6LacUk=
+		oyXr6XaRD+KnQHVOaAvETs7axfY=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff-index.1</key>
 		<data>
-		XdkPFC/QGqtBUz46h2asqSHHg4s=
+		Bk716+cUUOJmZ/1HQcYSo/oqu+c=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff-tree.1</key>
 		<data>
-		wEYyaGc/pDT4+aR/RYIO+6DbOpU=
+		aBG/aNxyqcS34elxQEWuUD+aWVg=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff.1</key>
 		<data>
-		ZXGRqSGgnWVt7zgf0wpkkM4tgAM=
+		4xtFaLnrNVwaewYLVHsDJhNvTHU=
 		</data>
 		<key>Resources/git/share/man/man1/git-difftool.1</key>
 		<data>
-		tFD/viq2WyF3l+tXR/P8468T1/4=
+		RIElkfxeKo8EyhNdNQSMh9szN3Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-fast-export.1</key>
 		<data>
-		PK2kScmWhIiwbkRRmld/Z43CJg8=
+		RfJie5498zceEu1krSDfNQ7C4LI=
 		</data>
 		<key>Resources/git/share/man/man1/git-fast-import.1</key>
 		<data>
-		Z3e6xObueuzcG2EvXUX6iRP57mE=
+		810hk5fPgQ3P65xf5SWSCug2S1Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-fetch-pack.1</key>
 		<data>
-		V3IEMEQPPfb/8MkjzXFHjnTQ0Zo=
+		+AZCGmJbLGEZKxpS3g6r+KBU5uY=
 		</data>
 		<key>Resources/git/share/man/man1/git-fetch.1</key>
 		<data>
-		vwAwo5amryUABwAy6WlAF343s8k=
+		9MuMkPUVB9wMl/X9n3KAG6c9/04=
 		</data>
 		<key>Resources/git/share/man/man1/git-filter-branch.1</key>
 		<data>
-		qCGYlAb4NZ08Wh3J2o3vCikcZ4I=
+		qqw9hof+VQnCIzSmeeOYRf3YTHk=
 		</data>
 		<key>Resources/git/share/man/man1/git-fmt-merge-msg.1</key>
 		<data>
-		zeZrCAhF16Ml+JQBgbmrprCZgFc=
+		mgzVjgDo4HXKepyJ4LXePkvQtX4=
 		</data>
 		<key>Resources/git/share/man/man1/git-for-each-ref.1</key>
 		<data>
-		au/FyaXALgMEIhse+LbI/UN15/Y=
+		uPtBgaV1gMEgq8ps10W4jn/opGU=
 		</data>
 		<key>Resources/git/share/man/man1/git-format-patch.1</key>
 		<data>
-		2tntG7mJ9AjT+doFH/eH7TZmBag=
+		9/Z3R07OMLSdZHHF7x07zO066Io=
 		</data>
 		<key>Resources/git/share/man/man1/git-fsck-objects.1</key>
 		<data>
-		FnsA+4RAG6HcwmKPegzuBveei68=
+		b9BtckM8yfHAetC3ODqZjXyo2GY=
 		</data>
 		<key>Resources/git/share/man/man1/git-fsck.1</key>
 		<data>
-		kwZw6iw9WCvLVMT7gBoPx0ea2/A=
+		hwsqHcPDNa8dh1xEqNuF5ho5cjM=
 		</data>
 		<key>Resources/git/share/man/man1/git-gc.1</key>
 		<data>
-		NlUb+dShRqja/UaYfb1E4UvrOxo=
+		/ltaCHbbUfhs3r6sOKRdK8cNsOI=
 		</data>
 		<key>Resources/git/share/man/man1/git-get-tar-commit-id.1</key>
 		<data>
-		YMMff+LRB/wCMRw9HkSvFYs3zXg=
+		4tP9HOsc0E3rfLqbWjuTrv+qRY0=
 		</data>
 		<key>Resources/git/share/man/man1/git-grep.1</key>
 		<data>
-		oM4eosFxg856Gdr4lNWGmZWgGSU=
+		x4eEsW2pRPsvEGD5dOIy+U/306Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-gui.1</key>
 		<data>
-		G6TvUWJ4SSAVv/74OFM52HIAJNA=
+		6srFrttQe2OHJYGm5tQD8HV4D+E=
 		</data>
 		<key>Resources/git/share/man/man1/git-hash-object.1</key>
 		<data>
-		3nY+mSzCqEf1j+QTsT7DIW51MME=
+		t6Oefga9Bwv5E9Qiyiukg/GaBTA=
 		</data>
 		<key>Resources/git/share/man/man1/git-help.1</key>
 		<data>
-		SvvjTD1l/tVI+MC5UyTbVjiofMg=
+		smd0BJ0NpiPSPHnTu7czmTN695g=
 		</data>
 		<key>Resources/git/share/man/man1/git-http-backend.1</key>
 		<data>
-		z5tPRnrgUXO6UL7uvu76T2+vwlE=
+		i0whSTOL5bTxXCN9rJE8J+Oufm4=
 		</data>
 		<key>Resources/git/share/man/man1/git-http-fetch.1</key>
 		<data>
-		5iPEVauSeyfrfGH39o2nELVW+F4=
+		/zcdNw0xxrA27zXsnq25wZ9vKno=
 		</data>
 		<key>Resources/git/share/man/man1/git-http-push.1</key>
 		<data>
-		nD8lwuS785F+7cBKWAHcvrnCYBA=
+		AozId15oB5ZLRLdVaVgyoBHYeDk=
 		</data>
 		<key>Resources/git/share/man/man1/git-imap-send.1</key>
 		<data>
-		ofDc6JdK5uM5quRZAkabk4LApnk=
+		4dBHS1MeaBSlHSvSCdQwalxOR3c=
 		</data>
 		<key>Resources/git/share/man/man1/git-index-pack.1</key>
 		<data>
-		bRQdZAjaApIBscIh7b+RWA6pxm0=
+		+RH/kKBvV4W62SIcN1K1uvlT+Ig=
 		</data>
 		<key>Resources/git/share/man/man1/git-init-db.1</key>
 		<data>
-		JvKIvCyO3syW2XylvTbGcK5scHo=
+		ihNeoCh0Gf5+wHe94gvQUrp20Rc=
 		</data>
 		<key>Resources/git/share/man/man1/git-init.1</key>
 		<data>
-		/W+BxwL/Ot56Ij2If5lIPZXRZSQ=
+		ORFHr4nQnyOJ6yNf6rsTeCDg+IU=
 		</data>
 		<key>Resources/git/share/man/man1/git-instaweb.1</key>
 		<data>
-		FO9NpZbjtGPUcvGIxF3M0l41nAA=
+		wIMRXns3mFNAaN3/5VjwqRMWBwY=
+		</data>
+		<key>Resources/git/share/man/man1/git-interpret-trailers.1</key>
+		<data>
+		ihvbeS6dyZcSlf+bMmpRfpdK1pA=
 		</data>
 		<key>Resources/git/share/man/man1/git-log.1</key>
 		<data>
-		CwM7JgwCdji6TL9P+3vyiWhURRs=
+		3mu0q8kBvuwM+R9+3bSmXdeEtSM=
 		</data>
 		<key>Resources/git/share/man/man1/git-ls-files.1</key>
 		<data>
-		1SnAkblyAEQj/g2HU2evNdP1nuU=
+		oo+fi1VxAOdEtI82gc0K9L6gqj8=
 		</data>
 		<key>Resources/git/share/man/man1/git-ls-remote.1</key>
 		<data>
-		GYkOClZeZO8sYZTLS51bZrQVWyo=
+		5wHYic/9IagrxHfcvUZTZOsZaJw=
 		</data>
 		<key>Resources/git/share/man/man1/git-ls-tree.1</key>
 		<data>
-		Z5pSmUBuyjsJ+DDfsyBulJZTBbA=
+		7Wby0Q/QRCikAugsZLuaf+KU7Bg=
 		</data>
 		<key>Resources/git/share/man/man1/git-mailinfo.1</key>
 		<data>
-		xYG7hRtNcjdvaydmAEvRyaRLPyU=
+		1gxgJ/IRHa47HNxIcQuKUlrbOUA=
 		</data>
 		<key>Resources/git/share/man/man1/git-mailsplit.1</key>
 		<data>
-		xR406/yHMH1aLAjiM8Bl+DjLbF8=
+		MByE7HOwii2Pp+/N+X+n3Kd7quc=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-base.1</key>
 		<data>
-		rDgO0YGd8oNvi/jW7jHCpRB1beA=
+		iZ8KygSS7H8SdM4RNDay0817pmk=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-file.1</key>
 		<data>
-		kkQC4woRXe87sfcw1+6iYFr0bCI=
+		omnlv1A8JYXVb0nsyytsd1LClMg=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-index.1</key>
 		<data>
-		LFBj5yPiOqbjo9PUlR9oVxeuLtk=
+		a59tymUIDHQFCUDYb7vRsObnhVM=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-one-file.1</key>
 		<data>
-		o8pJPyLjZOhQEn2fWyLiboqOcAg=
+		xRJWGcoh+S/iFYcOkIOkJTiHGmw=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-tree.1</key>
 		<data>
-		qqP9SbsgI4WsWvZ9wDir/z/VYQw=
+		h0cAmHmCMjR810h+xvf/7LHKNL8=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge.1</key>
 		<data>
-		Ac1lxUFPXPAJ9jTgOBdplrX9/qk=
+		zA8Mcds6L5BR31YH5+5JgUELLkg=
 		</data>
 		<key>Resources/git/share/man/man1/git-mergetool--lib.1</key>
 		<data>
-		/pgjR5pX5UaC+yISLTLpCgGt5Vw=
+		OAzKw/3J+LwgjwvYdqq9zjJ4sV0=
 		</data>
 		<key>Resources/git/share/man/man1/git-mergetool.1</key>
 		<data>
-		Pm8PvKV8+tc40I7CqNfwM92nHC8=
+		Ha2oUwQbHSXKUS16evGT7yA2Ea8=
 		</data>
 		<key>Resources/git/share/man/man1/git-mktag.1</key>
 		<data>
-		OheQbpS1ufl/ofJpaEDSNJ4S3+0=
+		uxEezjdBjgRpncXv+S3q2fSh+bo=
 		</data>
 		<key>Resources/git/share/man/man1/git-mktree.1</key>
 		<data>
-		QwHZSDYP7fe+FFHnKrpOYeg5v68=
+		z/pacReG2YIXzkl0ExtF37KMdfE=
 		</data>
 		<key>Resources/git/share/man/man1/git-mv.1</key>
 		<data>
-		uXqeW7tCHpZhRkbDLC2f9WqmXAc=
+		EMwuOYbGB8Iuf+5hgtn0CAHV2OM=
 		</data>
 		<key>Resources/git/share/man/man1/git-name-rev.1</key>
 		<data>
-		nf3EBn/ajBD5lARtkbzKdWJ13dQ=
+		lV+RFJnmNZJZZoDpXJLS3ZxPKWE=
 		</data>
 		<key>Resources/git/share/man/man1/git-notes.1</key>
 		<data>
-		GEa+vo4PmLmRmtDC7FkMs80GBHU=
+		jH3mWGBmZzXkca4gqW5iwes0GKQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-p4.1</key>
 		<data>
-		KNqRR0ykbBu0LodTHLmspOWqCWw=
+		Cz/kCoPEB0aiCmOruTKHcX973jQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-pack-objects.1</key>
 		<data>
-		vw2vtcPoqmaH6/p4pK7+seqlE44=
+		dzFebiQLF7HD0H8FRO8okE+MEM8=
 		</data>
 		<key>Resources/git/share/man/man1/git-pack-redundant.1</key>
 		<data>
-		jxkK4goUz5cM70VQ2/cH3qW7bdo=
+		eYlOg+g0eIyipOZJfVSSk3kQFK8=
 		</data>
 		<key>Resources/git/share/man/man1/git-pack-refs.1</key>
 		<data>
-		vKTvMwFhdOEttoIVezCKR2mvMx8=
+		FCwHFyudvpiEer6+EKmkuEPXFqI=
 		</data>
 		<key>Resources/git/share/man/man1/git-parse-remote.1</key>
 		<data>
-		sAbNmYzJj22Ef14aCPqtyC1W7Tg=
+		Okxa88yYRe/7oK0e6dFBs6RhHI4=
 		</data>
 		<key>Resources/git/share/man/man1/git-patch-id.1</key>
 		<data>
-		mb/XKO12h3vt96gGiVKKlgxzb+Q=
+		+tYJWr0L4npnp0JNtB+4rJGkSR8=
 		</data>
 		<key>Resources/git/share/man/man1/git-prune-packed.1</key>
 		<data>
-		LKM8cVsAV12n9yzHJRKGd/5+9XI=
+		Z/95884K4Ac1Y+H7gFZqrNnSYvw=
 		</data>
 		<key>Resources/git/share/man/man1/git-prune.1</key>
 		<data>
-		wfTUqAbugkAeVLQ7cqYoLvMsCtQ=
+		MaWmtUptSCnUmfGouLFI8M/P6ns=
 		</data>
 		<key>Resources/git/share/man/man1/git-pull.1</key>
 		<data>
-		kvQodwFHahUiAvGEjMJIsOIuKEg=
+		Ibhj15PqqYHoc0R58JNGF9PTE8M=
 		</data>
 		<key>Resources/git/share/man/man1/git-push.1</key>
 		<data>
-		Kp8oI2YKp6bm1psWeCjpwrzXQ3o=
+		oKW+twCxSMtTiKksXxktAm3vO2k=
 		</data>
 		<key>Resources/git/share/man/man1/git-quiltimport.1</key>
 		<data>
-		07e4kRp7oRbQaZPqli70db4bhZo=
+		WLovFcGtRao0NXlUbo/dFEB5TzE=
 		</data>
 		<key>Resources/git/share/man/man1/git-read-tree.1</key>
 		<data>
-		UVGjr+DB/DpsI1QZoSXwICAq/ag=
+		yLSomsLQ04jyIPL3An9Sfxeii9Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-rebase.1</key>
 		<data>
-		mkWIxkNcheqziG0cWuRJiGFZ5Jo=
+		KvNX8oIwAqWdjrn33w8bp50Ee/M=
 		</data>
 		<key>Resources/git/share/man/man1/git-receive-pack.1</key>
 		<data>
-		ETI5SQehX2Ie8tFFYLC+7CcX5C8=
+		bxPOX0tP1GpRyPybAiGM20pSZTk=
 		</data>
 		<key>Resources/git/share/man/man1/git-reflog.1</key>
 		<data>
-		XNWFQ9EUuL9I9nwfUzKYyDW08b4=
+		RkmCZQiQoSGg2aWacngmZQE54eQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-relink.1</key>
 		<data>
-		YvFWcSUdS1i0SR5IBKQwVJUiaHs=
+		sJbYh8eYBdVwRh99cOHlU3bmNM0=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote-ext.1</key>
 		<data>
-		5fib/rWHFdCCmZWSHjUh+6PFX20=
+		CtbdtWLLC+ZVUrEQigMT9blLlNE=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote-fd.1</key>
 		<data>
-		W3fzFWzjTt9GzmhxOEfB2BgOvqY=
+		VfBZx6N1qsmYnxnHtl90NTywkbI=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote-testgit.1</key>
 		<data>
-		v1KGFn724AXGlJbyNElud1SzqPY=
+		e+oioVTu+wL1oj8xADgd1y9fKkQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote.1</key>
 		<data>
-		ebpPMPTK3YCeS/0QRwIBTQWmFrk=
+		0RREt4S8qrpbtDAIL/nCWvYHGKc=
 		</data>
 		<key>Resources/git/share/man/man1/git-repack.1</key>
 		<data>
-		V3V2FejDwrlmgOiePXGh/wZfkoU=
+		cdJsQ1/Nbmwsn+cI2RkuajrKpUM=
 		</data>
 		<key>Resources/git/share/man/man1/git-replace.1</key>
 		<data>
-		JNWmpBNWdKzKe2qYoCLzumPUOCQ=
+		vnbWZQ5is3jYH0+tIXjKGgK/hU8=
 		</data>
 		<key>Resources/git/share/man/man1/git-request-pull.1</key>
 		<data>
-		hQemEssOO6KyyUMg4PBuVVny16Y=
+		sdElwpPpOUbpuzXHkqYiMVfiCbQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-rerere.1</key>
 		<data>
-		yLYGeXis/7DLx/2Sh7tbYwBDyEc=
+		DupzMYeTFN7o4Xo2ynHOnvRt/AU=
 		</data>
 		<key>Resources/git/share/man/man1/git-reset.1</key>
 		<data>
-		xgVGqJ6AD4PZr7kTSQ++YxN8ecw=
+		rN9D7wBLx4LCzT7lzN+c2IbItwQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-rev-list.1</key>
 		<data>
-		SjmJu9oiN7DiMHwuzjJPLt3PVRA=
+		PgRoUgbP3JaEarCu0d2W+z1CzX0=
 		</data>
 		<key>Resources/git/share/man/man1/git-rev-parse.1</key>
 		<data>
-		d0+mezh6bLuybtygLgUprzvZ+BA=
+		u1k2uEaBT2Q0FJmk1NIKzYm2O6o=
 		</data>
 		<key>Resources/git/share/man/man1/git-revert.1</key>
 		<data>
-		XOkrbXmdLQQm60sdzGaL/EwXGHs=
+		QFlA3dM7kafuYYgALSXP0xaLmAE=
 		</data>
 		<key>Resources/git/share/man/man1/git-rm.1</key>
 		<data>
-		g5gN4Q/mSAjckBGWCIpqideepMM=
+		t3wMlUwVWj/InsVvIlZISTbFrZA=
 		</data>
 		<key>Resources/git/share/man/man1/git-send-email.1</key>
 		<data>
-		tW2B4CX46IH1ZGtjvJbOb3altZU=
+		lrM3SHUYBCFZ4exqrQxjCtDeY2I=
 		</data>
 		<key>Resources/git/share/man/man1/git-send-pack.1</key>
 		<data>
-		51ocmDp2oJAvkV6Lte/u2/nCkCw=
+		DLkFMbo0vQX2jB+L2eK8nDOetbs=
 		</data>
 		<key>Resources/git/share/man/man1/git-sh-i18n--envsubst.1</key>
 		<data>
-		CjM4SAr92VHHL3xvlQweTsQgn2U=
+		2laB/v7bzClppoZjtMjhQX29RqQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-sh-i18n.1</key>
 		<data>
-		9X3OQsE4oZJuIm+RxtSPNhsDMuU=
+		O/6JWfhx+9NUiCFgjRepjtIhtQM=
 		</data>
 		<key>Resources/git/share/man/man1/git-sh-setup.1</key>
 		<data>
-		uzMSAbwvwW0I/mDNCo+9JLRQhl4=
+		2xXwlPjcvbvAd1eLbKvEO5EDPJ4=
 		</data>
 		<key>Resources/git/share/man/man1/git-shell.1</key>
 		<data>
-		pDuc1RZ/Rv3eMG5LJalfIhavDbY=
+		qEZyHxGMcCvr413YUgHP6fq4C3k=
 		</data>
 		<key>Resources/git/share/man/man1/git-shortlog.1</key>
 		<data>
-		kGElaWaIIgkbtL9GMDNgmOlt23c=
+		T43HIbE52DBbSAFrrxUGxLXLPNU=
 		</data>
 		<key>Resources/git/share/man/man1/git-show-branch.1</key>
 		<data>
-		3JOnuqC48QaJN+vrgwmyP+h+4os=
+		RDqozojvtxulyamcfFsnpPo3114=
 		</data>
 		<key>Resources/git/share/man/man1/git-show-index.1</key>
 		<data>
-		qm8t7s4dLADIsPnk25DhJveByKk=
+		tSzU8Mt4pk+ZNqCLeEKDJZmm9Zw=
 		</data>
 		<key>Resources/git/share/man/man1/git-show-ref.1</key>
 		<data>
-		Zw1APp6Bq2kQ0OLSv43aPInUGnc=
+		O6FNeAsr4rtITO4Bk8Mm7q8VNQ8=
 		</data>
 		<key>Resources/git/share/man/man1/git-show.1</key>
 		<data>
-		0XsaHR6qLx5elCJBr98dM5gIUQs=
+		axgMsbYrbrjFNDms/hNpGDgwYO0=
 		</data>
 		<key>Resources/git/share/man/man1/git-stage.1</key>
 		<data>
-		AfGxCfaFHCw+CVPVYIg9e9Ctu+0=
+		HxfDRI8f8AmdIr00Bi5Fw4kxRIA=
 		</data>
 		<key>Resources/git/share/man/man1/git-stash.1</key>
 		<data>
-		YFK4rPjvjN97tOrdg7iBkdoGP/Q=
+		HuHvDB+v5IZGN3RoR/7Cj24vNRc=
 		</data>
 		<key>Resources/git/share/man/man1/git-status.1</key>
 		<data>
-		agEDc+uaUUHUvIKf6lBimDfS/Jo=
+		giyGo+Wg/FLYtf1ffJ8mIlWKFH8=
 		</data>
 		<key>Resources/git/share/man/man1/git-stripspace.1</key>
 		<data>
-		hwTyI2kSYrX/juAssabEB+t5FCQ=
+		5d9xg24BeAOMqOJGwED9LElGaG8=
 		</data>
 		<key>Resources/git/share/man/man1/git-submodule.1</key>
 		<data>
-		Er4mMSv7qMYKoAyzLJfbEkF2R34=
+		/qJvDKjy18xWZFRmBA+YIW4u3T0=
 		</data>
 		<key>Resources/git/share/man/man1/git-svn.1</key>
 		<data>
-		a5lATjCfg5d1MeoyyOakY/5OaSQ=
+		wz2x/dF9SSjkwRuBS9UnoABxc3Q=
 		</data>
 		<key>Resources/git/share/man/man1/git-symbolic-ref.1</key>
 		<data>
-		HSJsB7RtXhsL6mywVexUxpWn/Js=
+		8qY/uYCr0+swhQWeEK71Cri2SoE=
 		</data>
 		<key>Resources/git/share/man/man1/git-tag.1</key>
 		<data>
-		3gr6X27/ah4hvYBbyNHKAdL6EOs=
+		aXquLSZyi+nqkfPheadr5O3aO1E=
 		</data>
 		<key>Resources/git/share/man/man1/git-unpack-file.1</key>
 		<data>
-		3hRFHv2wPVbfeFhlQOagg+yCjZo=
+		dJXbwk0BA4lE0VE+55vCOY28jxg=
 		</data>
 		<key>Resources/git/share/man/man1/git-unpack-objects.1</key>
 		<data>
-		5V2nx6pq6UjdOEPkR1AXAP9ZUzA=
+		7PPs6eB32+PIXiuCYSvIBwFdu4g=
 		</data>
 		<key>Resources/git/share/man/man1/git-update-index.1</key>
 		<data>
-		fjCQsMdQNcKgAgbYDBt9NLo556s=
+		aoOalNB42H8Ep8HOnAnbDQC3ruY=
 		</data>
 		<key>Resources/git/share/man/man1/git-update-ref.1</key>
 		<data>
-		dVNRYYOZiW9uaTxhQjs0/av1Y/o=
+		6DTf8QWzvgTnglctbvsjGJ7jIAk=
 		</data>
 		<key>Resources/git/share/man/man1/git-update-server-info.1</key>
 		<data>
-		tnsEu9RT9fK+1f2r0SnNZyIWi8k=
+		UtBk5Ozdp2J+GSW/oN8Y66wBelY=
 		</data>
 		<key>Resources/git/share/man/man1/git-upload-archive.1</key>
 		<data>
-		DUMyiJlfxkO6sTufUhFABrls3Dg=
+		ZgbUR297Quqte/jTbOsvuD5OM2g=
 		</data>
 		<key>Resources/git/share/man/man1/git-upload-pack.1</key>
 		<data>
-		VCeq81GNEhWTOn1Xcghxxk+aIXI=
+		yMgWJKYphII0hay5z05scTPiFNw=
 		</data>
 		<key>Resources/git/share/man/man1/git-var.1</key>
 		<data>
-		rHQj3W5gtut6Tv/Ge9HWM05W4OE=
+		6ez0ztZT7f+2SY7h8y6bvoslfig=
 		</data>
 		<key>Resources/git/share/man/man1/git-verify-commit.1</key>
 		<data>
-		ndifUOhVqj2AcNB6swu2AyxvL4I=
+		7DuSqQVs6t+Deo7pXvTeTGpLnNw=
 		</data>
 		<key>Resources/git/share/man/man1/git-verify-pack.1</key>
 		<data>
-		t9NqpWJ4Etbw42wjy3tv+uQNTqA=
+		/WYnQUvwG7eedK2L7etehFOTLWQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-verify-tag.1</key>
 		<data>
-		LSze65JpJaVPX5VS1QD2n1hzs+U=
+		DeQQNfvzndwMUKI98ZGJPrz6Di0=
 		</data>
 		<key>Resources/git/share/man/man1/git-web--browse.1</key>
 		<data>
-		SEjO5RcLvyowaRW8qp4LiMRKZzc=
+		+iPtwueggF8cZ/ke/8MpQ2MTeIA=
 		</data>
 		<key>Resources/git/share/man/man1/git-whatchanged.1</key>
 		<data>
-		YFefEyJ8oUtfRLoqFPyBps8B65M=
+		Bc0amuWna/mWfwK2ZT0es3tEQ6g=
 		</data>
 		<key>Resources/git/share/man/man1/git-write-tree.1</key>
 		<data>
-		e4tZasOTTxcLb+BsO9Prw+dmz5A=
+		NpuEknFtfe4Php+R4FkdiARfLis=
 		</data>
 		<key>Resources/git/share/man/man1/git.1</key>
 		<data>
-		CbmqZCRn7QUcTCriKrwKc7DuyLM=
+		6OJLqNu3rnNHIkvSeYFjAJlFbww=
 		</data>
 		<key>Resources/git/share/man/man1/gitk.1</key>
 		<data>
-		ywhAcxOyUMjKC6Hh8Sh9EwTVpDs=
+		i8SnyUwU44rVBJnfUc5+NH3aowM=
 		</data>
 		<key>Resources/git/share/man/man1/gitremote-helpers.1</key>
 		<data>
-		8UrrShGuZ0OE431wBi8havnJwn4=
+		hNgyVCK4lUshQPWuDWZSLkWzFco=
 		</data>
 		<key>Resources/git/share/man/man1/gitweb.1</key>
 		<data>
-		IviaUUICIZ8G6GRqW17qp3IiEvU=
+		QixORhYAL3Ef4VQTdXB2WETos9E=
 		</data>
 		<key>Resources/git/share/man/man3/Git.3pm</key>
 		<data>
-		ufpjHzEOuqOHTeyD2zkZSwXFyco=
+		rbtiTqCAbM2ugxLDWeB8+GQcK2A=
 		</data>
 		<key>Resources/git/share/man/man3/Git::I18N.3pm</key>
 		<data>
-		kg7IXOo8yQJuMZP/l5QIH7V+e3Q=
+		uqrGy/LoTVlsmA1nlFSxnnWVk/8=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Editor.3pm</key>
 		<data>
-		/EbNrbrIn+P8XMDjZew/ISq5VnM=
+		izidcz1kJgt6hAS/LZKAfOVDNlg=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Fetcher.3pm</key>
 		<data>
-		hdKUuOpn7IIpueZrdXdKe0+JDUk=
+		RT028M4KiUItZ+LGCeCKeWPxqic=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Memoize::YAML.3pm</key>
 		<data>
-		hQGypg4CqZl7sig/PJmRPuwmfDA=
+		MsrtT+0F0NrxJR3bHfVMV0DzI8k=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Prompt.3pm</key>
 		<data>
-		fSDQEcmkhi9hCh+mTq0J1SVykpU=
+		kq45xsNH8rlfpWerMpID1uGwUjo=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Ra.3pm</key>
 		<data>
-		UC5yWHijvVzw7+s9h7kScr8IFQE=
+		nheUWsygJjdHVbVG7Fo1vM0iTu0=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Utils.3pm</key>
 		<data>
-		LHdMz4z0eWoZMbKR78EkomRF3b0=
+		AbRGGby61fIic/qXXmimkCci9os=
 		</data>
 		<key>Resources/git/share/man/man5/gitattributes.5</key>
 		<data>
-		ukbiWOTvkIDiRE/oVFKZhFF2d2E=
+		J+97KrL+hMMISi1sly8MJIkmyzI=
 		</data>
 		<key>Resources/git/share/man/man5/githooks.5</key>
 		<data>
-		VOlK17OUXe7yY0iNhXZcHf7Tlkk=
+		Ed7kCf/6nXheyzSm6dq7KLrTCGs=
 		</data>
 		<key>Resources/git/share/man/man5/gitignore.5</key>
 		<data>
-		2yUB98sdum/G2GED+zF0GClBy7w=
+		89kiTZ5cLtBvz8s7h4ivuizFjys=
 		</data>
 		<key>Resources/git/share/man/man5/gitmodules.5</key>
 		<data>
-		V8P0h8RKXfbyAadFF1AjWYILhWw=
+		OUV4tIw2rQrMXiJ1u+KTYeJp50A=
 		</data>
 		<key>Resources/git/share/man/man5/gitrepository-layout.5</key>
 		<data>
-		rvBR9Tr36QgW7nFa1FoCnEzpXks=
+		jGovDTXrC64oB/t/CLEpbk3ghwg=
 		</data>
 		<key>Resources/git/share/man/man5/gitweb.conf.5</key>
 		<data>
-		IwlObNpI4BdCfVIc82ziPzd1LCA=
+		veXMVbDraAsGly4ghvuR8N9GNpU=
 		</data>
 		<key>Resources/git/share/man/man7/gitcli.7</key>
 		<data>
-		c278XYj5LLu0fg4NChaiuAW87MY=
+		aacukBJl4/zELT3uWWem4HVKnOQ=
 		</data>
 		<key>Resources/git/share/man/man7/gitcore-tutorial.7</key>
 		<data>
-		RM5qSx9UHNNJ5znfReNJoTlzJOw=
+		utenUWmKmaXac0X28o1j+eA/tbI=
 		</data>
 		<key>Resources/git/share/man/man7/gitcredentials.7</key>
 		<data>
-		w9oKEXexSePV3Lfy3WH8MXni8TA=
+		2jTltzbqzWxBM8ecsP9JZJRiUM8=
 		</data>
 		<key>Resources/git/share/man/man7/gitcvs-migration.7</key>
 		<data>
-		jPg3Pxiu5Z/MMn565ltkic1qeAM=
+		k7VxhJHw+bwtq0J3nZrar3AwoOE=
 		</data>
 		<key>Resources/git/share/man/man7/gitdiffcore.7</key>
 		<data>
-		WfaXRdwJDB6aWws+SkSOFtHMFAI=
+		QItiIn6HeKzqUEP0pp4+PYfn5bQ=
+		</data>
+		<key>Resources/git/share/man/man7/giteveryday.7</key>
+		<data>
+		MBLbyMNTcNzvBUGgXImVZu/re+s=
 		</data>
 		<key>Resources/git/share/man/man7/gitglossary.7</key>
 		<data>
-		io5HU7m2xCD7fVlosHSNfgYkUL0=
+		ajcLY61HnNGNaGoUfrtbN7G6LUE=
 		</data>
 		<key>Resources/git/share/man/man7/gitnamespaces.7</key>
 		<data>
-		50sfi8TbD+qCceeLbuk5KmmBp2s=
+		vpD0YaYgnhszKruZzYwr3u122Co=
 		</data>
 		<key>Resources/git/share/man/man7/gitrevisions.7</key>
 		<data>
-		0FSupZzES1nH0ZCUQYk8T5zurx0=
+		uG0lhqOp3pnFKoJlhTqgGb/Y/DY=
 		</data>
 		<key>Resources/git/share/man/man7/gittutorial-2.7</key>
 		<data>
-		YKuU1fGlQ2qh3O34M7DZay7rLaI=
+		66G2oNgrhsulSahE6KDJknFI5Es=
 		</data>
 		<key>Resources/git/share/man/man7/gittutorial.7</key>
 		<data>
-		fOlfGpdCSY1SZ4qTsPcgL150awQ=
+		DIzuy3H1GkyDUZzAzaeddDdc2cU=
 		</data>
 		<key>Resources/git/share/man/man7/gitworkflows.7</key>
 		<data>
-		nmUdnEruBTmuIGLu+7D9od9S6CI=
+		6nj/jjeyawR5EBwxAgSzm2zf29s=
+		</data>
+		<key>Resources/hawser/bin/git-hawser</key>
+		<data>
+		zRUA7DCZSvpfH67hpqyeUgeAc7Q=
 		</data>
 		<key>Resources/icon-diff.tiff</key>
 		<data>
@@ -5298,26 +5298,6 @@
 		<data>
 		tp5oabJrVvfrZImRxGJGglbbhjA=
 		</data>
-		<key>Resources/progress-bar-fill-left.tiff</key>
-		<data>
-		Deaa9dmIKrtnwClPdWYfiXag4x0=
-		</data>
-		<key>Resources/progress-bar-fill-middle.tiff</key>
-		<data>
-		ieShlCMS3dZMmQfk6wvI3irxCjI=
-		</data>
-		<key>Resources/progress-bar-fill-right.tiff</key>
-		<data>
-		vkyrSoP4IeLJnA8aqssVg0RMlXc=
-		</data>
-		<key>Resources/progress-bar-track.tiff</key>
-		<data>
-		puJ3ew39eyfwhDWtXFHuj2Ye5h4=
-		</data>
-		<key>Resources/settings-divider.tiff</key>
-		<data>
-		lEu0he2V/NkYMKc61OpS5ia4BTY=
-		</data>
 		<key>Resources/spinner-arrows.tiff</key>
 		<data>
 		uQZlTm1aLT7jW0a6kMhbzaMFsd4=
@@ -5329,30 +5309,6 @@
 		<key>Resources/star-on.tiff</key>
 		<data>
 		yNIidASte1woQXL9Rp8E6oMJlRA=
-		</data>
-		<key>Resources/tiny-smooth-button-left.tiff</key>
-		<data>
-		WJgyL031k4FMvUT8mANm5bwXaXQ=
-		</data>
-		<key>Resources/tiny-smooth-button-middle.tiff</key>
-		<data>
-		CvlXNHlNKPupnJRYgKoRfDLOva8=
-		</data>
-		<key>Resources/tiny-smooth-button-on-left.tiff</key>
-		<data>
-		O0+rtiCaj7fU+IxsC40aYRdEPHc=
-		</data>
-		<key>Resources/tiny-smooth-button-on-middle.tiff</key>
-		<data>
-		k+kJSwnfp/H6wDMeXtQzwMwVzEg=
-		</data>
-		<key>Resources/tiny-smooth-button-on-right.tiff</key>
-		<data>
-		6g4v3h/qitBJSOD43eZ1iiMuwZM=
-		</data>
-		<key>Resources/tiny-smooth-button-right.tiff</key>
-		<data>
-		w7dMg2hMxDTk1IhhioerW6v6qi8=
 		</data>
 		<key>Resources/up-arrowTemplate.tiff</key>
 		<data>
@@ -5373,128 +5329,236 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			IqdpYYx9ErzhHdn0iPH8WHkuI/g=
+			muh0Ol+zT/xv7Xp2XqUfmF7MFB4=
 			</data>
 			<key>requirement</key>
-			<string>identifier "org.AFNetworking.AFNetworking" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.AFNetworking.AFNetworking" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/Archimedes.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gVAYS5QmFKjcO2t49+3wdaZlT/4=
+			KvnHhELR8izQ2dWU51qBuewLsRo=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.Archimedes" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "com.github.Archimedes" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/FeedbackReporter.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+C+/LInImnt/yLyZuqlDFdmp6Uc=
+			vizxTOdOgjLhour59CV24ocB/ZM=
 			</data>
 			<key>requirement</key>
-			<string>identifier "org.vafer.FeedbackReporter" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.vafer.FeedbackReporter" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/ISO8601DateFormatter.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			7SFoqaREeSEn/+vUK+RtWIeQu+k=
+			VhbnTVDpLxZ9IWJLiylEIL35mCo=
 			</data>
 			<key>requirement</key>
-			<string>identifier "org.boredzo.ISO8601DateFormatter" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.boredzo.ISO8601DateFormatter" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
+		</dict>
+		<key>Frameworks/LlamaKit.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			LUpHS9KMOTBcG2SVrO90neHn68E=
+			</data>
+			<key>requirement</key>
+			<string>anchor apple generic and identifier "net.robnapier.LlamaKit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
+		</dict>
+		<key>Frameworks/MDPSplitView.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			CXqTH2HdV0fIx5zYI4HLd2h27yg=
+			</data>
+			<key>requirement</key>
+			<string>anchor apple generic and identifier "com.diephouse.matt.MDPSplitView" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/Mantle.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			hc773wA1BEbidlW7Q1COM59tsJM=
+			c6SzXYYbwd488iddPpoaJ2Urtkg=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.Mantle" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.mantle.Mantle" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/ObjectiveGit.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			GSkeJMEz2LpxrmKIlZ3CUQG/E+8=
+			SxnL9wURd7npH5fas82A811Eg7Y=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.ObjectiveGit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.libgit2.ObjectiveGit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/OctoKit.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			aOensGtVL1fNQ+B4OjKwQ89phOE=
+			dgOUsDkfPTsq4esUK9yQPqNBDJk=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.OctoKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "com.github.OctoKit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/Primer.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			65eExni4RTjBoVKR0y4nAZsKXvU=
+			jL6+p2j6uIQoaX3hsscyEsd9QuM=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.Primer" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "com.github.Primer" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/ReactiveCocoa.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			dSAUKgd7tZdpXq3FOFY81bOBnmU=
+			b3sMOYjcu4dDysa4Dq+ZYjxc+hI=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.ReactiveCocoa" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.reactivecocoa.ReactiveCocoa" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/ReactiveCocoaLayout.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			1h/ExUV6fF/B1KIzbDlRwDipagU=
+			YCjA/pQ+W+8zv+Kqy08pjVZRHxI=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.ReactiveCocoaLayout" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.reactivecocoa.ReactiveCocoaLayout" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/ReactiveViewModel.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			wfyLjmSMT/n4EJe7lZhqwX3QZB4=
+			9jQRjyZ57hvd6/QIjVwv6zfwql0=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.ReactiveViewModel" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.reactivecocoa.ReactiveViewModel" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/Rebel.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gh5UTOwg4paKqwx5X3+cADXe2Zw=
+			PGdC657IxuMYUl+e6Ovvhdc2rzc=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.Rebel" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "com.github.Rebel" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/Squirrel.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			RryOE15QFPCDVw/BPZ6y5AW/O84=
+			aJkMxWAK28IXHrGk2N9tXE/R3a4=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.Squirrel" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "com.github.Squirrel" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
+		</dict>
+		<key>Frameworks/TwUI.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			bPMu5E+4n2+0UWqfPcHYLSYI0qs=
+			</data>
+			<key>requirement</key>
+			<string>anchor apple generic and identifier "com.twitter.TwUI" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
+		</dict>
+		<key>Frameworks/libswiftAppKit.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ta20purEhL4odoR9FOdb0oxaOYc=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftCore.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			0+Gkh+bnFf8buFwn5BFJDu+h0M0=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftCoreGraphics.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			M5BCc+NWnh1Cs/nnsucy0E1BkE4=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftDarwin.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			MiE2HNuTSzLswNXUeS5TnK+2fZQ=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftDispatch.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			s8B3VR7Ifyy/HRXR3J9fCfIVHRc=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftFoundation.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			JhfGzxDD/lHykeIPyLe09KdM4qw=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftObjectiveC.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			N2iC7vX76d6lbQAZnUFAFJefEBA=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			sCkBIilWuMf6+0wera4s5uLyVZM=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftSecurity.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			o57vwXcoBvV06JrNoEOIEFUPckk=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftSecurity" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
 		</dict>
 		<key>Library/LaunchServices/com.github.GitHub.GHInstallCLI</key>
 		<data>
-		5WjVPHi/dNBg75fzTD1JZ/FlAIA=
+		qb2NQwsfrFgWws1t2R+awTwuaHU=
 		</data>
 		<key>Library/LoginItems/GitHub Conduit.app</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			mrDH4wzMTiL6eOrP8OHoVK0ikXo=
+			Gwhx0ycWNjn5xdmMsCO3A7Zy/Jk=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.github.GitHub.Conduit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
@@ -5503,7 +5567,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			KOh5Lin1MjS+nxpff1sZKncqmV0=
+			LZw3Qt0+E6s14xjMe49mycelZqs=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.github.GHAskPass" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
@@ -5512,7 +5576,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			nKx0yAPFclFNdMSYXuV1BJ306nY=
+			IxV/FGRCycr2CqaEab4ei/MdQV8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "github_cli" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
@@ -5581,33 +5645,21 @@
 		<data>
 		kb6n1h6B74dkT5MJER9hYnDUCSg=
 		</data>
-		<key>Resources/&lt;GHChangeCell&gt; background-image.tiff</key>
-		<data>
-		QiXLWMeAk5nI8duWaIaKFTVODz8=
-		</data>
-		<key>Resources/&lt;GHChangeCell&gt; tear.tiff</key>
-		<data>
-		zYvO9ylQD2zCW1BiEHOunyJ0+GQ=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-button-background-highlighted.tiff</key>
-		<data>
-		Pab4Fk85yQUhzYDWU9gzdwrp4N8=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-button-background.tiff</key>
-		<data>
-		I9kSOMN1Bp7GccuH5uTYHdCwYuo=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-icon-highlighted.tiff</key>
-		<data>
-		becfuXpSOpdTK0Di4ROD1/m8WyA=
-		</data>
-		<key>Resources/&lt;GHCommitMessageView&gt; save-and-sync-icon.tiff</key>
-		<data>
-		XVCCfFwYCZmXol51B3dZduHROUo=
-		</data>
 		<key>Resources/&lt;GHCreateBranchPopoverViewController&gt; icon-error.tiff</key>
 		<data>
 		SydRZL3bncy6xWBlxbSq64zh/jU=
+		</data>
+		<key>Resources/&lt;GHCreatePullRequestViewController&gt; close-highlighted.tiff</key>
+		<data>
+		V8tKVHgM1PLcVwrqC4lUDqBeync=
+		</data>
+		<key>Resources/&lt;GHCreatePullRequestViewController&gt; close.tiff</key>
+		<data>
+		CzdE3Gv0oCqB3YhSccu/CqyIePE=
+		</data>
+		<key>Resources/&lt;GHCreatePullRequestViewController&gt; pr-indented.tiff</key>
+		<data>
+		NWJyREHaRmuPS/btfP1LeMQ+c6k=
 		</data>
 		<key>Resources/&lt;GHErrorSheetController&gt; red-octocat.tiff</key>
 		<data>
@@ -5652,6 +5704,10 @@
 		<key>Resources/&lt;GHMainWindowController&gt; icon-new-branch.tiff</key>
 		<data>
 		AVRi8IwD8DCq/6Ox6OjUi0ym99Q=
+		</data>
+		<key>Resources/&lt;GHMainWindowController&gt; icon-pr.tiff</key>
+		<data>
+		cKHYFB3EUCJjLe6/zd+qNA4UnBs=
 		</data>
 		<key>Resources/&lt;GHMainWindowController&gt; sidebar-closed.tiff</key>
 		<data>
@@ -5755,15 +5811,19 @@
 		</data>
 		<key>Resources/AppIcon-Release.icns</key>
 		<data>
-		cq4QjaE6KRd10Bbu3itzMzMtIbY=
+		Q2VjSv6DDyAjQgPnMwi6vh76+RU=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		Ij8zF4XgbbpaRBRPjbKkDBwn4y8=
+		I9OrJbS2xO748cyXxa08Z1ObEkg=
 		</data>
 		<key>Resources/DefaultDefaults.plist</key>
 		<data>
-		jgLDgUwqiCa2hxxbTF29yS6FK7Q=
+		A+zY31Y9XG2d6mG2Lnvw9cFGZyo=
+		</data>
+		<key>Resources/EULA.rtf</key>
+		<data>
+		Peuf8SX8jXrpP9deVkI+ZF/NGiI=
 		</data>
 		<key>Resources/English.lproj/InfoPlist.strings</key>
 		<dict>
@@ -5778,7 +5838,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			edljZeGeS0Rm/zHXafTEn5mWFNI=
+			hqcDDa0A6crx9YRIomAK8XSSt4U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -5789,179 +5849,195 @@
 		</data>
 		<key>Resources/GHAboutWindowController.nib</key>
 		<data>
-		e0GBZ8wFSjtImxhcVQWRQ6eox5I=
-		</data>
-		<key>Resources/GHAccountMenuHeaderView.nib</key>
-		<data>
-		I09zIzcWwBNrK0aiseANCgk+D7k=
-		</data>
-		<key>Resources/GHAccountMenuView.nib</key>
-		<data>
-		h54JDn5iZLrf1PEQZtqR6hkeOOE=
+		IQhvC0m4iPKDlF8GMaEIyE5hqHM=
 		</data>
 		<key>Resources/GHAddLocalRepositoryViewController.nib</key>
 		<data>
-		/H6zmw6oINQKB81ur7nYjR1KTHY=
+		nbUGySOTuLsdIs6SXh9CBbMsIZU=
 		</data>
 		<key>Resources/GHAddRepositoryViewController.nib</key>
 		<data>
-		cJ/Z+SekiDcFIqxo81Qp6Jnadp8=
+		yajwN1h05QlMh6WhmHRh04s7kBU=
+		</data>
+		<key>Resources/GHAdvancedPreferencesViewController.nib</key>
+		<data>
+		j+LWDVelsS7yISxkPL4XVJ/dwFk=
 		</data>
 		<key>Resources/GHAutocompletePopoverView.nib</key>
 		<data>
-		khyasrvAcL7w6GwXnNamoxMK6JY=
-		</data>
-		<key>Resources/GHAutocompleteRepositoryTableCellView.nib</key>
-		<data>
-		YVINRNO0pIk8I1ZRuyx9AcMBJr8=
+		BqaC9qFgRP8eM+q9Qd7/1+Nc5LI=
 		</data>
 		<key>Resources/GHAutocompleteUserTableCellView.nib</key>
 		<data>
-		qO8/9ojhHa1q39zE8+wK9FJPcU0=
+		l5XKzTUITSH+WJDVvhhWkHUiIzI=
 		</data>
 		<key>Resources/GHBranchMergeView.nib</key>
 		<data>
-		XcZRNQF9prlLpFrvmEy8+OHkbIM=
+		TsiIlK7soH9GGZ7OA+R6e/ak6SA=
 		</data>
 		<key>Resources/GHBranchesPopoverViewController.nib</key>
 		<data>
-		hgVlUgqQhbq3X5+4do9hNmPiT80=
+		HAHJWNK5nu5AUE6NjgoHbkWTGiw=
 		</data>
 		<key>Resources/GHBranchesViewController.nib</key>
 		<data>
-		DI7wp2iI56pzdkvc328zGu0APDo=
+		oXggC2xY8oor81Vua3j6fhps0pY=
+		</data>
+		<key>Resources/GHChangedFileListViewController.nib</key>
+		<data>
+		rAJbArxAxqIGg8vcrX/FjrGshvU=
 		</data>
 		<key>Resources/GHChangesDiffViewController.nib</key>
 		<data>
-		OQ0AMhm1klthe0dHoytCaxK6raY=
+		gC3mNSrKM8skXnQiqpMXirBDTBU=
 		</data>
 		<key>Resources/GHChangesViewController.nib</key>
 		<data>
-		nMax2iPalqKgFG9rmxzflHKUdxU=
+		Ew/d/OqZdAm2R5QX0PBHIsXwPxs=
 		</data>
 		<key>Resources/GHCloneProgressViewController.nib</key>
 		<data>
-		9mG+Mil/mfxHdqqq3bJS7l976Bw=
+		hN5dNJbwzniKqpf4PMAdxjqksFk=
 		</data>
 		<key>Resources/GHCloneRepositoryViewController.nib</key>
 		<data>
-		vHRQ7vaWF5q01T8c7AZ5KUUPLxI=
+		bnqGGW1NiCJDhpT9ewaBhLGKOUc=
 		</data>
 		<key>Resources/GHCommitListFileCellView.nib</key>
 		<data>
-		EyJihC/R9+TNBpXY+daHOHNNz4I=
+		ff2g0CqZ+TVlnj30x3PuqpMvTZg=
+		</data>
+		<key>Resources/GHCommitMessageViewController.nib</key>
+		<data>
+		sHrDbQXq9SxbEUjIhZVkLGMw3Xc=
+		</data>
+		<key>Resources/GHCopyBranchFromForkViewController.nib</key>
+		<data>
+		PVD4r+XUhgH86efSg6A1LNVUWG0=
 		</data>
 		<key>Resources/GHCreateBranchPopoverViewController.nib</key>
 		<data>
-		yvxt9HUrO8zNPrz9Ym4UGROcaWg=
+		c0kacmAcGD7nY/Wtk0kjffWisds=
+		</data>
+		<key>Resources/GHCreatePullRequestViewController.nib</key>
+		<data>
+		s8H6N2I9cleKMkhAEES96WQtu10=
 		</data>
 		<key>Resources/GHCreateRepositoryViewController.nib</key>
 		<data>
-		fCyZUgz5l/LsD6B9vYJshinZRYw=
+		Sw9b66A9nvCHNM8qTDAdwWIqiGQ=
 		</data>
 		<key>Resources/GHDiffCellView.nib</key>
 		<data>
-		3g6F2HRwzIpnZCG+1FPCir02qtQ=
+		SjaKrylyROWL0Ppi+AJq5ZeZcSg=
 		</data>
 		<key>Resources/GHDiffHeaderCellView.nib</key>
 		<data>
-		/FOjkQttNdXVjNI8ImAPwJjsYIU=
+		+b9CWwPtZE8r7gI0wMAD2ak/z3M=
 		</data>
 		<key>Resources/GHDiscoveredRepoViewItem.nib</key>
 		<data>
-		PN4BWDPdWvGgMtvYeddetRNYVcg=
+		bYEycRRxmycBbAghPBMYXKNkFBg=
 		</data>
 		<key>Resources/GHDotComLoginView.nib</key>
 		<data>
-		hvPIOcHx4mvSmt7C4FkD6wJvkHA=
+		LaE4KiW21+szKosoaIsTgX7KVzc=
 		</data>
 		<key>Resources/GHEnterpriseLoginView.nib</key>
 		<data>
-		33kZSYIKR39IE7v+T5M1DU+//+o=
+		klVJEI83hJV4aIe0KmbLpH8EOuc=
 		</data>
 		<key>Resources/GHErrorSheetController.nib</key>
 		<data>
-		7fEXElBAVOZsWFWD2oV4UzkBu4M=
+		iYQkoO2HE2k40xnbUaWeXaVXC9c=
 		</data>
 		<key>Resources/GHExistingRepositoryViewController.nib</key>
 		<data>
-		A/OOYGkdeWY76U85h6F7VCsphpY=
+		TvVNdNTylQTBJz/fpWHRrv+Fdz0=
 		</data>
 		<key>Resources/GHFindRepositoriesViewController.nib</key>
 		<data>
-		oB9xHq4QwhjN7SIixdGTgK3tQts=
+		YGOkaNQ34jTAwqpWD5onMIY4V/s=
 		</data>
 		<key>Resources/GHFindYourReposViewController.nib</key>
 		<data>
-		iqfllAVLIo8YHTXCt8yEOhDQIoA=
+		dXzgVhfe7oLMzyAGz07BcZxcdbs=
+		</data>
+		<key>Resources/GHGeneralPreferencesViewController.nib</key>
+		<data>
+		d5gnzBjNdzUNMwz6i5g+ESaqo7U=
 		</data>
 		<key>Resources/GHGitMediaDiffView.nib</key>
 		<data>
-		AJHraG25ppTog3LT5qnvKvsUnqE=
+		BBA/KBCPBx45Hn+HOxxDpyQjNo4=
 		</data>
 		<key>Resources/GHGitSetupViewController.nib</key>
 		<data>
-		UkLJ0Eba05j5fv/zUCDHO567fAE=
+		ay8mIb16q1cRDbtvG8Br8hEBoVk=
 		</data>
 		<key>Resources/GHHistoryCommitListView.nib</key>
 		<data>
-		So6nDjmpjJzsifxPQbiOk3pcJM8=
+		VLhTpuU+bRYzRLAGr1Bkyru7IXI=
 		</data>
 		<key>Resources/GHHistoryDetailedCommitView.nib</key>
 		<data>
-		tw3ON7cSk/LW6w2N2DcquBkqwuU=
+		2K/wBnVqu3XOl9HPDmC1G1/lryE=
 		</data>
 		<key>Resources/GHHistorySingleFileViewController.nib</key>
 		<data>
-		83YfvJSqXh5FaMX3KB97wg9kldk=
+		a8Ixko3Ao9tntS1kiiqMhlZ7JHU=
 		</data>
 		<key>Resources/GHHistoryView.nib</key>
 		<data>
-		9Q/lomyfiDwCqRWrZsCG3CfnZFc=
+		AcI8G3jjqnm/ecbOyvdHGQEwjH8=
 		</data>
-		<key>Resources/GHLicensesWindowController.nib</key>
+		<key>Resources/GHLicenseWindowController.nib</key>
 		<data>
-		Oo5mhYakIOFoSPEU/goIhizO2B4=
+		qnUrQuHXesz3ZPXN1iQxjk/gpEc=
 		</data>
 		<key>Resources/GHLoggedInUserView.nib</key>
 		<data>
-		j28vhZW+/yrYPa8/mR+MP+2NPx8=
+		P3JFSovv8zlsbxk+rQdxXa7AJuU=
 		</data>
 		<key>Resources/GHMainWindowController.nib</key>
 		<data>
-		aG3kbzcwlmzDnxaIp+miEnL5jos=
+		7mY07O2GI2zPEvn1t+ui6ln553s=
 		</data>
 		<key>Resources/GHMissingRepositoryViewController.nib</key>
 		<data>
-		T+uGOE04kXHUYi69vtjR1EDxII4=
+		oo6yg7GJ1nHwR9dGWgYQSx1vVQQ=
+		</data>
+		<key>Resources/GHMostRecentCommitViewController.nib</key>
+		<data>
+		2LiVuIBLRK/7fDc2x1vY9/1hvUg=
 		</data>
 		<key>Resources/GHPushRepositoryOptionsView.nib</key>
 		<data>
-		la7d8TYq/YcQ7bBMumKh5tkn/lI=
+		UD0+jqcX4fJOx52lwT+s6X5hr2k=
 		</data>
 		<key>Resources/GHPushRepositorySheetController.nib</key>
 		<data>
-		Giz3bHaLARBacxwzBVJoyqNn93o=
+		pzJ7VERFX2GqubUyuL+Z/8hymGY=
 		</data>
 		<key>Resources/GHPushRepositoryView.nib</key>
 		<data>
-		OQLIYR1jpUyluw55WkOUBFBPLsw=
+		rBXkOszupZygU/8BOaRdJ9Ad2uI=
 		</data>
 		<key>Resources/GHRepositoryListViewController.nib</key>
 		<data>
-		O1bM8iKnlOeB+EE9y8VZyE0z8No=
+		4373Zx5bHurrVxWjhn6HrekCM4w=
 		</data>
-		<key>Resources/GHRepositorySettingsViewController.nib</key>
+		<key>Resources/GHRepositorySettingsSheetController.nib</key>
 		<data>
-		YH0ugcl0cVZKQawSE+JFMx2cFyc=
+		LoLpQuIwJGHrnahexRPKbj7zzTM=
 		</data>
 		<key>Resources/GHScanForRepositoriesWindowController.nib</key>
 		<data>
-		JInH+4Youko0I2FrC93J/93maRI=
+		xV/avama+ApgdQV7//Tc245vxvo=
 		</data>
 		<key>Resources/GHWelcomeWindowController.nib</key>
 		<data>
-		I+9BH5UpYKloUT+Pb6JqvTUzoSM=
+		d4V+ej2cSYfLlBFMEPDS5tvx5oU=
 		</data>
 		<key>Resources/Licenses.txt</key>
 		<data>
@@ -5969,7 +6045,7 @@
 		</data>
 		<key>Resources/MASPreferencesWindow.nib</key>
 		<data>
-		7jToZHL3nlpTpSMRbATAb/STqnM=
+		jOxw7I3RgWKfmOrFpcFFI8mw4+s=
 		</data>
 		<key>Resources/ObjectiveGit-errors.json</key>
 		<data>
@@ -5987,14 +6063,6 @@
 		<data>
 		xREgq3QnToQDbybB9xtG4rp5COE=
 		</data>
-		<key>Resources/button-thin-active.tiff</key>
-		<data>
-		IYk5y2fwr8fTmcKbZBSnH6A/6oc=
-		</data>
-		<key>Resources/button-thin.tiff</key>
-		<data>
-		tUo53MfKUOhBxUEW61f4jJKolps=
-		</data>
 		<key>Resources/checker.tiff</key>
 		<data>
 		iOZ0cJunZLGq1dj2u8Cqg6/iFgQ=
@@ -6002,18 +6070,6 @@
 		<key>Resources/collapse.tiff</key>
 		<data>
 		Y/z5j7Rk//V6W63Z1uA/gGMSAEk=
-		</data>
-		<key>Resources/diff-addition.tiff</key>
-		<data>
-		q8X/RbhAJ/P1X0vzOHmgW9oFHmc=
-		</data>
-		<key>Resources/diff-deletion.tiff</key>
-		<data>
-		EDKI6raMfVD8RFc8MgbK4fQY0HE=
-		</data>
-		<key>Resources/diff-empty.tiff</key>
-		<data>
-		tS+fp4reQXMMT+WwUHQR0Qo3CJI=
 		</data>
 		<key>Resources/down-arrowTemplate.tiff</key>
 		<data>
@@ -9581,23 +9637,19 @@
 		</data>
 		<key>Resources/git-errors.json</key>
 		<data>
-		eVLSIAW6Jc52pDukA2i+YEETG5w=
-		</data>
-		<key>Resources/git-media/bin/git-media</key>
-		<data>
-		fRpveGXZ0IiMws54d2W05qlDyPU=
+		ml4RSXUOhIvioEsTE46hcTSSoTw=
 		</data>
 		<key>Resources/git/bin/git</key>
 		<data>
-		RFbao6dPxsoeXYUfs30Yysf2RF4=
+		sHIuIyMDSDMh0rjDepVuWbyDOkg=
 		</data>
 		<key>Resources/git/bin/git-credential-osxkeychain</key>
 		<data>
-		Wgv1gb017d+z3ONO1hQiUXl9Tck=
+		phnBF1wo5FMlcaJ+8TNkkNcttFU=
 		</data>
 		<key>Resources/git/bin/git-cvsserver</key>
 		<data>
-		jILgFw8bi+33OEM5EHabuhX1F64=
+		76EFQpTlpcyeHh4W0c+3D8sp1dA=
 		</data>
 		<key>Resources/git/bin/git-receive-pack</key>
 		<dict>
@@ -9606,7 +9658,7 @@
 		</dict>
 		<key>Resources/git/bin/git-shell</key>
 		<data>
-		TdypDYap/n028NxVrHEEcyW9xRc=
+		e/retMAb9HuFcrzT8Gtr27urpTk=
 		</data>
 		<key>Resources/git/bin/git-upload-archive</key>
 		<dict>
@@ -9615,7 +9667,7 @@
 		</dict>
 		<key>Resources/git/bin/git-upload-pack</key>
 		<data>
-		qvQ0gf5hL8//OXRAolZLnDOj3nI=
+		pu80J2q3CQw8cp+g42CIQa8HkMA=
 		</data>
 		<key>Resources/git/lib/perl5/site_perl/Git.pm</key>
 		<data>
@@ -9817,15 +9869,15 @@
 		</dict>
 		<key>Resources/git/libexec/git-core/git-credential-cache</key>
 		<data>
-		Au0PgfH2sr0nrSIX0Vua6KT5/4c=
+		kNORErYKaWNS0tyahxODaTXgqg0=
 		</data>
 		<key>Resources/git/libexec/git-core/git-credential-cache--daemon</key>
 		<data>
-		0raT1OI+KBN2UdvwsPXf+e+FVAk=
+		nNaqkqOpZbiaYhafsMG/xb3yalI=
 		</data>
 		<key>Resources/git/libexec/git-core/git-credential-store</key>
 		<data>
-		xSfBo47A/peEmypwm+hP+Ji1ExY=
+		ZArtTrBp4j3Fu5yLV3ZtyG3aECA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-cvsexportcommit</key>
 		<data>
@@ -9837,11 +9889,11 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-cvsserver</key>
 		<data>
-		jILgFw8bi+33OEM5EHabuhX1F64=
+		76EFQpTlpcyeHh4W0c+3D8sp1dA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-daemon</key>
 		<data>
-		YV1e3HqzlQDwIfqJp+DWOQbNMdY=
+		OVKYzC1siiJi2tBPf/+k7/JyPDs=
 		</data>
 		<key>Resources/git/libexec/git-core/git-describe</key>
 		<dict>
@@ -9883,7 +9935,7 @@
 		</dict>
 		<key>Resources/git/libexec/git-core/git-fast-import</key>
 		<data>
-		a/4DKx/7n5z4KrplJjIzKFpuGvQ=
+		/CArA2TRycU/v8s/dlo43lRYQ2s=
 		</data>
 		<key>Resources/git/libexec/git-core/git-fetch</key>
 		<dict>
@@ -9951,19 +10003,19 @@
 		</dict>
 		<key>Resources/git/libexec/git-core/git-http-backend</key>
 		<data>
-		G9MzTOU7avsT9LdpcXM/BtPz7dw=
+		di0CpdDjMMJEtS6PErzZnd4PTGY=
 		</data>
 		<key>Resources/git/libexec/git-core/git-http-fetch</key>
 		<data>
-		IJUUvVwXZ5aKiWqkdFHABtGmjhY=
+		+FrzB+im0M5ne63eoZvN9846OuE=
 		</data>
 		<key>Resources/git/libexec/git-core/git-http-push</key>
 		<data>
-		zHU+C/zostWtmI7gEBNP/M+QS7E=
+		ELZwjneLoV0m+b5oqICHfHl7xXo=
 		</data>
 		<key>Resources/git/libexec/git-core/git-imap-send</key>
 		<data>
-		UwB+Hurk6SNCxsJoIenHnIwzsfM=
+		NeHCjinPdwBSmVXDPrDwtBpjea0=
 		</data>
 		<key>Resources/git/libexec/git-core/git-index-pack</key>
 		<dict>
@@ -10202,23 +10254,23 @@
 		</dict>
 		<key>Resources/git/libexec/git-core/git-remote-ftp</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-ftps</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-http</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-https</key>
 		<data>
-		ufpBUbahjeU3bo9o4yEyh8KpuCQ=
+		820PJBkLLKuJYKTXutO0dVh7VDA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-remote-testsvn</key>
 		<data>
-		5vV9SKnRSb7XSpGrdDDzJ6PXjJc=
+		cjFZg86uLkCBmHUYvz4LX8ZfP2s=
 		</data>
 		<key>Resources/git/libexec/git-core/git-repack</key>
 		<dict>
@@ -10266,7 +10318,7 @@
 		</dict>
 		<key>Resources/git/libexec/git-core/git-send-email</key>
 		<data>
-		bC0CSqM3yGiayOGsmfLL3l0BxP4=
+		umj/EJl/WR5MCsAeeYqs89VMERM=
 		</data>
 		<key>Resources/git/libexec/git-core/git-send-pack</key>
 		<dict>
@@ -10279,7 +10331,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-sh-i18n--envsubst</key>
 		<data>
-		WnnHq3v/S1i7xsVPcR2FzKiI+Cw=
+		FxKlj3vtijfcyoyAQvLyx2qpa54=
 		</data>
 		<key>Resources/git/libexec/git-core/git-sh-setup</key>
 		<data>
@@ -10287,7 +10339,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-shell</key>
 		<data>
-		TdypDYap/n028NxVrHEEcyW9xRc=
+		e/retMAb9HuFcrzT8Gtr27urpTk=
 		</data>
 		<key>Resources/git/libexec/git-core/git-shortlog</key>
 		<dict>
@@ -10306,7 +10358,7 @@
 		</dict>
 		<key>Resources/git/libexec/git-core/git-show-index</key>
 		<data>
-		acadwRHIo1k7Wq9E0T43ylEieeo=
+		PomXBwY6/fEhKobejbpHhvRMTAc=
 		</data>
 		<key>Resources/git/libexec/git-core/git-show-ref</key>
 		<dict>
@@ -10342,7 +10394,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/git-svn</key>
 		<data>
-		hGoQC+8Xv0IYRGcm281QVK6Dr8Y=
+		K4wl3K18Mj7UaEzKcYvG97nBLfU=
 		</data>
 		<key>Resources/git/libexec/git-core/git-symbolic-ref</key>
 		<dict>
@@ -10386,7 +10438,7 @@
 		</dict>
 		<key>Resources/git/libexec/git-core/git-upload-pack</key>
 		<data>
-		qvQ0gf5hL8//OXRAolZLnDOj3nI=
+		pu80J2q3CQw8cp+g42CIQa8HkMA=
 		</data>
 		<key>Resources/git/libexec/git-core/git-var</key>
 		<dict>
@@ -10476,7 +10528,7 @@
 		</data>
 		<key>Resources/git/libexec/git-core/mergetools/meld</key>
 		<data>
-		km25dhllhOuXuzX/4LAN+DHNd8U=
+		D5POpVQ43VWr0mX+l92xI03ENCU=
 		</data>
 		<key>Resources/git/libexec/git-core/mergetools/opendiff</key>
 		<data>
@@ -10556,703 +10608,715 @@
 		</data>
 		<key>Resources/git/share/man/man1/git-add.1</key>
 		<data>
-		mBr2qT9FABaZ+hxynV0fSI1iH3o=
+		NEk6+4ggS9gWteT7cqgHX0AkMfI=
 		</data>
 		<key>Resources/git/share/man/man1/git-am.1</key>
 		<data>
-		5u9wVsTCo+kteExzL+ni+0yeaOk=
+		wXKp/SJ91qt2g24lGfrWmO/K4k8=
 		</data>
 		<key>Resources/git/share/man/man1/git-annotate.1</key>
 		<data>
-		25TCu7kFCV9TpWluw1uE2ljuAus=
+		iNQBrPyAdQklj0FQk/s5dUnS7UQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-apply.1</key>
 		<data>
-		FSJSrhpD93IvzEvsSgWaKZaRuvo=
+		Z6D7vDaS9JeDHqvvlnoz/EO4upE=
 		</data>
 		<key>Resources/git/share/man/man1/git-archimport.1</key>
 		<data>
-		+hrVF+pyERfuC4EK2c54So9OTWQ=
+		HHUzn7k7ejXuh5G+2MGdX4GSMGo=
 		</data>
 		<key>Resources/git/share/man/man1/git-archive.1</key>
 		<data>
-		bl7Dro6JVw0FX49WVJmEpNG03wU=
+		lGACdgu/RjevcKUcZ+cIkweu96I=
 		</data>
 		<key>Resources/git/share/man/man1/git-bisect.1</key>
 		<data>
-		WVAr6S/D13jYpo4P7ohxwT5gugQ=
+		vM6Xc+tiJvG/U/p7dS00e39tdOo=
 		</data>
 		<key>Resources/git/share/man/man1/git-blame.1</key>
 		<data>
-		yLq+H3CVYHjPgKWw5AhqHZ1qvTU=
+		XYK4XZcx9IVjBcY/vTOzH8Q8bFU=
 		</data>
 		<key>Resources/git/share/man/man1/git-branch.1</key>
 		<data>
-		OEltYxNfo8p89dfKKGfucGzFJ6I=
+		S11Q4THkkHQOHwIwfZM5TYhJFRs=
 		</data>
 		<key>Resources/git/share/man/man1/git-bundle.1</key>
 		<data>
-		/UNuvtobRM3kx5QuzlxJa0Gm9+0=
+		WUOMaWWF2GbVqRMOnRwFxZrxKqQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-cat-file.1</key>
 		<data>
-		/gpxK3+5Vcos3I49vgSlDp5OPj4=
+		kj7gYmW3c8rXe2kZrqlf+e6mDAY=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-attr.1</key>
 		<data>
-		nrEXtR4EeQExm568D9+9CZAWMRM=
+		bsjNqNtwM4NCGPpcwxLRlqz1KBw=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-ignore.1</key>
 		<data>
-		HtEwQlFMNA3A9Ye1vfwxXrZXdqw=
+		SrWlfBJNNUvRHcUM78Yv3Qsq2n8=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-mailmap.1</key>
 		<data>
-		2ucC4j1Z923oGU7Q5rdMC7YEip8=
+		qCZaWe1B0OsQIOuEv6WhYcspJQo=
 		</data>
 		<key>Resources/git/share/man/man1/git-check-ref-format.1</key>
 		<data>
-		POo5Nw7Jt42D1p8v1xtTtdn3H3E=
+		xg+S55AhIo/fOYGRSyyR5g+Lc4w=
 		</data>
 		<key>Resources/git/share/man/man1/git-checkout-index.1</key>
 		<data>
-		7F4Tc2+FFb5uSQORplbmgWHFPL4=
+		y2GMh5lKr77cH+flefOM4La9znc=
 		</data>
 		<key>Resources/git/share/man/man1/git-checkout.1</key>
 		<data>
-		SM8J6gh+Et0DwfVU0A46m+UBDY0=
+		jaDME0gKdLCT/bN4gGqeHufmXPk=
 		</data>
 		<key>Resources/git/share/man/man1/git-cherry-pick.1</key>
 		<data>
-		xSoc3OWNILFBgafzYvtjr1kctso=
+		hmjFtcGwkSbEUUxwC1OS0lYQzTA=
 		</data>
 		<key>Resources/git/share/man/man1/git-cherry.1</key>
 		<data>
-		mX7iESeR7dwJtc65qZNEQ7/x02Y=
+		8jc9s0ct3KCg3R5dZjzJ+P7xleQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-citool.1</key>
 		<data>
-		EQhEimKMvTvmLsnzUycOQKHdu6A=
+		0RNEXRIZ8zx702iHfGdbr/cDb+8=
 		</data>
 		<key>Resources/git/share/man/man1/git-clean.1</key>
 		<data>
-		w9eSiJO/OZNLcX5guYH0mlr6sNE=
+		7rgj2ziGUKGxskvkNmS7dg8DQco=
 		</data>
 		<key>Resources/git/share/man/man1/git-clone.1</key>
 		<data>
-		tTUsXQjg1nHLz90mbwi1nCdBvOo=
+		R7rwzsYd5RLD9zWF0H0f36v1o6Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-column.1</key>
 		<data>
-		UQ6d/S3DjOwUIh1u/Xq48bIn9/s=
+		BXSmaTUNcVoctreTGgeRwQG8Ke4=
 		</data>
 		<key>Resources/git/share/man/man1/git-commit-tree.1</key>
 		<data>
-		ZVDEd5Pvlbd6QqBAJrVHP8lmRCw=
+		X5Ekyng9lD4OUxb11O2vc83WUIA=
 		</data>
 		<key>Resources/git/share/man/man1/git-commit.1</key>
 		<data>
-		R3758B01vIWwNWBX27jeLAanN9U=
+		aFhHF5Z2ruIr4K1LolcDoZabOak=
 		</data>
 		<key>Resources/git/share/man/man1/git-config.1</key>
 		<data>
-		pOew+V+kelN71HHVleqG2g0YCYA=
+		CnvJudpf5OpLyQW158E8CZR28r0=
 		</data>
 		<key>Resources/git/share/man/man1/git-count-objects.1</key>
 		<data>
-		dT9KHAHuWyxJKqSa2SbI3kJ32jQ=
+		KTIxPZSiKZdim5TY8kBfBKWypo8=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential-cache--daemon.1</key>
 		<data>
-		j1J9P45/cXsN6QVKbSuJUWtP3c0=
+		sVfv+m3TjHRlLsUM3vrwS/HZqf0=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential-cache.1</key>
 		<data>
-		ryTqNCm13Zh1TCqIjIG7SiSWZYA=
+		U7YEkkZQwkLV4ZrrE6Y7nSJ+c0k=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential-store.1</key>
 		<data>
-		T7SOOtPtYwAmVohVNvYBopr//cM=
+		NYTsaR6POOXvzVKXLwkUo6V0oO0=
 		</data>
 		<key>Resources/git/share/man/man1/git-credential.1</key>
 		<data>
-		pAlEdBjQBHXb8mNjgvy+TV63m+Q=
+		CQVLLvRgZ0zQ2luPXjj7MErPQyg=
 		</data>
 		<key>Resources/git/share/man/man1/git-cvsexportcommit.1</key>
 		<data>
-		grPHp8l075Wl8Ac+EfRPBGa+A2g=
+		gR5TdQnqmLRzY+tyEax37ynGFbk=
 		</data>
 		<key>Resources/git/share/man/man1/git-cvsimport.1</key>
 		<data>
-		BVjHZL3348tNWxx+Xyfn4TCixb8=
+		QC9h4zIlkcQBgJfl0b0olItvOuc=
 		</data>
 		<key>Resources/git/share/man/man1/git-cvsserver.1</key>
 		<data>
-		EHZ2MOLTJNcAhg910qFwKdQwQmg=
+		w0CdxlK562NzoNQQQhIE9vM08Ro=
 		</data>
 		<key>Resources/git/share/man/man1/git-daemon.1</key>
 		<data>
-		XXgnFqITpk+CyAc7pqNesgWarsc=
+		/y6dGLr8PAfnxunj+urFlfweePE=
 		</data>
 		<key>Resources/git/share/man/man1/git-describe.1</key>
 		<data>
-		E5Afs7Cek0/TiN/JJdmwDX8OHEI=
+		CcRxROj46/wcP8tQe/kDu3DYRmQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff-files.1</key>
 		<data>
-		Ize0PL0TmivvFHqeAgADL6LacUk=
+		oyXr6XaRD+KnQHVOaAvETs7axfY=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff-index.1</key>
 		<data>
-		XdkPFC/QGqtBUz46h2asqSHHg4s=
+		Bk716+cUUOJmZ/1HQcYSo/oqu+c=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff-tree.1</key>
 		<data>
-		wEYyaGc/pDT4+aR/RYIO+6DbOpU=
+		aBG/aNxyqcS34elxQEWuUD+aWVg=
 		</data>
 		<key>Resources/git/share/man/man1/git-diff.1</key>
 		<data>
-		ZXGRqSGgnWVt7zgf0wpkkM4tgAM=
+		4xtFaLnrNVwaewYLVHsDJhNvTHU=
 		</data>
 		<key>Resources/git/share/man/man1/git-difftool.1</key>
 		<data>
-		tFD/viq2WyF3l+tXR/P8468T1/4=
+		RIElkfxeKo8EyhNdNQSMh9szN3Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-fast-export.1</key>
 		<data>
-		PK2kScmWhIiwbkRRmld/Z43CJg8=
+		RfJie5498zceEu1krSDfNQ7C4LI=
 		</data>
 		<key>Resources/git/share/man/man1/git-fast-import.1</key>
 		<data>
-		Z3e6xObueuzcG2EvXUX6iRP57mE=
+		810hk5fPgQ3P65xf5SWSCug2S1Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-fetch-pack.1</key>
 		<data>
-		V3IEMEQPPfb/8MkjzXFHjnTQ0Zo=
+		+AZCGmJbLGEZKxpS3g6r+KBU5uY=
 		</data>
 		<key>Resources/git/share/man/man1/git-fetch.1</key>
 		<data>
-		vwAwo5amryUABwAy6WlAF343s8k=
+		9MuMkPUVB9wMl/X9n3KAG6c9/04=
 		</data>
 		<key>Resources/git/share/man/man1/git-filter-branch.1</key>
 		<data>
-		qCGYlAb4NZ08Wh3J2o3vCikcZ4I=
+		qqw9hof+VQnCIzSmeeOYRf3YTHk=
 		</data>
 		<key>Resources/git/share/man/man1/git-fmt-merge-msg.1</key>
 		<data>
-		zeZrCAhF16Ml+JQBgbmrprCZgFc=
+		mgzVjgDo4HXKepyJ4LXePkvQtX4=
 		</data>
 		<key>Resources/git/share/man/man1/git-for-each-ref.1</key>
 		<data>
-		au/FyaXALgMEIhse+LbI/UN15/Y=
+		uPtBgaV1gMEgq8ps10W4jn/opGU=
 		</data>
 		<key>Resources/git/share/man/man1/git-format-patch.1</key>
 		<data>
-		2tntG7mJ9AjT+doFH/eH7TZmBag=
+		9/Z3R07OMLSdZHHF7x07zO066Io=
 		</data>
 		<key>Resources/git/share/man/man1/git-fsck-objects.1</key>
 		<data>
-		FnsA+4RAG6HcwmKPegzuBveei68=
+		b9BtckM8yfHAetC3ODqZjXyo2GY=
 		</data>
 		<key>Resources/git/share/man/man1/git-fsck.1</key>
 		<data>
-		kwZw6iw9WCvLVMT7gBoPx0ea2/A=
+		hwsqHcPDNa8dh1xEqNuF5ho5cjM=
 		</data>
 		<key>Resources/git/share/man/man1/git-gc.1</key>
 		<data>
-		NlUb+dShRqja/UaYfb1E4UvrOxo=
+		/ltaCHbbUfhs3r6sOKRdK8cNsOI=
 		</data>
 		<key>Resources/git/share/man/man1/git-get-tar-commit-id.1</key>
 		<data>
-		YMMff+LRB/wCMRw9HkSvFYs3zXg=
+		4tP9HOsc0E3rfLqbWjuTrv+qRY0=
 		</data>
 		<key>Resources/git/share/man/man1/git-grep.1</key>
 		<data>
-		oM4eosFxg856Gdr4lNWGmZWgGSU=
+		x4eEsW2pRPsvEGD5dOIy+U/306Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-gui.1</key>
 		<data>
-		G6TvUWJ4SSAVv/74OFM52HIAJNA=
+		6srFrttQe2OHJYGm5tQD8HV4D+E=
 		</data>
 		<key>Resources/git/share/man/man1/git-hash-object.1</key>
 		<data>
-		3nY+mSzCqEf1j+QTsT7DIW51MME=
+		t6Oefga9Bwv5E9Qiyiukg/GaBTA=
 		</data>
 		<key>Resources/git/share/man/man1/git-help.1</key>
 		<data>
-		SvvjTD1l/tVI+MC5UyTbVjiofMg=
+		smd0BJ0NpiPSPHnTu7czmTN695g=
 		</data>
 		<key>Resources/git/share/man/man1/git-http-backend.1</key>
 		<data>
-		z5tPRnrgUXO6UL7uvu76T2+vwlE=
+		i0whSTOL5bTxXCN9rJE8J+Oufm4=
 		</data>
 		<key>Resources/git/share/man/man1/git-http-fetch.1</key>
 		<data>
-		5iPEVauSeyfrfGH39o2nELVW+F4=
+		/zcdNw0xxrA27zXsnq25wZ9vKno=
 		</data>
 		<key>Resources/git/share/man/man1/git-http-push.1</key>
 		<data>
-		nD8lwuS785F+7cBKWAHcvrnCYBA=
+		AozId15oB5ZLRLdVaVgyoBHYeDk=
 		</data>
 		<key>Resources/git/share/man/man1/git-imap-send.1</key>
 		<data>
-		ofDc6JdK5uM5quRZAkabk4LApnk=
+		4dBHS1MeaBSlHSvSCdQwalxOR3c=
 		</data>
 		<key>Resources/git/share/man/man1/git-index-pack.1</key>
 		<data>
-		bRQdZAjaApIBscIh7b+RWA6pxm0=
+		+RH/kKBvV4W62SIcN1K1uvlT+Ig=
 		</data>
 		<key>Resources/git/share/man/man1/git-init-db.1</key>
 		<data>
-		JvKIvCyO3syW2XylvTbGcK5scHo=
+		ihNeoCh0Gf5+wHe94gvQUrp20Rc=
 		</data>
 		<key>Resources/git/share/man/man1/git-init.1</key>
 		<data>
-		/W+BxwL/Ot56Ij2If5lIPZXRZSQ=
+		ORFHr4nQnyOJ6yNf6rsTeCDg+IU=
 		</data>
 		<key>Resources/git/share/man/man1/git-instaweb.1</key>
 		<data>
-		FO9NpZbjtGPUcvGIxF3M0l41nAA=
+		wIMRXns3mFNAaN3/5VjwqRMWBwY=
+		</data>
+		<key>Resources/git/share/man/man1/git-interpret-trailers.1</key>
+		<data>
+		ihvbeS6dyZcSlf+bMmpRfpdK1pA=
 		</data>
 		<key>Resources/git/share/man/man1/git-log.1</key>
 		<data>
-		CwM7JgwCdji6TL9P+3vyiWhURRs=
+		3mu0q8kBvuwM+R9+3bSmXdeEtSM=
 		</data>
 		<key>Resources/git/share/man/man1/git-ls-files.1</key>
 		<data>
-		1SnAkblyAEQj/g2HU2evNdP1nuU=
+		oo+fi1VxAOdEtI82gc0K9L6gqj8=
 		</data>
 		<key>Resources/git/share/man/man1/git-ls-remote.1</key>
 		<data>
-		GYkOClZeZO8sYZTLS51bZrQVWyo=
+		5wHYic/9IagrxHfcvUZTZOsZaJw=
 		</data>
 		<key>Resources/git/share/man/man1/git-ls-tree.1</key>
 		<data>
-		Z5pSmUBuyjsJ+DDfsyBulJZTBbA=
+		7Wby0Q/QRCikAugsZLuaf+KU7Bg=
 		</data>
 		<key>Resources/git/share/man/man1/git-mailinfo.1</key>
 		<data>
-		xYG7hRtNcjdvaydmAEvRyaRLPyU=
+		1gxgJ/IRHa47HNxIcQuKUlrbOUA=
 		</data>
 		<key>Resources/git/share/man/man1/git-mailsplit.1</key>
 		<data>
-		xR406/yHMH1aLAjiM8Bl+DjLbF8=
+		MByE7HOwii2Pp+/N+X+n3Kd7quc=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-base.1</key>
 		<data>
-		rDgO0YGd8oNvi/jW7jHCpRB1beA=
+		iZ8KygSS7H8SdM4RNDay0817pmk=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-file.1</key>
 		<data>
-		kkQC4woRXe87sfcw1+6iYFr0bCI=
+		omnlv1A8JYXVb0nsyytsd1LClMg=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-index.1</key>
 		<data>
-		LFBj5yPiOqbjo9PUlR9oVxeuLtk=
+		a59tymUIDHQFCUDYb7vRsObnhVM=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-one-file.1</key>
 		<data>
-		o8pJPyLjZOhQEn2fWyLiboqOcAg=
+		xRJWGcoh+S/iFYcOkIOkJTiHGmw=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge-tree.1</key>
 		<data>
-		qqP9SbsgI4WsWvZ9wDir/z/VYQw=
+		h0cAmHmCMjR810h+xvf/7LHKNL8=
 		</data>
 		<key>Resources/git/share/man/man1/git-merge.1</key>
 		<data>
-		Ac1lxUFPXPAJ9jTgOBdplrX9/qk=
+		zA8Mcds6L5BR31YH5+5JgUELLkg=
 		</data>
 		<key>Resources/git/share/man/man1/git-mergetool--lib.1</key>
 		<data>
-		/pgjR5pX5UaC+yISLTLpCgGt5Vw=
+		OAzKw/3J+LwgjwvYdqq9zjJ4sV0=
 		</data>
 		<key>Resources/git/share/man/man1/git-mergetool.1</key>
 		<data>
-		Pm8PvKV8+tc40I7CqNfwM92nHC8=
+		Ha2oUwQbHSXKUS16evGT7yA2Ea8=
 		</data>
 		<key>Resources/git/share/man/man1/git-mktag.1</key>
 		<data>
-		OheQbpS1ufl/ofJpaEDSNJ4S3+0=
+		uxEezjdBjgRpncXv+S3q2fSh+bo=
 		</data>
 		<key>Resources/git/share/man/man1/git-mktree.1</key>
 		<data>
-		QwHZSDYP7fe+FFHnKrpOYeg5v68=
+		z/pacReG2YIXzkl0ExtF37KMdfE=
 		</data>
 		<key>Resources/git/share/man/man1/git-mv.1</key>
 		<data>
-		uXqeW7tCHpZhRkbDLC2f9WqmXAc=
+		EMwuOYbGB8Iuf+5hgtn0CAHV2OM=
 		</data>
 		<key>Resources/git/share/man/man1/git-name-rev.1</key>
 		<data>
-		nf3EBn/ajBD5lARtkbzKdWJ13dQ=
+		lV+RFJnmNZJZZoDpXJLS3ZxPKWE=
 		</data>
 		<key>Resources/git/share/man/man1/git-notes.1</key>
 		<data>
-		GEa+vo4PmLmRmtDC7FkMs80GBHU=
+		jH3mWGBmZzXkca4gqW5iwes0GKQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-p4.1</key>
 		<data>
-		KNqRR0ykbBu0LodTHLmspOWqCWw=
+		Cz/kCoPEB0aiCmOruTKHcX973jQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-pack-objects.1</key>
 		<data>
-		vw2vtcPoqmaH6/p4pK7+seqlE44=
+		dzFebiQLF7HD0H8FRO8okE+MEM8=
 		</data>
 		<key>Resources/git/share/man/man1/git-pack-redundant.1</key>
 		<data>
-		jxkK4goUz5cM70VQ2/cH3qW7bdo=
+		eYlOg+g0eIyipOZJfVSSk3kQFK8=
 		</data>
 		<key>Resources/git/share/man/man1/git-pack-refs.1</key>
 		<data>
-		vKTvMwFhdOEttoIVezCKR2mvMx8=
+		FCwHFyudvpiEer6+EKmkuEPXFqI=
 		</data>
 		<key>Resources/git/share/man/man1/git-parse-remote.1</key>
 		<data>
-		sAbNmYzJj22Ef14aCPqtyC1W7Tg=
+		Okxa88yYRe/7oK0e6dFBs6RhHI4=
 		</data>
 		<key>Resources/git/share/man/man1/git-patch-id.1</key>
 		<data>
-		mb/XKO12h3vt96gGiVKKlgxzb+Q=
+		+tYJWr0L4npnp0JNtB+4rJGkSR8=
 		</data>
 		<key>Resources/git/share/man/man1/git-prune-packed.1</key>
 		<data>
-		LKM8cVsAV12n9yzHJRKGd/5+9XI=
+		Z/95884K4Ac1Y+H7gFZqrNnSYvw=
 		</data>
 		<key>Resources/git/share/man/man1/git-prune.1</key>
 		<data>
-		wfTUqAbugkAeVLQ7cqYoLvMsCtQ=
+		MaWmtUptSCnUmfGouLFI8M/P6ns=
 		</data>
 		<key>Resources/git/share/man/man1/git-pull.1</key>
 		<data>
-		kvQodwFHahUiAvGEjMJIsOIuKEg=
+		Ibhj15PqqYHoc0R58JNGF9PTE8M=
 		</data>
 		<key>Resources/git/share/man/man1/git-push.1</key>
 		<data>
-		Kp8oI2YKp6bm1psWeCjpwrzXQ3o=
+		oKW+twCxSMtTiKksXxktAm3vO2k=
 		</data>
 		<key>Resources/git/share/man/man1/git-quiltimport.1</key>
 		<data>
-		07e4kRp7oRbQaZPqli70db4bhZo=
+		WLovFcGtRao0NXlUbo/dFEB5TzE=
 		</data>
 		<key>Resources/git/share/man/man1/git-read-tree.1</key>
 		<data>
-		UVGjr+DB/DpsI1QZoSXwICAq/ag=
+		yLSomsLQ04jyIPL3An9Sfxeii9Y=
 		</data>
 		<key>Resources/git/share/man/man1/git-rebase.1</key>
 		<data>
-		mkWIxkNcheqziG0cWuRJiGFZ5Jo=
+		KvNX8oIwAqWdjrn33w8bp50Ee/M=
 		</data>
 		<key>Resources/git/share/man/man1/git-receive-pack.1</key>
 		<data>
-		ETI5SQehX2Ie8tFFYLC+7CcX5C8=
+		bxPOX0tP1GpRyPybAiGM20pSZTk=
 		</data>
 		<key>Resources/git/share/man/man1/git-reflog.1</key>
 		<data>
-		XNWFQ9EUuL9I9nwfUzKYyDW08b4=
+		RkmCZQiQoSGg2aWacngmZQE54eQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-relink.1</key>
 		<data>
-		YvFWcSUdS1i0SR5IBKQwVJUiaHs=
+		sJbYh8eYBdVwRh99cOHlU3bmNM0=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote-ext.1</key>
 		<data>
-		5fib/rWHFdCCmZWSHjUh+6PFX20=
+		CtbdtWLLC+ZVUrEQigMT9blLlNE=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote-fd.1</key>
 		<data>
-		W3fzFWzjTt9GzmhxOEfB2BgOvqY=
+		VfBZx6N1qsmYnxnHtl90NTywkbI=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote-testgit.1</key>
 		<data>
-		v1KGFn724AXGlJbyNElud1SzqPY=
+		e+oioVTu+wL1oj8xADgd1y9fKkQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-remote.1</key>
 		<data>
-		ebpPMPTK3YCeS/0QRwIBTQWmFrk=
+		0RREt4S8qrpbtDAIL/nCWvYHGKc=
 		</data>
 		<key>Resources/git/share/man/man1/git-repack.1</key>
 		<data>
-		V3V2FejDwrlmgOiePXGh/wZfkoU=
+		cdJsQ1/Nbmwsn+cI2RkuajrKpUM=
 		</data>
 		<key>Resources/git/share/man/man1/git-replace.1</key>
 		<data>
-		JNWmpBNWdKzKe2qYoCLzumPUOCQ=
+		vnbWZQ5is3jYH0+tIXjKGgK/hU8=
 		</data>
 		<key>Resources/git/share/man/man1/git-request-pull.1</key>
 		<data>
-		hQemEssOO6KyyUMg4PBuVVny16Y=
+		sdElwpPpOUbpuzXHkqYiMVfiCbQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-rerere.1</key>
 		<data>
-		yLYGeXis/7DLx/2Sh7tbYwBDyEc=
+		DupzMYeTFN7o4Xo2ynHOnvRt/AU=
 		</data>
 		<key>Resources/git/share/man/man1/git-reset.1</key>
 		<data>
-		xgVGqJ6AD4PZr7kTSQ++YxN8ecw=
+		rN9D7wBLx4LCzT7lzN+c2IbItwQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-rev-list.1</key>
 		<data>
-		SjmJu9oiN7DiMHwuzjJPLt3PVRA=
+		PgRoUgbP3JaEarCu0d2W+z1CzX0=
 		</data>
 		<key>Resources/git/share/man/man1/git-rev-parse.1</key>
 		<data>
-		d0+mezh6bLuybtygLgUprzvZ+BA=
+		u1k2uEaBT2Q0FJmk1NIKzYm2O6o=
 		</data>
 		<key>Resources/git/share/man/man1/git-revert.1</key>
 		<data>
-		XOkrbXmdLQQm60sdzGaL/EwXGHs=
+		QFlA3dM7kafuYYgALSXP0xaLmAE=
 		</data>
 		<key>Resources/git/share/man/man1/git-rm.1</key>
 		<data>
-		g5gN4Q/mSAjckBGWCIpqideepMM=
+		t3wMlUwVWj/InsVvIlZISTbFrZA=
 		</data>
 		<key>Resources/git/share/man/man1/git-send-email.1</key>
 		<data>
-		tW2B4CX46IH1ZGtjvJbOb3altZU=
+		lrM3SHUYBCFZ4exqrQxjCtDeY2I=
 		</data>
 		<key>Resources/git/share/man/man1/git-send-pack.1</key>
 		<data>
-		51ocmDp2oJAvkV6Lte/u2/nCkCw=
+		DLkFMbo0vQX2jB+L2eK8nDOetbs=
 		</data>
 		<key>Resources/git/share/man/man1/git-sh-i18n--envsubst.1</key>
 		<data>
-		CjM4SAr92VHHL3xvlQweTsQgn2U=
+		2laB/v7bzClppoZjtMjhQX29RqQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-sh-i18n.1</key>
 		<data>
-		9X3OQsE4oZJuIm+RxtSPNhsDMuU=
+		O/6JWfhx+9NUiCFgjRepjtIhtQM=
 		</data>
 		<key>Resources/git/share/man/man1/git-sh-setup.1</key>
 		<data>
-		uzMSAbwvwW0I/mDNCo+9JLRQhl4=
+		2xXwlPjcvbvAd1eLbKvEO5EDPJ4=
 		</data>
 		<key>Resources/git/share/man/man1/git-shell.1</key>
 		<data>
-		pDuc1RZ/Rv3eMG5LJalfIhavDbY=
+		qEZyHxGMcCvr413YUgHP6fq4C3k=
 		</data>
 		<key>Resources/git/share/man/man1/git-shortlog.1</key>
 		<data>
-		kGElaWaIIgkbtL9GMDNgmOlt23c=
+		T43HIbE52DBbSAFrrxUGxLXLPNU=
 		</data>
 		<key>Resources/git/share/man/man1/git-show-branch.1</key>
 		<data>
-		3JOnuqC48QaJN+vrgwmyP+h+4os=
+		RDqozojvtxulyamcfFsnpPo3114=
 		</data>
 		<key>Resources/git/share/man/man1/git-show-index.1</key>
 		<data>
-		qm8t7s4dLADIsPnk25DhJveByKk=
+		tSzU8Mt4pk+ZNqCLeEKDJZmm9Zw=
 		</data>
 		<key>Resources/git/share/man/man1/git-show-ref.1</key>
 		<data>
-		Zw1APp6Bq2kQ0OLSv43aPInUGnc=
+		O6FNeAsr4rtITO4Bk8Mm7q8VNQ8=
 		</data>
 		<key>Resources/git/share/man/man1/git-show.1</key>
 		<data>
-		0XsaHR6qLx5elCJBr98dM5gIUQs=
+		axgMsbYrbrjFNDms/hNpGDgwYO0=
 		</data>
 		<key>Resources/git/share/man/man1/git-stage.1</key>
 		<data>
-		AfGxCfaFHCw+CVPVYIg9e9Ctu+0=
+		HxfDRI8f8AmdIr00Bi5Fw4kxRIA=
 		</data>
 		<key>Resources/git/share/man/man1/git-stash.1</key>
 		<data>
-		YFK4rPjvjN97tOrdg7iBkdoGP/Q=
+		HuHvDB+v5IZGN3RoR/7Cj24vNRc=
 		</data>
 		<key>Resources/git/share/man/man1/git-status.1</key>
 		<data>
-		agEDc+uaUUHUvIKf6lBimDfS/Jo=
+		giyGo+Wg/FLYtf1ffJ8mIlWKFH8=
 		</data>
 		<key>Resources/git/share/man/man1/git-stripspace.1</key>
 		<data>
-		hwTyI2kSYrX/juAssabEB+t5FCQ=
+		5d9xg24BeAOMqOJGwED9LElGaG8=
 		</data>
 		<key>Resources/git/share/man/man1/git-submodule.1</key>
 		<data>
-		Er4mMSv7qMYKoAyzLJfbEkF2R34=
+		/qJvDKjy18xWZFRmBA+YIW4u3T0=
 		</data>
 		<key>Resources/git/share/man/man1/git-svn.1</key>
 		<data>
-		a5lATjCfg5d1MeoyyOakY/5OaSQ=
+		wz2x/dF9SSjkwRuBS9UnoABxc3Q=
 		</data>
 		<key>Resources/git/share/man/man1/git-symbolic-ref.1</key>
 		<data>
-		HSJsB7RtXhsL6mywVexUxpWn/Js=
+		8qY/uYCr0+swhQWeEK71Cri2SoE=
 		</data>
 		<key>Resources/git/share/man/man1/git-tag.1</key>
 		<data>
-		3gr6X27/ah4hvYBbyNHKAdL6EOs=
+		aXquLSZyi+nqkfPheadr5O3aO1E=
 		</data>
 		<key>Resources/git/share/man/man1/git-unpack-file.1</key>
 		<data>
-		3hRFHv2wPVbfeFhlQOagg+yCjZo=
+		dJXbwk0BA4lE0VE+55vCOY28jxg=
 		</data>
 		<key>Resources/git/share/man/man1/git-unpack-objects.1</key>
 		<data>
-		5V2nx6pq6UjdOEPkR1AXAP9ZUzA=
+		7PPs6eB32+PIXiuCYSvIBwFdu4g=
 		</data>
 		<key>Resources/git/share/man/man1/git-update-index.1</key>
 		<data>
-		fjCQsMdQNcKgAgbYDBt9NLo556s=
+		aoOalNB42H8Ep8HOnAnbDQC3ruY=
 		</data>
 		<key>Resources/git/share/man/man1/git-update-ref.1</key>
 		<data>
-		dVNRYYOZiW9uaTxhQjs0/av1Y/o=
+		6DTf8QWzvgTnglctbvsjGJ7jIAk=
 		</data>
 		<key>Resources/git/share/man/man1/git-update-server-info.1</key>
 		<data>
-		tnsEu9RT9fK+1f2r0SnNZyIWi8k=
+		UtBk5Ozdp2J+GSW/oN8Y66wBelY=
 		</data>
 		<key>Resources/git/share/man/man1/git-upload-archive.1</key>
 		<data>
-		DUMyiJlfxkO6sTufUhFABrls3Dg=
+		ZgbUR297Quqte/jTbOsvuD5OM2g=
 		</data>
 		<key>Resources/git/share/man/man1/git-upload-pack.1</key>
 		<data>
-		VCeq81GNEhWTOn1Xcghxxk+aIXI=
+		yMgWJKYphII0hay5z05scTPiFNw=
 		</data>
 		<key>Resources/git/share/man/man1/git-var.1</key>
 		<data>
-		rHQj3W5gtut6Tv/Ge9HWM05W4OE=
+		6ez0ztZT7f+2SY7h8y6bvoslfig=
 		</data>
 		<key>Resources/git/share/man/man1/git-verify-commit.1</key>
 		<data>
-		ndifUOhVqj2AcNB6swu2AyxvL4I=
+		7DuSqQVs6t+Deo7pXvTeTGpLnNw=
 		</data>
 		<key>Resources/git/share/man/man1/git-verify-pack.1</key>
 		<data>
-		t9NqpWJ4Etbw42wjy3tv+uQNTqA=
+		/WYnQUvwG7eedK2L7etehFOTLWQ=
 		</data>
 		<key>Resources/git/share/man/man1/git-verify-tag.1</key>
 		<data>
-		LSze65JpJaVPX5VS1QD2n1hzs+U=
+		DeQQNfvzndwMUKI98ZGJPrz6Di0=
 		</data>
 		<key>Resources/git/share/man/man1/git-web--browse.1</key>
 		<data>
-		SEjO5RcLvyowaRW8qp4LiMRKZzc=
+		+iPtwueggF8cZ/ke/8MpQ2MTeIA=
 		</data>
 		<key>Resources/git/share/man/man1/git-whatchanged.1</key>
 		<data>
-		YFefEyJ8oUtfRLoqFPyBps8B65M=
+		Bc0amuWna/mWfwK2ZT0es3tEQ6g=
 		</data>
 		<key>Resources/git/share/man/man1/git-write-tree.1</key>
 		<data>
-		e4tZasOTTxcLb+BsO9Prw+dmz5A=
+		NpuEknFtfe4Php+R4FkdiARfLis=
 		</data>
 		<key>Resources/git/share/man/man1/git.1</key>
 		<data>
-		CbmqZCRn7QUcTCriKrwKc7DuyLM=
+		6OJLqNu3rnNHIkvSeYFjAJlFbww=
 		</data>
 		<key>Resources/git/share/man/man1/gitk.1</key>
 		<data>
-		ywhAcxOyUMjKC6Hh8Sh9EwTVpDs=
+		i8SnyUwU44rVBJnfUc5+NH3aowM=
 		</data>
 		<key>Resources/git/share/man/man1/gitremote-helpers.1</key>
 		<data>
-		8UrrShGuZ0OE431wBi8havnJwn4=
+		hNgyVCK4lUshQPWuDWZSLkWzFco=
 		</data>
 		<key>Resources/git/share/man/man1/gitweb.1</key>
 		<data>
-		IviaUUICIZ8G6GRqW17qp3IiEvU=
+		QixORhYAL3Ef4VQTdXB2WETos9E=
 		</data>
 		<key>Resources/git/share/man/man3/Git.3pm</key>
 		<data>
-		ufpjHzEOuqOHTeyD2zkZSwXFyco=
+		rbtiTqCAbM2ugxLDWeB8+GQcK2A=
 		</data>
 		<key>Resources/git/share/man/man3/Git::I18N.3pm</key>
 		<data>
-		kg7IXOo8yQJuMZP/l5QIH7V+e3Q=
+		uqrGy/LoTVlsmA1nlFSxnnWVk/8=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Editor.3pm</key>
 		<data>
-		/EbNrbrIn+P8XMDjZew/ISq5VnM=
+		izidcz1kJgt6hAS/LZKAfOVDNlg=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Fetcher.3pm</key>
 		<data>
-		hdKUuOpn7IIpueZrdXdKe0+JDUk=
+		RT028M4KiUItZ+LGCeCKeWPxqic=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Memoize::YAML.3pm</key>
 		<data>
-		hQGypg4CqZl7sig/PJmRPuwmfDA=
+		MsrtT+0F0NrxJR3bHfVMV0DzI8k=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Prompt.3pm</key>
 		<data>
-		fSDQEcmkhi9hCh+mTq0J1SVykpU=
+		kq45xsNH8rlfpWerMpID1uGwUjo=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Ra.3pm</key>
 		<data>
-		UC5yWHijvVzw7+s9h7kScr8IFQE=
+		nheUWsygJjdHVbVG7Fo1vM0iTu0=
 		</data>
 		<key>Resources/git/share/man/man3/Git::SVN::Utils.3pm</key>
 		<data>
-		LHdMz4z0eWoZMbKR78EkomRF3b0=
+		AbRGGby61fIic/qXXmimkCci9os=
 		</data>
 		<key>Resources/git/share/man/man5/gitattributes.5</key>
 		<data>
-		ukbiWOTvkIDiRE/oVFKZhFF2d2E=
+		J+97KrL+hMMISi1sly8MJIkmyzI=
 		</data>
 		<key>Resources/git/share/man/man5/githooks.5</key>
 		<data>
-		VOlK17OUXe7yY0iNhXZcHf7Tlkk=
+		Ed7kCf/6nXheyzSm6dq7KLrTCGs=
 		</data>
 		<key>Resources/git/share/man/man5/gitignore.5</key>
 		<data>
-		2yUB98sdum/G2GED+zF0GClBy7w=
+		89kiTZ5cLtBvz8s7h4ivuizFjys=
 		</data>
 		<key>Resources/git/share/man/man5/gitmodules.5</key>
 		<data>
-		V8P0h8RKXfbyAadFF1AjWYILhWw=
+		OUV4tIw2rQrMXiJ1u+KTYeJp50A=
 		</data>
 		<key>Resources/git/share/man/man5/gitrepository-layout.5</key>
 		<data>
-		rvBR9Tr36QgW7nFa1FoCnEzpXks=
+		jGovDTXrC64oB/t/CLEpbk3ghwg=
 		</data>
 		<key>Resources/git/share/man/man5/gitweb.conf.5</key>
 		<data>
-		IwlObNpI4BdCfVIc82ziPzd1LCA=
+		veXMVbDraAsGly4ghvuR8N9GNpU=
 		</data>
 		<key>Resources/git/share/man/man7/gitcli.7</key>
 		<data>
-		c278XYj5LLu0fg4NChaiuAW87MY=
+		aacukBJl4/zELT3uWWem4HVKnOQ=
 		</data>
 		<key>Resources/git/share/man/man7/gitcore-tutorial.7</key>
 		<data>
-		RM5qSx9UHNNJ5znfReNJoTlzJOw=
+		utenUWmKmaXac0X28o1j+eA/tbI=
 		</data>
 		<key>Resources/git/share/man/man7/gitcredentials.7</key>
 		<data>
-		w9oKEXexSePV3Lfy3WH8MXni8TA=
+		2jTltzbqzWxBM8ecsP9JZJRiUM8=
 		</data>
 		<key>Resources/git/share/man/man7/gitcvs-migration.7</key>
 		<data>
-		jPg3Pxiu5Z/MMn565ltkic1qeAM=
+		k7VxhJHw+bwtq0J3nZrar3AwoOE=
 		</data>
 		<key>Resources/git/share/man/man7/gitdiffcore.7</key>
 		<data>
-		WfaXRdwJDB6aWws+SkSOFtHMFAI=
+		QItiIn6HeKzqUEP0pp4+PYfn5bQ=
+		</data>
+		<key>Resources/git/share/man/man7/giteveryday.7</key>
+		<data>
+		MBLbyMNTcNzvBUGgXImVZu/re+s=
 		</data>
 		<key>Resources/git/share/man/man7/gitglossary.7</key>
 		<data>
-		io5HU7m2xCD7fVlosHSNfgYkUL0=
+		ajcLY61HnNGNaGoUfrtbN7G6LUE=
 		</data>
 		<key>Resources/git/share/man/man7/gitnamespaces.7</key>
 		<data>
-		50sfi8TbD+qCceeLbuk5KmmBp2s=
+		vpD0YaYgnhszKruZzYwr3u122Co=
 		</data>
 		<key>Resources/git/share/man/man7/gitrevisions.7</key>
 		<data>
-		0FSupZzES1nH0ZCUQYk8T5zurx0=
+		uG0lhqOp3pnFKoJlhTqgGb/Y/DY=
 		</data>
 		<key>Resources/git/share/man/man7/gittutorial-2.7</key>
 		<data>
-		YKuU1fGlQ2qh3O34M7DZay7rLaI=
+		66G2oNgrhsulSahE6KDJknFI5Es=
 		</data>
 		<key>Resources/git/share/man/man7/gittutorial.7</key>
 		<data>
-		fOlfGpdCSY1SZ4qTsPcgL150awQ=
+		DIzuy3H1GkyDUZzAzaeddDdc2cU=
 		</data>
 		<key>Resources/git/share/man/man7/gitworkflows.7</key>
 		<data>
-		nmUdnEruBTmuIGLu+7D9od9S6CI=
+		6nj/jjeyawR5EBwxAgSzm2zf29s=
+		</data>
+		<key>Resources/hawser/bin/git-hawser</key>
+		<data>
+		zRUA7DCZSvpfH67hpqyeUgeAc7Q=
 		</data>
 		<key>Resources/icon-diff.tiff</key>
 		<data>
@@ -11366,26 +11430,6 @@
 		<data>
 		tp5oabJrVvfrZImRxGJGglbbhjA=
 		</data>
-		<key>Resources/progress-bar-fill-left.tiff</key>
-		<data>
-		Deaa9dmIKrtnwClPdWYfiXag4x0=
-		</data>
-		<key>Resources/progress-bar-fill-middle.tiff</key>
-		<data>
-		ieShlCMS3dZMmQfk6wvI3irxCjI=
-		</data>
-		<key>Resources/progress-bar-fill-right.tiff</key>
-		<data>
-		vkyrSoP4IeLJnA8aqssVg0RMlXc=
-		</data>
-		<key>Resources/progress-bar-track.tiff</key>
-		<data>
-		puJ3ew39eyfwhDWtXFHuj2Ye5h4=
-		</data>
-		<key>Resources/settings-divider.tiff</key>
-		<data>
-		lEu0he2V/NkYMKc61OpS5ia4BTY=
-		</data>
 		<key>Resources/spinner-arrows.tiff</key>
 		<data>
 		uQZlTm1aLT7jW0a6kMhbzaMFsd4=
@@ -11397,30 +11441,6 @@
 		<key>Resources/star-on.tiff</key>
 		<data>
 		yNIidASte1woQXL9Rp8E6oMJlRA=
-		</data>
-		<key>Resources/tiny-smooth-button-left.tiff</key>
-		<data>
-		WJgyL031k4FMvUT8mANm5bwXaXQ=
-		</data>
-		<key>Resources/tiny-smooth-button-middle.tiff</key>
-		<data>
-		CvlXNHlNKPupnJRYgKoRfDLOva8=
-		</data>
-		<key>Resources/tiny-smooth-button-on-left.tiff</key>
-		<data>
-		O0+rtiCaj7fU+IxsC40aYRdEPHc=
-		</data>
-		<key>Resources/tiny-smooth-button-on-middle.tiff</key>
-		<data>
-		k+kJSwnfp/H6wDMeXtQzwMwVzEg=
-		</data>
-		<key>Resources/tiny-smooth-button-on-right.tiff</key>
-		<data>
-		6g4v3h/qitBJSOD43eZ1iiMuwZM=
-		</data>
-		<key>Resources/tiny-smooth-button-right.tiff</key>
-		<data>
-		w7dMg2hMxDTk1IhhioerW6v6qi8=
 		</data>
 		<key>Resources/up-arrowTemplate.tiff</key>
 		<data>

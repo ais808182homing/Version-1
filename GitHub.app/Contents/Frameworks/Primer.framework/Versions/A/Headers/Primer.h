@@ -6,13 +6,17 @@
 //  Copyright (c) 2013 GitHub. All rights reserved.
 //
 
-#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
-	#import <Primer/UIFont+PRIStyleAdditions.h>
-#elif TARGET_OS_MAC
-	#import <Primer/NSFont+PRIStyleAdditions.h>
-	#import <Primer/NSImage+PRIAdditions.h>
-	#import <Primer/PRITwoFactorAuthenticationCodeSheetController.h>
-#endif
+#import <Cocoa/Cocoa.h>
+
+//! Project version number for Primer.
+FOUNDATION_EXPORT double PrimerVersionNumber;
+
+//! Project version string for Primer.
+FOUNDATION_EXPORT const unsigned char PrimerVersionString[];
+
+#import <Primer/NSFont+PRIStyleAdditions.h>
+#import <Primer/NSImage+PRIAdditions.h>
+#import <Primer/PRITwoFactorAuthenticationCodeSheetController.h>
 
 #import <Primer/NSError+PRIExtensions.h>
 #import <Primer/NSObject+PRIErrorRecoveryAdditions.h>

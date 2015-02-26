@@ -6,17 +6,8 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		D9TPBAV9dG+9XQotbBI4DRCvVwg=
+		CW/6KozeAEfphjZqbgaXM8/rPvo=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -34,7 +25,7 @@
 		</data>
 		<key>Headers/RACSignal+RCLAnimationAdditions.h</key>
 		<data>
-		z8V7ZRksCVdd6aefsjjMAuSADMs=
+		WBASsB5kwoHBHx6UC42IU7Q2nRA=
 		</data>
 		<key>Headers/RACSignal+RCLGeometryAdditions.h</key>
 		<data>
@@ -46,29 +37,24 @@
 		</data>
 		<key>Headers/RCLMacros.h</key>
 		<data>
-		S5OI+OjUf68qBkqwoRsaxTLQ6hE=
+		igJEc+ztSPABOIx46q96Saig2h8=
 		</data>
 		<key>Headers/ReactiveCocoaLayout.h</key>
 		<data>
-		ZAaXQRfXDvZ7FQmKZq8/l+PZ+Rc=
+		fx8txMmdM2iP6CvafahAvopmsOY=
 		</data>
 		<key>Headers/View+RCLAutoLayoutAdditions.h</key>
 		<data>
-		iHtX8q+rDkGgLF6RRh2bMAeDUVQ=
+		AGQohSsKfixzsZUpya1xM/7WsyE=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		BNqBbm5Ri1k93v1R5cHy7QJ1ED0=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		D9TPBAV9dG+9XQotbBI4DRCvVwg=
+		CW/6KozeAEfphjZqbgaXM8/rPvo=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

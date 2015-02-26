@@ -6,17 +6,8 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		/ZOkJ0L99SNd1NEf/h0aX43Inq4=
+		KXUa98gbAODVF5bVbAadfXHfpig=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -26,21 +17,16 @@
 		</data>
 		<key>Headers/ReactiveViewModel.h</key>
 		<data>
-		VDFyBtGqV5sz2cexIQ8iKk7+2A8=
+		IoWa0DeQrBHiMzSZyk+/JFjAKAU=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		fnOf4rZng993m73iHDocHSCeQZ0=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		/ZOkJ0L99SNd1NEf/h0aX43Inq4=
+		KXUa98gbAODVF5bVbAadfXHfpig=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

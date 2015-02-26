@@ -27,6 +27,7 @@
 
 @class GTCommit;
 @class GTReference;
+@class GTRemote;
 @class GTRepository;
 
 typedef NS_ENUM(NSInteger, GTBranchType) {
@@ -77,6 +78,15 @@ typedef NS_ENUM(NSInteger, GTBranchType) {
 /// If the receiver is a remote branch, returns self. If no tracking branch was
 /// found, returns nil and sets `success` to YES.
 - (GTBranch *)trackingBranchWithError:(NSError **)error success:(BOOL *)success;
+
+/// Update the tracking branch.
+///
+/// trackingBranch - The tracking branch for the receiver. If nil, it unsets the
+///                  tracking branch.
+/// error          - The error if one occurred.
+///
+/// Returns whether it was successful.
+- (BOOL)updateTrackingBranch:(GTBranch *)trackingBranch error:(NSError **)error;
 
 /// Reloads the branch's reference and creates a new branch based off that newly
 /// loaded reference.

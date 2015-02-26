@@ -6,22 +6,13 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		lqoQmjh6KVB6mn/hVYjzyRGlq4Y=
+		CI8ZYU7QEPhE1YJraffFrQ36ckQ=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/en.lproj/PRITwoFactorAuthenticationCodeSheetController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rkY+nbAIsaaZwujpUCsXNFdIPMI=
+			gM4LARX4aKQN3f2EH2SMRQo+IsY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -34,12 +25,16 @@
 		<data>
 		40+4hKuzGtIVtIw4yLnR79TTZ+o=
 		</data>
+		<key>Resources/pri_preferencesGeneralIcon.tiff</key>
+		<data>
+		/Azq824WV03Q8cb5gcUbBP/R24c=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/NSError+PRIExtensions.h</key>
 		<data>
-		a+gN6ja6XLraxjCnyaksQSYjQ7w=
+		EkfN9DCxYcfxGSkwPEgGpmGlJ+A=
 		</data>
 		<key>Headers/NSFont+PRIStyleAdditions.h</key>
 		<data>
@@ -47,19 +42,19 @@
 		</data>
 		<key>Headers/NSImage+PRIAdditions.h</key>
 		<data>
-		cvLdpxQn+BqF+CN19vdsIm5DPhE=
+		FPll50IygSaHCUSmJcweQxBfxFc=
 		</data>
 		<key>Headers/NSObject+PRIErrorRecoveryAdditions.h</key>
 		<data>
-		KWFQNNW/zL/rsDP5hTwGn05cbvA=
+		5fPgx9z7YQVGSeCEI28e1fX9Fgs=
 		</data>
 		<key>Headers/PRIErrorRecoveryAttempter.h</key>
 		<data>
-		GBr1875mRVzUK+CeoxYlOihkkRw=
+		nazvnMgT8Zqsq48DdU4HH2iHP/o=
 		</data>
 		<key>Headers/PRIErrorRecoveryOption.h</key>
 		<data>
-		gde2EsmersUUBdLoclx3rUiHpJg=
+		vUvPmOPbbqOZ2dLvFD8KC9fv9kw=
 		</data>
 		<key>Headers/PRIMacros.h</key>
 		<data>
@@ -67,38 +62,33 @@
 		</data>
 		<key>Headers/PRITwoFactorAuthenticationCodeSheetController.h</key>
 		<data>
-		UhYFP3Sray5WZhZenZ/6/uAtmkw=
+		4UoDHlRghMgIRN9vz5WfNWr2UxY=
 		</data>
 		<key>Headers/PRIWindowController.h</key>
 		<data>
-		7Tp8XMjo3EUiVxd4V+F3VyzeIZY=
+		nE5rPMzijhZ6fXmX5VryxwTtKYA=
 		</data>
 		<key>Headers/Primer.h</key>
 		<data>
-		vewFl9vIsK6bHtiOxcShO3lTrqs=
+		4ZZPmurGtVmiEoeY25tW/VMuVVc=
 		</data>
 		<key>Headers/RACSignal+PRIErrorRecoveryAdditions.h</key>
 		<data>
 		5YWHsgVxPvZRxlXH+E2NxNhXXfI=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		QRVH8gdRLePx5hHECAOh/ZKT+Tg=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		lqoQmjh6KVB6mn/hVYjzyRGlq4Y=
+		CI8ZYU7QEPhE1YJraffFrQ36ckQ=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/en.lproj/PRITwoFactorAuthenticationCodeSheetController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rkY+nbAIsaaZwujpUCsXNFdIPMI=
+			gM4LARX4aKQN3f2EH2SMRQo+IsY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -110,6 +100,10 @@
 		<key>Resources/pri_preferencesAdvancedIcon.tiff</key>
 		<data>
 		40+4hKuzGtIVtIw4yLnR79TTZ+o=
+		</data>
+		<key>Resources/pri_preferencesGeneralIcon.tiff</key>
+		<data>
+		/Azq824WV03Q8cb5gcUbBP/R24c=
 		</data>
 	</dict>
 	<key>rules</key>

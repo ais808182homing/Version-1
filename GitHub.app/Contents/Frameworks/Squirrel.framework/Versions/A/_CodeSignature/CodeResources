@@ -6,21 +6,12 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		O6is/hj1puqu5whV7t5/rhOCnyM=
+		JZvFkhBE5qCVthUChs+xxit8wfY=
 		</data>
 		<key>Resources/ShipIt</key>
 		<data>
-		mH/Y+dKlTHaA9UcCJPE0oOKeFnA=
+		vqHXqeL7o+QfgRCqcqEtEymxWbs=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -42,29 +33,24 @@
 		</data>
 		<key>Headers/SQRLUpdater.h</key>
 		<data>
-		kq+AFB3F6IFdkh2N0yybtM76cyg=
+		oT9RhDMoeyfH0bVY9tz8wu2iImM=
 		</data>
 		<key>Headers/Squirrel.h</key>
 		<data>
-		nrhPiRVcMQQ2PlF0ik3lp5/5evw=
+		Q1+Dk8ZEd6Gf08OAhty9RR892ow=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		M6inFoLbcJX9YINGvvdXuVlGfvM=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		O6is/hj1puqu5whV7t5/rhOCnyM=
+		JZvFkhBE5qCVthUChs+xxit8wfY=
 		</data>
 		<key>Resources/ShipIt</key>
 		<data>
-		mH/Y+dKlTHaA9UcCJPE0oOKeFnA=
+		vqHXqeL7o+QfgRCqcqEtEymxWbs=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

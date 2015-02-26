@@ -6,17 +6,8 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		oKPLoDhqzNrWp2HXBVIuS6YVXDM=
+		Lh3wSAhr3kGSdjb0zMbId4gHlQM=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -54,7 +45,7 @@
 		</data>
 		<key>Headers/RBLClipView.h</key>
 		<data>
-		VWwgID89Jv7zboEuzgu4zLolMqE=
+		NqgpND36h6piDVAJqj+csXtqaFk=
 		</data>
 		<key>Headers/RBLExpandingContainerView.h</key>
 		<data>
@@ -70,11 +61,11 @@
 		</data>
 		<key>Headers/RBLPopover.h</key>
 		<data>
-		kqSUgKp6Wd0dn+uwLxpNFMF+8Yg=
+		YVP3nxziEskWArnE12B7Tu8BJ24=
 		</data>
 		<key>Headers/RBLResizableImage.h</key>
 		<data>
-		RBpVMtdNGG0KcqLHUzWOwywa+x0=
+		oVJyKJGNcaJ6YRLvticBteLwKsQ=
 		</data>
 		<key>Headers/RBLScrollView.h</key>
 		<data>
@@ -86,7 +77,7 @@
 		</data>
 		<key>Headers/RBLSlidingContainerView.h</key>
 		<data>
-		uVbdTi297uSQ8/abJlrOUi1Lpxk=
+		9YXTQkKsgQ+zNeBBylBYZU7re9Q=
 		</data>
 		<key>Headers/RBLTableCellView.h</key>
 		<data>
@@ -96,27 +87,18 @@
 		<data>
 		egPwC7ljLhsYh4dNU8wl43aHBR8=
 		</data>
-		<key>Headers/RBLView.h</key>
-		<data>
-		UFx/DUpyIqzWFXQqBNBun0DoZ1Y=
-		</data>
 		<key>Headers/Rebel.h</key>
 		<data>
-		2HV5WqmpMMmeuW6qOuo9p55FmEU=
+		mj/UJtsWyZwNqxxGVagRaMK6UM4=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		JKzgJlwQzRWi+98HQM8VkSsEKg4=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		oKPLoDhqzNrWp2HXBVIuS6YVXDM=
+		Lh3wSAhr3kGSdjb0zMbId4gHlQM=
 		</data>
-		<key>Resources/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

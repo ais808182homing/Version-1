@@ -23,13 +23,21 @@
 //  THE SOFTWARE.
 //
 
+#import <Foundation/Foundation.h>
 #import "git2.h"
+
+//! Project version number for ObjectiveGit.
+FOUNDATION_EXPORT double ObjectiveGitVersionNumber;
+
+//! Project version string for ObjectiveGit.
+FOUNDATION_EXPORT const unsigned char ObjectiveGitVersionString[];
 
 #import <ObjectiveGit/GTRepository.h>
 #import <ObjectiveGit/GTRepository+Attributes.h>
 #import <ObjectiveGit/GTRepository+Stashing.h>
 #import <ObjectiveGit/GTRepository+Committing.h>
 #import <ObjectiveGit/GTRepository+Status.h>
+#import <ObjectiveGit/GTRepository+RemoteOperations.h>
 #import <ObjectiveGit/GTRepository+Reset.h>
 #import <ObjectiveGit/GTEnumerator.h>
 #import <ObjectiveGit/GTCommit.h>
@@ -58,12 +66,14 @@
 #import <ObjectiveGit/GTFilter.h>
 #import <ObjectiveGit/GTFilterList.h>
 #import <ObjectiveGit/GTFilterSource.h>
+#import <ObjectiveGit/GTFetchHeadEntry.h>
 
 #import <ObjectiveGit/GTObjectDatabase.h>
 #import <ObjectiveGit/GTOdbObject.h>
 
 #import <ObjectiveGit/NSError+Git.h>
 #import <ObjectiveGit/NSData+Git.h>
+#import <ObjectiveGit/NSDate+GTTimeAdditions.h>
 #import <ObjectiveGit/NSString+Git.h>
 #import <ObjectiveGit/NSArray+StringArray.h>
 

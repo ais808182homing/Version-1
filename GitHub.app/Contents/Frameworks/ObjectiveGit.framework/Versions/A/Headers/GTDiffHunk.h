@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
 
-#import "git2.h"
+#import <Foundation/Foundation.h>
 
 @class GTDiffLine;
 @class GTDiffPatch;

@@ -6,7 +6,12 @@
 //  Copyright (c) 2014 GitHub, Inc. All rights reserved.
 //
 
-#import <ObjectiveGit/ObjectiveGit.h>
+#import <Foundation/Foundation.h>
+#import "GTRepository.h"
+
+#import "git2/blame.h"
+
+@class GTBlame;
 
 /// Enum for options passed to the dictionary in `-blameWithFile:inRepository:options:`
 ///

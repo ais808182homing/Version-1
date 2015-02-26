@@ -6,9 +6,12 @@
 //  Copyright (c) 2013 GitHub. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 
 @interface NSImage (PRIAdditions)
+
+// An image to use as the icon for a General preference pane.
++ (NSImage *)pri_preferencesGeneralIcon;
 
 // An image to use as the icon for an Accounts preference pane.
 + (NSImage *)pri_preferencesAccountsIcon;

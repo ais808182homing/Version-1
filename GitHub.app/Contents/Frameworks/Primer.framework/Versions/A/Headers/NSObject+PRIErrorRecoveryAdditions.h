@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 // lol informal protocols
 @interface NSObject (PRIErrorRecoveryAdditions)

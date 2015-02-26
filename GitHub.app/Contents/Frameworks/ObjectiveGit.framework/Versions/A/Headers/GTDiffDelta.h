@@ -6,7 +6,8 @@
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
 
-#import "git2.h"
+#import <Foundation/Foundation.h>
+#import "git2/diff.h"
 #import "GTDiffFile.h"
 
 @class GTBlob;

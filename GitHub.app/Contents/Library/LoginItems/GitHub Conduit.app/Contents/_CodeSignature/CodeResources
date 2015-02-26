@@ -20,23 +20,113 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/LlamaKit.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			0w23J+Uxi1lAcAK0ALv10ERY2PA=
+			</data>
+			<key>requirement</key>
+			<string>anchor apple generic and identifier "net.robnapier.LlamaKit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
+		</dict>
 		<key>Frameworks/ReactiveCocoa.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			vYHr477ZABWtIXHsJATE3a/uuCU=
+			+OTv/V2ZPGKQC+ypfl6Xu2T11wk=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.github.ReactiveCocoa" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "org.reactivecocoa.ReactiveCocoa" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
 		</dict>
 		<key>Frameworks/RockemSockem.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			x6mRbtclU2YbIkbeP5EzkwvrdzM=
+			fZswiCfnAW8eCk1Zc5TuIG2ZtlQ=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.joshaber.RockemSockem" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+			<string>anchor apple generic and identifier "com.joshaber.RockemSockem" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7)</string>
+		</dict>
+		<key>Frameworks/libswiftAppKit.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ta20purEhL4odoR9FOdb0oxaOYc=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftCore.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			0+Gkh+bnFf8buFwn5BFJDu+h0M0=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftCoreGraphics.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			M5BCc+NWnh1Cs/nnsucy0E1BkE4=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftDarwin.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			MiE2HNuTSzLswNXUeS5TnK+2fZQ=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftDispatch.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			s8B3VR7Ifyy/HRXR3J9fCfIVHRc=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftFoundation.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			JhfGzxDD/lHykeIPyLe09KdM4qw=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftObjectiveC.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			N2iC7vX76d6lbQAZnUFAFJefEBA=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			sCkBIilWuMf6+0wera4s5uLyVZM=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+		</dict>
+		<key>Frameworks/libswiftSecurity.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			o57vwXcoBvV06JrNoEOIEFUPckk=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftSecurity" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
 		</dict>
 		<key>Resources/conduit.p12</key>
 		<data>

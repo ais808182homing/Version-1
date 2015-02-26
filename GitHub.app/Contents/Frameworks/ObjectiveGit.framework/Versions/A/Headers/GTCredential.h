@@ -6,7 +6,8 @@
 //  Copyright (c) 2013 GitHub, Inc. All rights reserved.
 //
 
-#import "git2.h"
+#import <Foundation/Foundation.h>
+#import "git2/transport.h"
 
 /// An enum describing the data needed for authentication.
 /// See `git_credtype_t`.

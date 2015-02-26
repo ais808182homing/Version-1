@@ -6,7 +6,8 @@
 //  Copyright (c) 2011 GitHub, Inc. All rights reserved.
 //
 
-#include "git2.h"
+#import <Foundation/Foundation.h>
+#import "git2/types.h"
 
 @class GTRepository;
 @class GTSignature;
@@ -40,13 +41,5 @@
 - (int64_t)int64ForKey:(NSString *)key;
 
 - (BOOL)deleteValueForKey:(NSString *)key error:(NSError **)error;
-
-/// Reloads the configuration from the files on disk if they have changed since
-/// it was originally loaded.
-///
-/// error - The error if one occurred.
-///
-/// Returns whether the refresh was successful.
-- (BOOL)refresh:(NSError **)error;
 
 @end

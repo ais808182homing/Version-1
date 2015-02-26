@@ -27,7 +27,7 @@
 //  THE SOFTWARE.
 //
 
-#include "git2.h"
+#import <Foundation/Foundation.h>
 
 @interface NSString (Git)
 
